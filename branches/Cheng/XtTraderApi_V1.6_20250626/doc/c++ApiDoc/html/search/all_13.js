@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['tfo_5fpause_0',['TFO_PAUSE',['../_xt_data_type_8h.html#a703ef1544f2bb1488b584fcc9ebe139d',1,'XtDataType.h']]],
+  ['tfo_5fresume_1',['TFO_RESUME',['../_xt_data_type_8h.html#ae092a197d3edcd12954cbf147cb9c98f',1,'XtDataType.h']]],
+  ['time_5fcondition_5fgfa_2',['TIME_CONDITION_GFA',['../_xt_data_type_8h.html#aa04e7af70490c03399c753bfbb5909e3',1,'XtDataType.h']]],
+  ['time_5fcondition_5fgfd_3',['TIME_CONDITION_GFD',['../_xt_data_type_8h.html#ad5fc1e70fbf917a38ee76d50895149f3',1,'XtDataType.h']]],
+  ['time_5fcondition_5fgfs_4',['TIME_CONDITION_GFS',['../_xt_data_type_8h.html#aa51003a0cbc659e358c30d7666afdb63',1,'XtDataType.h']]],
+  ['time_5fcondition_5fgtc_5',['TIME_CONDITION_GTC',['../_xt_data_type_8h.html#ab6fbe369c9c8fb51b75f373360534706',1,'XtDataType.h']]],
+  ['time_5fcondition_5fgtd_6',['TIME_CONDITION_GTD',['../_xt_data_type_8h.html#a61a0ffe184fde844cea4eba842e37bcb',1,'XtDataType.h']]],
+  ['time_5fcondition_5fioc_7',['TIME_CONDITION_IOC',['../_xt_data_type_8h.html#a4323b46ac3f135932ae2b2314229f0c9',1,'XtDataType.h']]],
+  ['trans_5fdirection_5fbank_5fto_5fsecurities_8',['TRANS_DIRECTION_BANK_TO_SECURITIES',['../_xt_data_type_8h.html#a79678707a1650abf95db41e89905a6ac',1,'XtDataType.h']]],
+  ['trans_5fdirection_5fcenter_5fto_5fquick_9',['TRANS_DIRECTION_CENTER_TO_QUICK',['../_xt_data_type_8h.html#a744489fa4c6d4438b55d7e86d7ae96bd',1,'XtDataType.h']]],
+  ['trans_5fdirection_5fquery_10',['TRANS_DIRECTION_QUERY',['../_xt_data_type_8h.html#a427b0d522ea6f13ff40d725d484c265b',1,'XtDataType.h']]],
+  ['trans_5fdirection_5fquick_5fto_5fcenter_11',['TRANS_DIRECTION_QUICK_TO_CENTER',['../_xt_data_type_8h.html#a36ec263db406b502c9b064040de0538b',1,'XtDataType.h']]],
+  ['trans_5fdirection_5fsecurities_5fto_5fbank_12',['TRANS_DIRECTION_SECURITIES_TO_BANK',['../_xt_data_type_8h.html#ada1c0cf30d5e67a43de6044869c7f5ff',1,'XtDataType.h']]],
+  ['trans_5ftransfer_5fcredit_5fshare_13',['TRANS_TRANSFER_CREDIT_SHARE',['../_xt_data_type_8h.html#a65cdc79b81c62c82fb7c3a3ee69a4ebc',1,'XtDataType.h']]],
+  ['trans_5ftransfer_5fshare_14',['TRANS_TRANSFER_SHARE',['../_xt_data_type_8h.html#adfb54a8c8577fc8c3af9e3802ccf3d56',1,'XtDataType.h']]],
+  ['trans_5ftransfer_5fspecial_5fpositions_15',['TRANS_TRANSFER_SPECIAL_POSITIONS',['../_xt_data_type_8h.html#ae0dca24cfc3a6aa6146dd245d378326b',1,'XtDataType.h']]],
+  ['transacttime_16',['TransactTime',['../structxti_1_1_c_zxjt_algorithm_order.html#a8ad992ec75a6a0343cd93cc29fdbed94',1,'xti::CZxjtAlgorithmOrder']]],
+  ['transfer_17',['transfer',['../classxti_1_1_xt_trader_api.html#a17a0a486feccfbef068acc3a69c29f25',1,'xti::XtTraderApi']]],
+  ['type_5fduration_5falo_18',['TYPE_DURATION_ALO',['../_xt_data_type_8h.html#a8799d056f58789dc4b1b5ceb4feedb88',1,'XtDataType.h']]],
+  ['type_5fduration_5fao_19',['TYPE_DURATION_AO',['../_xt_data_type_8h.html#a11ca14ab2e5c951eaa2064af11d2e399',1,'XtDataType.h']]],
+  ['type_5fduration_5felo_20',['TYPE_DURATION_ELO',['../_xt_data_type_8h.html#a27bcd11df14ab80ac3534800ceb794ee',1,'XtDataType.h']]],
+  ['type_5fduration_5flmt_21',['TYPE_DURATION_LMT',['../_xt_data_type_8h.html#a0bc141469abe0bea785ccef37a2f8ab3',1,'XtDataType.h']]],
+  ['type_5fduration_5fmkt_22',['TYPE_DURATION_MKT',['../_xt_data_type_8h.html#a62de9c1449856181545a38dbc9400659',1,'XtDataType.h']]],
+  ['type_5fduration_5foli_23',['TYPE_DURATION_OLI',['../_xt_data_type_8h.html#a0e866c28dd14ca5434515dd9e6b6aeeb',1,'XtDataType.h']]],
+  ['type_5fduration_5fslo_24',['TYPE_DURATION_SLO',['../_xt_data_type_8h.html#a51385790496fe0704f5f7321de603bac',1,'XtDataType.h']]]
+];

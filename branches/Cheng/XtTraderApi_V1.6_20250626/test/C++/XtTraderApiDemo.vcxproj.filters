@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="demo1">
+      <UniqueIdentifier>{057e9966-9255-427f-98ba-e844a37efc39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo2">
+      <UniqueIdentifier>{daf28e5b-6b50-42bd-954f-3a86f5e7649a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo3">
+      <UniqueIdentifier>{d11e6dca-b23a-497f-88e5-2a03a8718782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo4">
+      <UniqueIdentifier>{2b865ff3-2f91-4d48-96bf-62b9ff610d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo5">
+      <UniqueIdentifier>{a01b7596-b744-4480-984f-a125640a09c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo6">
+      <UniqueIdentifier>{428a13dd-4c1e-496a-9e3c-33a23daef908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo7">
+      <UniqueIdentifier>{c5c28f0d-a82c-4d66-8d07-1094120eddc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo8">
+      <UniqueIdentifier>{0a83f1ae-7c6c-494d-8ab2-df953cf1ab85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="demo1\CallBackDemo1.cpp">
+      <Filter>demo1</Filter>
+    </ClCompile>
+    <ClCompile Include="demo2\CallBackDemo2.cpp">
+      <Filter>demo2</Filter>
+    </ClCompile>
+    <ClCompile Include="demo3\CallBackDemo3.cpp">
+      <Filter>demo3</Filter>
+    </ClCompile>
+    <ClCompile Include="demo4\CallBackDemo4.cpp">
+      <Filter>demo4</Filter>
+    </ClCompile>
+    <ClCompile Include="demo5\CallBackDemo5.cpp">
+      <Filter>demo5</Filter>
+    </ClCompile>
+    <ClCompile Include="demo6\CallBackDemo6.cpp">
+      <Filter>demo6</Filter>
+    </ClCompile>
+    <ClCompile Include="TestTraderApi.cpp" />
+    <ClCompile Include="demo7\CallBackDemo7.cpp">
+      <Filter>demo7</Filter>
+    </ClCompile>
+    <ClCompile Include="demo8\CallBackDemo8.cpp">
+      <Filter>demo8</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="demo1\CallBackDemo1.h">
+      <Filter>demo1</Filter>
+    </ClInclude>
+    <ClInclude Include="demo2\CallBackDemo2.h">
+      <Filter>demo2</Filter>
+    </ClInclude>
+    <ClInclude Include="demo3\CallBackDemo3.h">
+      <Filter>demo3</Filter>
+    </ClInclude>
+    <ClInclude Include="demo4\CallBackDemo4.h">
+      <Filter>demo4</Filter>
+    </ClInclude>
+    <ClInclude Include="demo5\CallBackDemo5.h">
+      <Filter>demo5</Filter>
+    </ClInclude>
+    <ClInclude Include="demo6\CallBackDemo6.h">
+      <Filter>demo6</Filter>
+    </ClInclude>
+    <ClInclude Include="demo7\CallBackDemo7.h">
+      <Filter>demo7</Filter>
+    </ClInclude>
+    <ClInclude Include="demo8\CallBackDemo8.h">
+      <Filter>demo8</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

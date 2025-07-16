@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>XtTraderNetApi: 首页</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">XtTraderNetApi<span id="projectnumber">&#160;1.0.0</span>
+   </div>
+   <div id="projectbrief">迅投策略交易C#</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">XtTraderNetApi 文档</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><h1><a class="anchor" id="一、API简介"></a>
+一、API简介</h1>
+<p>C#版迅投交易API，旨在为客户提供策略交易的C#语言开发接口，包括但不限于普通下单、算法下单、篮子交易、组合交易、委托和成交推送、行情推送、资金和持仓查询等操作，涵盖股票、期货、期权、两融等品种， 支持A股、港股通、商品期货、股指期货、贵金属等市场。</p>
+<h1><a class="anchor" id="二、快速上手"></a>
+二、快速上手</h1>
+<h2><a class="anchor" id="s1"></a>
+1. 第一步</h2>
+<p>创建一个类，继承接口类XtTraderApiCallback，实现回调函数</p>
+<pre class="fragment">class Callback : public XtTraderApiCallback
+{
+	public int m_nRequestId;
+    //连接服务器的回调函数
+    virtual void onConnected(bool success, String^ errorMsg)
+    {
+    ...
+    }
+    //客户端用户登录的回调函数
+    virtual void onUserLogin(String^ userName, const String^ password, int nRequestId, XtError^ error)
+    {
+    ....
+    }
+
+    //下单的回调
+    virtual void onOrder(int nRequestId, int orderID, XtError^ error)
+    {
+    ....
+    }
+
+    //撤单的回调
+    virtual void onCancel(int nRequestId, XtError^ error)
+    {
+    }
+
+    //撤委托的回调
+    virtual void onCancelOrder(int nRequestId,  XtError^ error)
+    {
+    }
+
+    //获取主推的报单状态（指令）
+    virtual void onRtnOrder(NetApi::COrderInfo^ data)
+    {
+    ....
+    }
+
+    //获得主推的委托明细（委托）
+    virtual void onRtnOrderDetail(NetApi::COrderDetail^ data)
+    {
+    ....
+    }
+
+    //获得主推的成交明细
+    virtual void onRtnDealDetail(NetApi::CDealDetail^ data)
+    {
+    ...
+    }
+
+
+    ....
+}
+</pre><h2><a class="anchor" id="s2"></a>
+2. 第二步</h2>
+<p>创建API实例并初始化</p>
+<pre class="fragment">// 创建实例
+string address = "127.0.0.1:65300"; // 交易服务地址
+XtTraderApi client = XtTraderApi.createXtTraderApi(address);
+
+// 设置API回调接口
+client.setCallback(new Callback());
+
+// API使用配置初始化
+client.init("../config");
+
+// 线程阻塞，直到实例销毁
+client.join();
+</pre><h2><a class="anchor" id="s3"></a>
+3. 第三步</h2>
+<p>登录交易服务 </p><pre class="fragment">public override void onConnected(bool success, const String^ errorMsg)
+{
+    if (success)
+    {
+        string username = "user1";  // 登录账号
+        string password = "111111"; // 登录密码
+        client.userLogin(username, password);
+    }
+}
+public override void onUserLogin(const String^ userName, const String^ password, int nRequestId, XtError^ error)
+{
+    // 登录结果处理
+}
+</pre><h2><a class="anchor" id="s4"></a>
+4. 第四步</h2>
+<p>交易下单或数据查询，场景示例： </p>
+<h3><a class="anchor" id="a"></a>
+a.登录成功后查询产品</h3>
+<pre class="fragment">public override void onUserLogin(const String^ userName, const String^ password, int nRequestId, XtError^ error)
+{
+    if （error.isSuccess())
+    {
+        client.reqProductData();
+    }
+}
+
+
+</pre><h3><a class="anchor" id="b"></a>
+b.收到资金账号信息后算法下单</h3>
+<pre class="fragment">public override void onRtnLoginStatus(const String^ accountId, EBrokerLoginStatus status, int brokerType, const String^ errorMsg)
+{
+    CAlgorithmOrder orderInfo;
+    ...
+    算法参数填写
+    ...
+    client.order(orderInfo, m_nRequestId++);
+}
+
+public override void onRtnOrder(const COrderInfo* data)
+{
+    // 下单指令反馈
+}
+
+public override void onRtnDealDetail(const CDealDetail* data)
+{
+    // 成交推送
+}
+
+public override void onRtnOrderDetail(const COrderDetail* data)
+{
+    // 委托推送
+}
+</pre><h3><a class="anchor" id="c"></a>
+c.跟踪价格下单</h3>
+<pre class="fragment">public override void onUserLogin(const String^ userName, const String^ password, int nRequestId, XtError^ error)
+{
+    // 订阅行情
+    CSubscribData subInfo;
+    ...
+    订阅行情参数填写
+    ...
+    client.subscribQuote(subInfo);
+}
+// 主推行情数据
+public override void onRtnPriceData(NetApi::CPriceData^ data)
+{
+    // 行情判断或计算
+    if (data.m_dLastPrice &gt; 10.0)
+    {
+        // 普通下单
+        COrdinaryOrder orderInfo;
+        ...
+        下单参数填写
+        ...
+        client.order(orderInfo, m_nRequestId++);
+    }
+}
+</pre><h1><a class="anchor" id="三、常见问题"></a>
+三、常见问题</h1>
+<h4>1. onConnected回调里的error包含错误信息: short read</h4>
+<p>原因：是由于API本地的配置文件traderApi.ini里的isUseSSL和一体化服务器上/home/rzrk/server/config/xtapiservice.lua里的isUseSSL的值不匹配导致的。</p>
+<p>解决办法：把两者都修改为0（都不启用ssl，默认）或者改为1（都启用ssl），然后重启API程序和一体化服务器上的XtApiService服务即可。</p>
+<h4>2. onUserLogin回调里的error包含错误信息: md5不匹配禁止登录</h4>
+<p>原因：是由于一体化服务器上开启了API的md5校验导致的。</p>
+<p>解决办法：修改一体化服务器上/home/rzrk/server/config/xtapiservice.lua里的isUseMD5Check的值修改为0，然后重启一体化服务器上的XtApiService服务即可。</p>
+<h4>3. onUserLogin回调里的error包含错误信息: 客户端mac不匹配</h4>
+<p>原因：是由于一体化服务器上开启了API的mac地址校验导致的。</p>
+<p>解决办法：修改一体化服务器上/home/rzrk/server/config/xtapiservice.lua里的isUseMacCheck的值修改为0，然后重启一体化服务器上的XtApiService服务即可。</p>
+<h4>4. 周末要测试，但是账号休市</h4>
+<p>原因：周末因为股市休市，所以测试环境对于账号也是默认休市处理。</p>
+<p>解决办法：在一体化管理端左侧菜单'系统监控-&gt;交易日设置'里，设置当天日期为交易日。如果调整之后，管理端上账号状态不是登录成功，可以在ET软件上对该账号关联的交易端执行'停用监控'操作后再'启用监控'。</p>
+<h4>5. 周一到周五盘后要测试，但是账号休市</h4>
+<p>原因：目前系统默认16:00账号休市，所以通常16:00以后账号会进入休市状态。</p>
+<p>解决办法：在一体化管理端左侧菜单'基础管理-&gt;经纪公司'里，对要测试的经纪公司，点击设置来修改日盘时间即可。如果调整之后，管理端上账号状态不是登录成功，可以在ET软件上对该账号关联的交易端执行'停用监控'操作后再'启用监控'。</p>
+<h4>6. 接口中的自定义请求序号的使用</h4>
+<p>每个接口中都会要求传入一个自定义请求序号的参数，如普通下单接口 <em> void order(NetApi::COrdinaryOrder^ orderInfo, int nRequestId,const String^ accountKey = "")</em> 中的nRequestId参数，该参数由开发者自定义，并在回调函数中返回该值，旨在让开发者可以依此管理请求和回调的匹配关系。建议该值从1开始递增，每次调用保持不重复；若该值重复，API本身不会产生任何功能和性能问题。小于0的值由系统保留使用。</p>
+<h4>7. 线程模型说明</h4>
+<p>API内部使用线程池机制，下单和查询系列回调函数可能会在不同的线程中运行，所以若开发者在回调函数中的代码涉及读写全局变量，需做同步控制，防止数据错乱或者程序崩溃。</p>
+<h4>8. 收到指令号为2147483647的推送是什么</h4>
+<p>带有指令号为2147483647的推送数据表示这是外部委托。</p>
+<h1><a class="anchor" id="四、特别注意"></a>
+四、特别注意</h1>
+<h4>1. 对于账号id一样，但是类型不同或属于不同的经纪公司的账号，需要在下单查询等函数送入入参accountKey，可以在onRtnLoginStatusWithActKey函数推送账号状态信息的回调里面获取accountKey</h4>
+</div></div><!-- PageDoc -->
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

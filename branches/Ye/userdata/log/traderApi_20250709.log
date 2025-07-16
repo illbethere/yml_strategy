@@ -1,0 +1,638 @@
+2025-07-09 15:41:48,474 [INFO] [0x00003200] async_log false
+2025-07-09 15:41:48,474 [INFO] [0x00003200] compress reuse false
+2025-07-09 15:41:49,699 [INFO] [0x00003200] XtTraderApiImplement::init, address: 192.168.10.100:56000.
+2025-07-09 15:41:49,699 [INFO] [0x00003200] Compile: Jun 26 2025 15:36:35
+2025-07-09 15:41:49,701 [INFO] [0x00003200] getAllMacAddr Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 15:41:49,701 [INFO] [0x00003200] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 15:41:49,701 [INFO] [0x00003200] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 000001E8E8FF4890
+2025-07-09 15:41:49,702 [INFO] [0x00004a6c] [net] onConnectionMade, local addr: 192.168.11.64:58911 peer addr: 192.168.10.100:56000
+2025-07-09 15:41:49,702 [INFO] [0x000020b8] connect success
+2025-07-09 15:41:50,874 [INFO] [0x00003200] get client login time, userName: 唐斌, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 1672, user: "鍞愭�?, version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "鍞愭�?, pass: "da3", pass: "da39a3ee5e6b4b0d3255bfef95601890afd80709", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{1BF44F13-7D46-4F5C-9676-1592349CDC2B}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core(TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "Np7bnjBEc5FB61u5Hxt5t/MXBLzyvW7K0GaS0INJWX37F4RXgy94pM/QhGmbXAl9cneclUQnvXewF4WE13JJ08ZL2zMysKPiuoksptl4AtkM4IBFttN4bKPOKP1GDrZKuA8FdWBQ0cll/BkHVJsLdk...", sysinfo_hs: "aHVuZHN1bkAxQG54bk56RG9DNkdmeXNvMTVyMFFZVjhJckJRQnZhZ0s4QlFEdEhCdnIzSnNPOGpTQUswenhhQXUyd3lBNnp3QzdYOGUyLzJ4YW4vNG12T0JMUjVsR203ZFZ3RFdQUzJlQk1mRHUzNT...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "鍞愭�?, pass: "da39a3ee5e6b4b0d3255bfef95601890afd80709", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "Np7bnjBEc5FB61u5Hxt5t/MXBLzyvW7K0GaS0INJWX37F4RXgy94pM/QhGmbXAl9cneclUQnvXUQnvXewF4WE13JJ08ZL2zMysKPiuoksptl4AtkM4IBFttN4bKPOKP1GDrZKuA8FdWBQ0cll/BkHVJsLdk...", sysinfo_hs: "aHVuZHN1bkAxQG54bk56RG9DNkdmeXNvMTVyMFFZVjhJckJRQnZhZ0s4QlFEdEhCdnIzSnNPOGpTQUswenhhQXUyd3lBNnp3QzdYOGUyLzJ4YW4vNG12T0JMUjVsR203ZFZ3RFdQUzJlQk1mRHUzNT...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 000001E8E8FF4890
+2025-07-09 15:41:50,876 [INFO] [0x00004a6c] [net] connection 192.168.10.100:56000 set compress type 2025-07-09 15:41:50,876 [INFO] [0x000020b8] m_nDiffTime: 1752046910
+2025-07-09 15:41:50,876 [INFO] [0x000020b8] error: { result: 1, reason: "用户名或密码错误", sessionTag: "1752046914____192.168.11.64____58911", company: "优美利私募实�?, serverType: 0 }���?, serverType: 0 }0 }
+2025-07-09 15:42:14,626 [INFO] [0x00005df0] async_log false
+2025-07-09 15:42:14,626 [INFO] [0x00005df0] compress reuse false
+2025-07-09 15:42:15,831 [INFO] [0x00005df0] XtTraderApiImplement::init, address: 192.168.10.100:56000.
+2025-07-09 15:42:15,831 [INFO] [0x00005df0] Compile: Jun 26 2025 15:36:35
+2025-07-09 15:42:15,833 [INFO] [0x00005df0] getAllMacAddr Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 15:42:15,833 [INFO] [0x00005df0] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 15:42:15,833 [INFO] [0x00005df0] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 0000011193B92030
+2025-07-09 15:42:15,835 [INFO] [0x00001ba4] [net] onConnectionMade, local addr: 192.168.11.64:59010 peer addr: 192.168.10.100:56000
+2025-07-09 15:42:15,835 [INFO] [0x0000604c] connect success
+2025-07-09 15:42:16,988 [INFO] [0x00005df0] get client login time, userName: 唐斌, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 13288, user: "鍞愭�?, version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "鍞愭�?, pass: "fb?, pass: "fb85731a1721fed7c60ccb035f9a5bd8d7c5b0f2", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{9319CE42-EA1B-41C8-ABCD-D2F9854E2BD2}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core((TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "CTy1QgG8DcU+gPLIRwrCzioK+sywFukSL6ABLS2j5x54QmUS5OChaiRKpdPNhmcf4iWFDLP0Z/2hX2b1UwXatJWsPPlJYE9CPgzgbpWmIeq/uQCmh5KFHcnK5u83w4LcMma1V9fqprec251uOgmw1S...", sysinfo_hs: "aHVuZHN1bkAxQEQrR01QSXMwQ3h6RGQ0eko1UVZNNTl1L1RFWmhRdFRGRzdpM0NZak03eVlOVys3dmRCdktVaUlFQkJtRUR4Tkd5RitxdnNzUFB2UE1haXV3Y2JWdEM3TGhGUEVoR2R1Y1ZlOWdjVU...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "鍞愭�?, pass: "fb85731a1721fed7c60ccb035f9a5bd8d7c5b0f2", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "CTy1QgG8DcU+gPLIRwrCzioK+sywFukSL6ABLS2j5x54QmUS5OChaiRKpdPNhmcf4iWFDLP0ZDLP0Z/2hX2b1UwXatJWsPPlJYE9CPgzgbpWmIeq/uQCmh5KFHcnK5u83w4LcMma1V9fqprec251uOgmw1S...", sysinfo_hs: "aHVuZHN1bkAxQEQrR01QSXMwQ3h6RGQ0eko1UVZNNTl1L1RFWmhRdFRGRzdpM0NZak03eVlOVys3dmRCdktVaUlFQkJtRUR4Tkd5RitxdnNzUFB2UE1haXV3Y2JWdEM3TGhGUEVoR2R1Y1ZlOWdjVU...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 0000011193B92030
+2025-07-09 15:42:16,990 [INFO] [0x00001ba4] [net] connection 192.168.10.100:56000 set compress type 2025-07-09 15:42:16,991 [INFO] [0x0000604c] m_nDiffTime: 1752046936
+2025-07-09 15:42:16,991 [INFO] [0x0000604c] error: { result: 1, reason: "用户名或密码错误", sessionTag: "1752046940____192.168.11.64____59010", company: "优美利私募实�?, serverType: 0 }���?, serverType: 0 }0 }
+2025-07-09 15:47:07,007 [INFO] [0x00005528] async_log false
+2025-07-09 15:47:07,007 [INFO] [0x00005528] compress reuse false
+2025-07-09 15:47:08,208 [INFO] [0x00005528] XtTraderApiImplement::init, address: 192.168.10.100:56000.
+2025-07-09 15:47:08,208 [INFO] [0x00005528] Compile: Jun 26 2025 15:36:35
+2025-07-09 15:47:08,210 [INFO] [0x00005528] getAllMacAddr Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 15:47:08,210 [INFO] [0x00005528] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 15:47:08,210 [INFO] [0x00005528] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 0000028BC254F100
+2025-07-09 15:47:08,211 [INFO] [0x0000439c] [net] onConnectionMade, local addr: 192.168.11.64:59765 peer addr: 192.168.10.100:56000
+2025-07-09 15:47:08,211 [INFO] [0x00003cf0] connect success
+2025-07-09 15:47:09,360 [INFO] [0x00005528] get client login time, userName: 唐斌, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 3764, user: "鍞愭�?, version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "鍞愭�?, pass: "fb8", pass: "fb85731a1721fed7c60ccb035f9a5bd8d7c5b0f2", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{6FD8E3BE-EFBE-4D3E-A02F-C1B23A244E30}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core(TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "ikIhGwWZCxOMOmSxeOJ8MNtLJta/jT+0qVIzYthDClqutfhh4pJ7barAi7ReJ2KascGwxzIFudLUyPdXju81tREvl3cSJ7wjeN9LDJqgQQP5relrLcayhSPmHafQu0DSk25EB5WtArTFMc8uS0G2X9...", sysinfo_hs: "aHVuZHN1bkAxQFlzQVhGZ3NaSUlXRlFPWllUYi9va1pTQVN5MXF3L2dSSXFUemUvRFFXbEZuMFZVYmhBOWlGS0tjSnVhanFabDZJV1dlcHo5ZFlTU1dxSE5zbkVwWVlvRlQ2K2xIR09yQ3RKdmkxYz...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "鍞愭�?, pass: "fb85731a1721fed7c60ccb035f9a5bd8d7c5b0f2", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "ikIhGwWZCxOMOmSxeOJ8MNtLJta/jT+0qVIzYthDClqutfhh4pJ7barAi7ReJ2KascGwxzIFudzIFudLUyPdXju81tREvl3cSJ7wjeN9LDJqgQQP5relrLcayhSPmHafQu0DSk25EB5WtArTFMc8uS0G2X9...", sysinfo_hs: "aHVuZHN1bkAxQFlzQVhGZ3NaSUlXRlFPWllUYi9va1pTQVN5MXF3L2dSSXFUemUvRFFXbEZuMFZVYmhBOWlGS0tjSnVhanFabDZJV1dlcHo5ZFlTU1dxSE5zbkVwWVlvRlQ2K2xIR09yQ3RKdmkxYz...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 0000028BC254F100
+2025-07-09 15:47:09,363 [INFO] [0x0000439c] [net] connection 192.168.10.100:56000 set compress type 2025-07-09 15:47:09,363 [INFO] [0x00003cf0] m_nDiffTime: 1752047229
+2025-07-09 15:47:09,363 [INFO] [0x00003cf0] error: { result: 1, reason: "用户名或密码错误", sessionTag: "1752047232____192.168.11.64____59765", company: "优美利私募实�?, serverType: 0 }���?, serverType: 0 }0 }
+2025-07-09 15:54:09,689 [INFO] [0x000049b0] async_log false
+2025-07-09 15:54:09,689 [INFO] [0x000049b0] compress reuse false
+2025-07-09 15:54:10,900 [INFO] [0x000049b0] XtTraderApiImplement::init, address: 192.168.10.100:56000.
+2025-07-09 15:54:10,901 [INFO] [0x000049b0] Compile: Jun 26 2025 15:36:35
+2025-07-09 15:54:10,903 [INFO] [0x000049b0] getAllMacAddr Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 15:54:10,903 [INFO] [0x000049b0] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 15:54:10,903 [INFO] [0x000049b0] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 000001CA81903040
+2025-07-09 15:54:23,560 [INFO] [0x00005874] async_log false
+2025-07-09 15:54:23,560 [INFO] [0x00005874] compress reuse false
+2025-07-09 15:54:24,779 [INFO] [0x00005874] XtTraderApiImplement::init, address: 192.168.10.100:56000.
+2025-07-09 15:54:24,779 [INFO] [0x00005874] Compile: Jun 26 2025 15:36:35
+2025-07-09 15:54:24,781 [INFO] [0x00005874] getAllMacAddr Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 15:54:24,782 [INFO] [0x00005874] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 15:54:24,782 [INFO] [0x00005874] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 00000273B9008CA0
+2025-07-09 15:55:52,084 [INFO] [0x00004608] async_log false
+2025-07-09 15:55:52,085 [INFO] [0x00004608] compress reuse false
+2025-07-09 15:55:53,309 [INFO] [0x00004608] XtTraderApiImplement::init, address: 183.36.35.2:65300.
+2025-07-09 15:55:53,309 [INFO] [0x00004608] Compile: Jun 26 2025 15:36:35
+2025-07-09 15:55:53,311 [INFO] [0x00004608] getAllMacAddr Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 15:55:53,311 [INFO] [0x00004608] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 15:55:53,311 [INFO] [0x00004608] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 000001BA8B633090
+2025-07-09 15:55:53,317 [INFO] [0x00003198] [net] onConnectionMade, local addr: 192.168.11.64:61160 peer addr: 183.36.35.2:65300
+2025-07-09 15:55:53,317 [INFO] [0x00005028] connect success
+2025-07-09 15:55:54,457 [INFO] [0x00004608] get client login time, userName: tbtest, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 24720, user: "tbtest", version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{60430BE0-9160-44C7-BE8D-54FB72DFF8DA}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core(TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "/TlKctzkOfe4EpK64pfX76QChQa1POBBdFv6+3qmy3O+2LNyaXcZ/gY5jk0lN3oNRvhHmzanW6JPk55YrGKDk8rJuHfvr8lEQWIFrbvigidipcthgNjkM4aQp9ECGgtyVMxwwUyfzAvRtiwKAwSXu1...", sysinfo_hs: "aHVuZHN1bkAxQGVYb2lvZkcrejArQUJ3QzN6c3lZUzBKTXoxUFU0NGM3U0dKbkJxaU5obExzN2wxOEovcURCNmdINXlMZU8rMHk1NWZkYnhQMWROekJPVFozTHkrRUtGVzlQR2dwVXI5YnZocnFQSj...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "/TlKctzkOfe4EpK64pfX76QChQa1POBBdFv6+3qmy3O+2LNyaXcZ/gY5jk0lN3oNRvhHmzanW6JPk55YrGKDk8rJuHfvr8lEQWIFrbvigidipcthgNjkM4aQp9ECGgtyVMxwwUyfzAvRtiwKAwSXu1...", sysinfo_hs: "aHVuZHN1bkAxQGVYb2lvZkcrejArQUJ3QzN6c3lZUzBKTXoxUFU0NGM3U0dKbkJxaU5obExzN2wxOEovcURCNmdINXlMZU8rMHk1NWZkYnhQMWROekJPVFozTHkrRUtGVzlQR2dwVXI5YnZocnFQSj...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 000001BA8B633090
+2025-07-09 15:55:54,477 [INFO] [0x00003198] [net] connection 183.36.35.2:65300 set compress type 2025-07-09 15:55:54,477 [INFO] [0x00005028] m_nDiffTime: -3
+2025-07-09 15:55:54,481 [INFO] [0x00005028] [REQ] seq: 3 queryServerConfig
+2025-07-09 15:55:54,483 [INFO] [0x00005028] onQueryServerConfig maxNum: 100000, stockDurationMilliSec: 30000000
+2025-07-09 15:55:54,483 [INFO] [0x00005028] onGetMarketAndTradeDay, tradeDay: 20250709
+2025-07-09 15:55:54,487 [INFO] [0x00005028] [onQueryCommands] size: 0
+2025-07-09 15:55:54,502 [INFO] [0x00005028] [initAccountInfo] accountID: 1014609 accountKey 1____21004____21004_237____-1____1014609____, client: 000001BA8B633090
+2025-07-09 15:55:54,502 [INFO] [0x00005028] [initAccountInfo] accountID: 1037933 accountKey 1____21004____21004_237____-1____1037933____, client: 000001BA8B633090
+2025-07-09 15:55:54,502 [INFO] [0x00005028] [initAccountInfo] accountID: 1037935 accountKey 1____21004____21004_237____-1____1037935____, client: 000001BA8B633090
+2025-07-09 15:55:54,502 [INFO] [0x00005028] [initAccountInfo] accountID: 6005775 accountKey 6____61073____61073____49____6005775____, client: 000001BA8B633090
+2025-07-09 15:55:54,502 [INFO] [0x00005028] [initAccountInfo] accountID: 6005910 accountKey 6____61073____61073____49____6005910____, client: 000001BA8B633090
+2025-07-09 15:55:54,502 [INFO] [0x00005028] [initAccountInfo] accountID: 6005911 accountKey 6____61073____61073____49____6005911____, client: 000001BA8B633090
+2025-07-09 15:55:54,502 [INFO] [0x00005028] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1037933____, userName 测试?
+2025-07-09 15:55:54,502 [INFO] [0x00005028] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1037935____, userName 测试?
+2025-07-09 15:55:54,502 [INFO] [0x00005028] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1014609____, userName 测试?
+2025-07-09 15:55:54,502 [INFO] [0x00005028] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005775____, userName 测试?
+2025-07-09 15:55:54,502 [INFO] [0x00005028] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005910____, userName 测试?
+2025-07-09 15:55:54,502 [INFO] [0x00005028] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005911____, userName 测试?
+2025-07-09 15:55:54,516 [INFO] [0x00000da4] onRtnLoginStatus, accountID: 1014609, accountKey: 1____21004____21004_237____-1____1014609____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 15:55:54,517 [INFO] [0x00000af0] onRtnLoginStatus, accountID: 1037933, accountKey: 1____21004____21004_237____-1____1037933____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 15:55:54,517 [INFO] [0x00005028] set portfolios [0]
+2025-07-09 15:55:54,517 [INFO] [0x00005028] onUserLogin userName: tbtest, [0|]
+2025-07-09 15:55:54,517 [INFO] [0x00000af0] onRtnLoginStatus, accountID: 1037935, accountKey: 1____21004____21004_237____-1____1037935____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 15:55:54,517 [INFO] [0x00000af0] onRtnLoginStatus, accountID: 6005775, accountKey: 6____61073____61073____49____6005775____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 15:55:54,519 [INFO] [0x00000af0] onRtnLoginStatus, accountID: 6005910, accountKey: 6____61073____61073____49____6005910____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 15:55:54,519 [INFO] [0x00000af0] onRtnLoginStatus, accountID: 6005911, accountKey: 6____61073____61073____49____6005911____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 15:56:17,353 [INFO] [0x00002804] async_log false
+2025-07-09 15:56:17,353 [INFO] [0x00002804] compress reuse false
+2025-07-09 15:56:18,556 [INFO] [0x00002804] XtTraderApiImplement::init, address: 183.36.35.2:65300.
+2025-07-09 15:56:18,556 [INFO] [0x00002804] Compile: Jun 26 2025 15:36:35
+2025-07-09 15:56:18,558 [INFO] [0x00002804] getAllMacAddr Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 15:56:18,558 [INFO] [0x00002804] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 15:56:18,558 [INFO] [0x00002804] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 00000208020EA590
+2025-07-09 15:56:18,563 [INFO] [0x000047a4] [net] onConnectionMade, local addr: 192.168.11.64:61253 peer addr: 183.36.35.2:65300
+2025-07-09 15:56:18,563 [INFO] [0x00005e0c] connect success
+2025-07-09 15:56:19,710 [INFO] [0x00002804] get client login time, userName: tbtest, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 2808, user: "tbtest", version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{9A352657-6ACC-4232-A1BA-C6B5BE0EEF02}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core(TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "vPS0v2URTiqiNfURB181JIGAh/DLq2vtAxZeM2HI8s5Z7ssSxcbdaq1EQDn5j8En90F71L8ekB5iK/oif3bQO0Lm7fy5vyctXbgmUGcVYgtSS6tbwd341llvYgXmbnvfOBxpSjdqn/B5RWF8jtZzgf...", sysinfo_hs: "aHVuZHN1bkAxQDZ2MlZQU0RBN2s0L2VidnNtTnpGQ21DbmZQSTY4VzEzMHFhSk1oWFlvQnBpeEUzSldGb1ZpZFc3WTcyU21hdWVYQXYvUXBRSEJQY1ZPRE1HL0E3eWpNV1hDN0JHVmNyanZXRUFYOU...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "vPS0v2URTiqiNfURB181JIGAh/DLq2vtAxZeM2HI8s5Z7ssSxcbdaq1EQDn5j8En90F71L8ekB5iK/oif3bQO0Lm7fy5vyctXbgmUGcVYgtSS6tbwd341llvYgXmbnvfOBxpSjdqn/B5RWF8jtZzgf...", sysinfo_hs: "aHVuZHN1bkAxQDZ2MlZQU0RBN2s0L2VidnNtTnpGQ21DbmZQSTY4VzEzMHFhSk1oWFlvQnBpeEUzSldGb1ZpZFc3WTcyU21hdWVYQXYvUXBRSEJQY1ZPRE1HL0E3eWpNV1hDN0JHVmNyanZXRUFYOU...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 00000208020EA590
+2025-07-09 15:56:19,723 [INFO] [0x000047a4] [net] connection 183.36.35.2:65300 set compress type 2025-07-09 15:56:19,724 [INFO] [0x00005e0c] m_nDiffTime: -4
+2025-07-09 15:56:19,726 [INFO] [0x00005e0c] [REQ] seq: 3 queryServerConfig
+2025-07-09 15:56:19,729 [INFO] [0x00005e0c] onQueryServerConfig maxNum: 100000, stockDurationMilliSec: 30000000
+2025-07-09 15:56:19,729 [INFO] [0x00005e0c] onGetMarketAndTradeDay, tradeDay: 20250709
+2025-07-09 15:56:19,730 [INFO] [0x00005e0c] [onQueryCommands] size: 0
+2025-07-09 15:56:19,734 [INFO] [0x00005e0c] [initAccountInfo] accountID: 1014609 accountKey 1____21004____21004_237____-1____1014609____, client: 00000208020EA590
+2025-07-09 15:56:19,734 [INFO] [0x00005e0c] [initAccountInfo] accountID: 1037933 accountKey 1____21004____21004_237____-1____1037933____, client: 00000208020EA590
+2025-07-09 15:56:19,734 [INFO] [0x00005e0c] [initAccountInfo] accountID: 1037935 accountKey 1____21004____21004_237____-1____1037935____, client: 00000208020EA590
+2025-07-09 15:56:19,734 [INFO] [0x00005e0c] [initAccountInfo] accountID: 6005775 accountKey 6____61073____61073____49____6005775____, client: 00000208020EA590
+2025-07-09 15:56:19,734 [INFO] [0x00005e0c] [initAccountInfo] accountID: 6005910 accountKey 6____61073____61073____49____6005910____, client: 00000208020EA590
+2025-07-09 15:56:19,734 [INFO] [0x00005e0c] [initAccountInfo] accountID: 6005911 accountKey 6____61073____61073____49____6005911____, client: 00000208020EA590
+2025-07-09 15:56:19,734 [INFO] [0x00005e0c] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1037933____, userName 测试?
+2025-07-09 15:56:19,734 [INFO] [0x00005e0c] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1037935____, userName 测试?
+2025-07-09 15:56:19,734 [INFO] [0x00005e0c] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1014609____, userName 测试?
+2025-07-09 15:56:19,734 [INFO] [0x00005e0c] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005775____, userName 测试?
+2025-07-09 15:56:19,734 [INFO] [0x00005e0c] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005910____, userName 测试?
+2025-07-09 15:56:19,734 [INFO] [0x00005e0c] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005911____, userName 测试?
+2025-07-09 15:56:19,750 [INFO] [0x00000918] onRtnLoginStatus, accountID: 1014609, accountKey: 1____21004____21004_237____-1____1014609____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 15:56:19,750 [INFO] [0x00005e0c] set portfolios [0]
+2025-07-09 15:56:19,750 [INFO] [0x00005e0c] onUserLogin userName: tbtest, [0|]
+2025-07-09 15:56:19,750 [INFO] [0x00004350] onRtnLoginStatus, accountID: 1037933, accountKey: 1____21004____21004_237____-1____1037933____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 15:56:19,751 [INFO] [0x00004350] onRtnLoginStatus, accountID: 1037935, accountKey: 1____21004____21004_237____-1____1037935____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 15:56:19,751 [INFO] [0x00004350] onRtnLoginStatus, accountID: 6005775, accountKey: 6____61073____61073____49____6005775____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 15:56:19,751 [INFO] [0x00002804] [REQ] queryData accountDetail accountID: 1014609, actKey: , typeId: 543
+2025-07-09 15:56:19,751 [INFO] [0x00004350] onRtnLoginStatus, accountID: 6005910, accountKey: 6____61073____61073____49____6005910____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 15:56:19,751 [INFO] [0x00004350] onRtnLoginStatus, accountID: 6005911, accountKey: 6____61073____61073____49____6005911____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 15:56:19,755 [INFO] [0x00002804] [RSP] [reqAccountDetailSync] m_strAccountKey: 1____21004____21004_237____-1____1014609____, actType: 1, trdDate: 20250709, m_dFrozenMargin: 0.000, m_dFrozenCash: 0.000, m_dFrozenCommission: 0.000, m_dRisk: 0.010, m_dNav: 0.000, m_dPreBalance: 489114.995, m_dBalance: 490774.995, m_dAvailable: 485209.195, m_dCommission: 0.000, m_dPositionProfit: 740.000, m_dCloseProfit: 0.000, m_dCashIn: 0.000, m_dCurrMargin: 4825.800, m_dInstrumentValue: 69680.000, m_dDeposit: 0.000, m_dWithdraw: 0.000, m_dCredit: 0.000, m_dMortgage: 0.000, m_dStockValue: 0.000, m_dLoanValue: 0.000, m_dFundValue: 0.000, m_dRepurchaseValue: 0.000, m_dLongValue: 69680.000, m_dShortValue: 0.000, m_dNetValue: 69680.000, m_dAssureAsset: 490774.995, m_dTotalDebit: 0.000, m_dPremiumNetExpense: 4825.800, m_dEnableMargin: 0.000, m_dFetchBalance: 0.000, m_dAvailableSH: 0.000, m_dAvailableSZ: 0.000, m_dUsedMargin: 4825.800, m_dRoyalty: 0.000, m_dDaysProfit: -10870.000, m_nProductId: 0, m_dAssetBalance: 505414.995, m_dRiskDegree: 0.010, m_dInitCloseMoney: 0.000
+2025-07-09 15:56:46,919 [INFO] [0x000023e8] async_log false
+2025-07-09 15:56:46,919 [INFO] [0x000023e8] compress reuse false
+2025-07-09 15:56:48,119 [INFO] [0x000023e8] XtTraderApiImplement::init, address: 192.168.10.100:56000.
+2025-07-09 15:56:48,119 [INFO] [0x000023e8] Compile: Jun 26 2025 15:36:35
+2025-07-09 15:56:48,121 [INFO] [0x000023e8] getAllMacAddr Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 15:56:48,121 [INFO] [0x000023e8] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 15:56:48,121 [INFO] [0x000023e8] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 000001FA8F2E38B0
+2025-07-09 15:56:48,122 [INFO] [0x00005c04] [net] onConnectionMade, local addr: 192.168.11.64:61336 peer addr: 192.168.10.100:56000
+2025-07-09 15:56:48,122 [INFO] [0x000055dc] connect success
+2025-07-09 15:56:49,273 [INFO] [0x000023e8] get client login time, userName: 唐斌, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 17004, user: "鍞愭�?, version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "鍞愭�?, pass: "fb?, pass: "fb85731a1721fed7c60ccb035f9a5bd8d7c5b0f2", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{99FAB108-CAD9-4D3C-B3C3-6191A6B3C799}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core((TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "JM/DxVKqqKWGTQ6+nWQlr5TDdg/GRc0cB92LyBrwZp9CVs0HpRPEwSNyqeGZSziBCQ9OUzsa/15QFxMF+Y3f3pj6aU++U2QZBPAYJ9fRg7q3ACZ32Ffw3RRbZIfTK6O7P212gS8fQ+veHrLcg3kWSU...", sysinfo_hs: "aHVuZHN1bkAxQFJtQnR5RHNmZlEwR0pnbnhaWm5wTXh6ZEd5bTJZTEViajE2ckx3YjlHT1djQnJscEl1b0pIaUhJa3dPVUhPZ0xFMng0Um5wcUszZ1J5SHIvdDRDMkhHT0lPTFFtNGduMmp3RUJsK0...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "鍞愭�?, pass: "fb85731a1721fed7c60ccb035f9a5bd8d7c5b0f2", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "JM/DxVKqqKWGTQ6+nWQlr5TDdg/GRc0cB92LyBrwZp9CVs0HpRPEwSNyqeGZSziBCQ9OUzsa/Uzsa/15QFxMF+Y3f3pj6aU++U2QZBPAYJ9fRg7q3ACZ32Ffw3RRbZIfTK6O7P212gS8fQ+veHrLcg3kWSU...", sysinfo_hs: "aHVuZHN1bkAxQFJtQnR5RHNmZlEwR0pnbnhaWm5wTXh6ZEd5bTJZTEViajE2ckx3YjlHT1djQnJscEl1b0pIaUhJa3dPVUhPZ0xFMng0Um5wcUszZ1J5SHIvdDRDMkhHT0lPTFFtNGduMmp3RUJsK0...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 000001FA8F2E38B0
+2025-07-09 15:56:49,275 [INFO] [0x00005c04] [net] connection 192.168.10.100:56000 set compress type 2025-07-09 15:56:49,275 [INFO] [0x000055dc] m_nDiffTime: 1752047809
+2025-07-09 15:56:49,275 [INFO] [0x000055dc] error: { result: 1, reason: "用户名或密码错误", sessionTag: "1752047812____192.168.11.64____61336", company: "优美利私募实�?, serverType: 0 }���?, serverType: 0 }0 }
+2025-07-09 15:57:47,730 [INFO] [0x00005b40] async_log false
+2025-07-09 15:57:47,730 [INFO] [0x00005b40] compress reuse false
+2025-07-09 15:57:48,932 [INFO] [0x00005b40] XtTraderApiImplement::init, address: 192.168.10.100:56000.
+2025-07-09 15:57:48,932 [INFO] [0x00005b40] Compile: Jun 26 2025 15:36:35
+2025-07-09 15:57:48,934 [INFO] [0x00005b40] getAllMacAddr Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 15:57:48,935 [INFO] [0x00005b40] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 15:57:48,935 [INFO] [0x00005b40] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 00000227211750A0
+2025-07-09 15:57:48,936 [INFO] [0x00002cc8] [net] onConnectionMade, local addr: 192.168.11.64:61553 peer addr: 192.168.10.100:56000
+2025-07-09 15:57:48,936 [INFO] [0x00005eac] connect success
+2025-07-09 15:57:50,076 [INFO] [0x00005b40] get client login time, userName: 唐斌, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 3176, user: "鍞愭�?, version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "鍞愭�?, pass: "fb8", pass: "fb85731a1721fed7c60ccb035f9a5bd8d7c5b0f2", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{92A78530-6048-40C7-8B0D-A1F6447EA27E}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core(TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "nnJ+xul4u+ZGg/y9ofNAdzYxDLsziJANbzAIGDosrFNGK3Y8J7My04iLEOBwuc2/O2I6PEVHgz4ZwqjYrsTGECiqPLtMQ30aCB0hB51RzUE9dY7uiN2Z6bd+HmLXCrCLLpeBAhqN1OKUn1v+btJE2T...", sysinfo_hs: "aHVuZHN1bkAxQDhkaWdUM2haU0U4Z05pUnNCdEIvZmxIZTQxVndGSlJZb0lkVEl3aDd0cmY2Uy9qQUVJOHd1bC80c2RTRnFyQ3g4TjhFSWNpd1ZOT2F1dG8xTGFwYmdSeldtZ3BBaDF2SmtZU0lkOG...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "鍞愭�?, pass: "fb85731a1721fed7c60ccb035f9a5bd8d7c5b0f2", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "nnJ+xul4u+ZGg/y9ofNAdzYxDLsziJANbzAIGDosrFNGK3Y8J7My04iLEOBwuc2/O2I6PEVHgzEVHgz4ZwqjYrsTGECiqPLtMQ30aCB0hB51RzUE9dY7uiN2Z6bd+HmLXCrCLLpeBAhqN1OKUn1v+btJE2T...", sysinfo_hs: "aHVuZHN1bkAxQDhkaWdUM2haU0U4Z05pUnNCdEIvZmxIZTQxVndGSlJZb0lkVEl3aDd0cmY2Uy9qQUVJOHd1bC80c2RTRnFyQ3g4TjhFSWNpd1ZOT2F1dG8xTGFwYmdSeldtZ3BBaDF2SmtZU0lkOG...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 00000227211750A0
+2025-07-09 15:57:50,078 [INFO] [0x00002cc8] [net] connection 192.168.10.100:56000 set compress type 2025-07-09 15:57:50,078 [INFO] [0x00005eac] m_nDiffTime: 1752047870
+2025-07-09 15:57:50,078 [INFO] [0x00005eac] error: { result: 1, reason: "用户名或密码错误", sessionTag: "1752047873____192.168.11.64____61553", company: "优美利私募实�?, serverType: 0 }���?, serverType: 0 }0 }
+2025-07-09 16:05:38,701 [INFO] [0x000057c4] async_log false
+2025-07-09 16:05:38,701 [INFO] [0x000057c4] compress reuse false
+2025-07-09 16:05:39,907 [INFO] [0x000057c4] XtTraderApiImplement::init, address: 183.36.35.2:65300.
+2025-07-09 16:05:39,907 [INFO] [0x000057c4] Compile: Jun 26 2025 15:36:35
+2025-07-09 16:05:39,909 [INFO] [0x000057c4] getAllMacAddr Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:05:39,910 [INFO] [0x000057c4] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:05:39,910 [INFO] [0x000057c4] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 00000177CA696640
+2025-07-09 16:05:39,913 [INFO] [0x00003c58] [net] onConnectionMade, local addr: 192.168.11.64:62809 peer addr: 183.36.35.2:65300
+2025-07-09 16:05:39,914 [INFO] [0x00004094] connect success
+2025-07-09 16:05:39,927 [INFO] [0x000057c4] [REQ] [batchSubscribQuote] nRequestId: 1 reqData. exchangeId: , instrumentId: jd2508-C-3500
+2025-07-09 16:05:39,927 [INFO] [0x000057c4] [REQ] [batchSubscribQuote] nRequestId: 1 reqData. exchangeId: , instrumentId: jd2509-P-3900
+2025-07-09 16:05:39,928 [INFO] [0x000057c4] XtTraderApiImplement::join
+2025-07-09 16:05:39,930 [INFO] [0x00003c58] [net] connection 183.36.35.2:65300 set compress type 2025-07-09 16:05:39,930 [INFO] [0x00004094] [onSubscribQuote] errno: 200000, errmsg: no proxy client
+2025-07-09 16:05:39,930 [INFO] [0x00004094] [onSubscribQuote] errmsg: 
+2025-07-09 16:05:39,930 [INFO] [0x00003c58] [net] net work error, error code: 2, error msg: End of file, remote addr: 183.36.35.2:65300, local addr: 192.168.11.64:62809, now: 1752048339, last receive: 1752048339, last send: 1752048339, interval: 60
+2025-07-09 16:05:39,930 [INFO] [0x00004094] [onSubscribQuote] errno: 300000, errmsg: End of file
+2025-07-09 16:05:39,930 [INFO] [0x00004094] [onSubscribQuote] errmsg: 
+2025-07-09 16:05:39,930 [INFO] [0x00004094] connect false. errorMsg: { errorID: 2, error: "End of file", isNetError: true }
+2025-07-09 16:05:42,947 [INFO] [0x00003c58] [net] onConnectionMade, local addr: 192.168.11.64:62815 peer addr: 183.36.35.2:65300
+2025-07-09 16:05:42,948 [INFO] [0x00004094] connect success
+2025-07-09 16:06:20,019 [INFO] [0x00003eb8] async_log false
+2025-07-09 16:06:20,019 [INFO] [0x00003eb8] compress reuse false
+2025-07-09 16:06:21,218 [INFO] [0x00003eb8] XtTraderApiImplement::init, address: 183.36.35.2:65300.
+2025-07-09 16:06:21,219 [INFO] [0x00003eb8] Compile: Jun 26 2025 15:36:35
+2025-07-09 16:06:21,221 [INFO] [0x00003eb8] getAllMacAddr Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:06:21,221 [INFO] [0x00003eb8] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:06:21,221 [INFO] [0x00003eb8] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 000001D46F973470
+2025-07-09 16:06:21,225 [INFO] [0x00002dc8] [net] onConnectionMade, local addr: 192.168.11.64:62980 peer addr: 183.36.35.2:65300
+2025-07-09 16:06:21,225 [INFO] [0x00005ee0] connect success
+2025-07-09 16:06:21,226 [INFO] [0x00003eb8] [REQ] [batchSubscribQuote] nRequestId: 1 reqData. exchangeId: , instrumentId: jd2508-C-3500
+2025-07-09 16:06:21,227 [INFO] [0x00003eb8] [REQ] [batchSubscribQuote] nRequestId: 1 reqData. exchangeId: , instrumentId: jd2509-P-3900
+2025-07-09 16:06:21,227 [INFO] [0x00003eb8] XtTraderApiImplement::join
+2025-07-09 16:06:21,229 [INFO] [0x00002dc8] [net] connection 183.36.35.2:65300 set compress type 2025-07-09 16:06:21,229 [INFO] [0x00002dc8] [net] net work error, error code: 2, error msg: End of file, remote addr: 183.36.35.2:65300, local addr: 192.168.11.64:62980, now: 1752048381, last receive: 1752048381, last send: 1752048381, interval: 60
+2025-07-09 16:06:21,229 [INFO] [0x00005ee0] [onSubscribQuote] errno: 200000, errmsg: no proxy client
+2025-07-09 16:06:21,229 [INFO] [0x00005ee0] [onSubscribQuote] errmsg: 
+2025-07-09 16:06:21,229 [INFO] [0x00005ee0] [onSubscribQuote] errno: 300000, errmsg: End of file
+2025-07-09 16:06:21,229 [INFO] [0x00005ee0] [onSubscribQuote] errmsg: 
+2025-07-09 16:06:21,229 [INFO] [0x00005ee0] connect false. errorMsg: { errorID: 2, error: "End of file", isNetError: true }
+2025-07-09 16:06:24,238 [INFO] [0x00002dc8] [net] onConnectionMade, local addr: 192.168.11.64:62989 peer addr: 183.36.35.2:65300
+2025-07-09 16:06:24,238 [INFO] [0x00005ee0] connect success
+2025-07-09 16:07:07,253 [INFO] [0x00003d2c] async_log false
+2025-07-09 16:07:07,253 [INFO] [0x00003d2c] compress reuse false
+2025-07-09 16:07:08,443 [INFO] [0x00003d2c] XtTraderApiImplement::init, address: 183.36.35.2:65300.
+2025-07-09 16:07:08,443 [INFO] [0x00003d2c] Compile: Jun 26 2025 15:36:35
+2025-07-09 16:07:08,444 [INFO] [0x00003d2c] getAllMacAddr Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:07:08,445 [INFO] [0x00003d2c] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:07:08,445 [INFO] [0x00003d2c] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 0000020EC115EBC0
+2025-07-09 16:07:08,450 [INFO] [0x000041b0] [net] onConnectionMade, local addr: 192.168.11.64:63178 peer addr: 183.36.35.2:65300
+2025-07-09 16:07:08,450 [INFO] [0x00003d2c] [REQ] [batchSubscribQuote] nRequestId: 1 reqData. exchangeId: , instrumentId: jd2508-C-3500
+2025-07-09 16:07:08,450 [INFO] [0x00002010] connect success
+2025-07-09 16:07:08,450 [INFO] [0x00003d2c] [REQ] [batchSubscribQuote] nRequestId: 1 reqData. exchangeId: , instrumentId: jd2509-P-3900
+2025-07-09 16:07:08,451 [INFO] [0x00003d2c] XtTraderApiImplement::join
+2025-07-09 16:07:08,454 [INFO] [0x000041b0] [net] connection 183.36.35.2:65300 set compress type 2025-07-09 16:07:08,454 [INFO] [0x000041b0] [net] net work error, error code: 2, error msg: End of file, remote addr: 183.36.35.2:65300, local addr: 192.168.11.64:63178, now: 1752048428, last receive: 1752048428, last send: 1752048428, interval: 60
+2025-07-09 16:07:08,454 [INFO] [0x00002010] [onSubscribQuote] errno: 200000, errmsg: no proxy client
+2025-07-09 16:07:08,454 [INFO] [0x00002010] [onSubscribQuote] errmsg: 
+2025-07-09 16:07:08,454 [INFO] [0x00002010] [onSubscribQuote] errno: 300000, errmsg: End of file
+2025-07-09 16:07:08,454 [INFO] [0x00002010] [onSubscribQuote] errmsg: 
+2025-07-09 16:07:08,454 [INFO] [0x00002010] connect false. errorMsg: { errorID: 2, error: "End of file", isNetError: true }
+2025-07-09 16:07:11,469 [INFO] [0x000041b0] [net] onConnectionMade, local addr: 192.168.11.64:63187 peer addr: 183.36.35.2:65300
+2025-07-09 16:07:11,469 [INFO] [0x00002010] connect success
+2025-07-09 16:10:01,760 [INFO] [0x000006f4] async_log false
+2025-07-09 16:10:01,760 [INFO] [0x000006f4] compress reuse false
+2025-07-09 16:10:02,958 [INFO] [0x000006f4] XtTraderApiImplement::init, address: 183.36.35.2:65300.
+2025-07-09 16:10:02,958 [INFO] [0x000006f4] Compile: Jun 26 2025 15:36:35
+2025-07-09 16:10:02,960 [INFO] [0x000006f4] getAllMacAddr Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:10:02,960 [INFO] [0x000006f4] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:10:02,961 [INFO] [0x000006f4] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 0000025EF522FFE0
+2025-07-09 16:10:02,964 [INFO] [0x00006030] [net] onConnectionMade, local addr: 192.168.11.64:63698 peer addr: 183.36.35.2:65300
+2025-07-09 16:10:02,964 [INFO] [0x00002068] connect success
+2025-07-09 16:10:02,966 [INFO] [0x000006f4] [REQ] [batchSubscribQuote] nRequestId: 1 reqData. exchangeId: , instrumentId: jd2508-C-3500
+2025-07-09 16:10:02,966 [INFO] [0x000006f4] [REQ] [batchSubscribQuote] nRequestId: 1 reqData. exchangeId: , instrumentId: jd2509-P-3900
+2025-07-09 16:10:02,967 [INFO] [0x000006f4] XtTraderApiImplement::join
+2025-07-09 16:10:02,969 [INFO] [0x00006030] [net] connection 183.36.35.2:65300 set compress type 2025-07-09 16:10:02,969 [INFO] [0x00006030] [net] net work error, error code: 2, error msg: End of file, remote addr: 183.36.35.2:65300, local addr: 192.168.11.64:63698, now: 1752048602, last receive: 1752048602, last send: 1752048602, interval: 60
+2025-07-09 16:10:02,969 [INFO] [0x00002068] [onSubscribQuote] errno: 200000, errmsg: no proxy client
+2025-07-09 16:10:02,969 [INFO] [0x00002068] [onSubscribQuote] errmsg: 
+2025-07-09 16:10:02,969 [INFO] [0x00002068] [onSubscribQuote] errno: 300000, errmsg: End of file
+2025-07-09 16:10:02,969 [INFO] [0x00002068] [onSubscribQuote] errmsg: 
+2025-07-09 16:10:02,969 [INFO] [0x00002068] connect false. errorMsg: { errorID: 2, error: "End of file", isNetError: true }
+2025-07-09 16:10:05,987 [INFO] [0x00006030] [net] onConnectionMade, local addr: 192.168.11.64:63706 peer addr: 183.36.35.2:65300
+2025-07-09 16:10:05,987 [INFO] [0x00002068] connect success
+2025-07-09 16:12:23,475 [INFO] [0x00001e70] async_log false
+2025-07-09 16:12:23,475 [INFO] [0x00001e70] compress reuse false
+2025-07-09 16:12:24,696 [INFO] [0x00001e70] XtTraderApiImplement::init, address: 183.36.35.2:65300.
+2025-07-09 16:12:24,696 [INFO] [0x00001e70] Compile: Jun 26 2025 15:36:35
+2025-07-09 16:12:24,698 [INFO] [0x00001e70] getAllMacAddr Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:12:24,698 [INFO] [0x00001e70] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:12:24,698 [INFO] [0x00001e70] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 0000024E6D83AC50
+2025-07-09 16:12:24,703 [INFO] [0x00004684] [net] onConnectionMade, local addr: 192.168.11.64:64085 peer addr: 183.36.35.2:65300
+2025-07-09 16:12:24,703 [INFO] [0x00002970] connect success
+2025-07-09 16:12:24,704 [INFO] [0x00001e70] [REQ] [batchSubscribQuote] nRequestId: 1 reqData. exchangeId: , instrumentId: jd2508-C-3500
+2025-07-09 16:12:24,704 [INFO] [0x00001e70] [REQ] [batchSubscribQuote] nRequestId: 1 reqData. exchangeId: , instrumentId: jd2509-P-3900
+2025-07-09 16:12:24,704 [INFO] [0x00001e70] XtTraderApiImplement::join
+2025-07-09 16:12:24,707 [INFO] [0x00004684] [net] connection 183.36.35.2:65300 set compress type 2025-07-09 16:12:24,707 [INFO] [0x00004684] [net] net work error, error code: 2, error msg: End of file, remote addr: 183.36.35.2:65300, local addr: 192.168.11.64:64085, now: 1752048744, last receive: 1752048744, last send: 1752048744, interval: 60
+2025-07-09 16:12:24,707 [INFO] [0x00002970] [onSubscribQuote] errno: 200000, errmsg: no proxy client
+2025-07-09 16:12:24,707 [INFO] [0x00002970] [onSubscribQuote] errmsg: 
+2025-07-09 16:12:24,707 [INFO] [0x00002970] [onSubscribQuote] errno: 300000, errmsg: End of file
+2025-07-09 16:12:24,707 [INFO] [0x00002970] [onSubscribQuote] errmsg: 
+2025-07-09 16:12:24,707 [INFO] [0x00002970] connect false. errorMsg: { errorID: 2, error: "End of file", isNetError: true }
+2025-07-09 16:12:27,716 [INFO] [0x00004684] [net] onConnectionMade, local addr: 192.168.11.64:64092 peer addr: 183.36.35.2:65300
+2025-07-09 16:12:27,716 [INFO] [0x00002970] connect success
+2025-07-09 16:13:10,795 [INFO] [0x00005cac] async_log false
+2025-07-09 16:13:10,795 [INFO] [0x00005cac] compress reuse false
+2025-07-09 16:13:12,022 [INFO] [0x00005cac] XtTraderApiImplement::init, address: 183.36.35.2:65300.
+2025-07-09 16:13:12,022 [INFO] [0x00005cac] Compile: Jun 26 2025 15:36:35
+2025-07-09 16:13:12,024 [INFO] [0x00005cac] getAllMacAddr Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:13:12,024 [INFO] [0x00005cac] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:13:12,024 [INFO] [0x00005cac] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 0000021297996520
+2025-07-09 16:13:12,029 [INFO] [0x00006034] [net] onConnectionMade, local addr: 192.168.11.64:64204 peer addr: 183.36.35.2:65300
+2025-07-09 16:13:12,029 [INFO] [0x0000450c] connect success
+2025-07-09 16:13:13,196 [INFO] [0x00005cac] get client login time, userName: tbtest, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 17184, user: "tbtest", version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{7973C7DE-D2F5-40B6-AF09-2E929D1B6E0F}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core(TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "fZq5lSHUJCkQirr6k7zfk3IMdoo80b0TY96MiB92vk/vDlsCpnBjr0UfVEjKjuqbeQFnFldcACRZXD5hA4+bjj7IprlkXKN+hGBt09gO6x1YQylSbLSzshOfudzm/xeG601/IymcL3E+1kgoZzhnzn...", sysinfo_hs: "aHVuZHN1bkAxQHBmSXRjeU9kNDdpYm1HN3JCdkIzUnVkME8zUkZFcStOU1Y0djROYnVZTFlBWmFLZHovYW1PT05lNjFkVE5uR3JIRTJxUjJXckN0RHNUeDA0TXJoZXBkV3pPN0JYeXhQNEJzL1cvbX...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "fZq5lSHUJCkQirr6k7zfk3IMdoo80b0TY96MiB92vk/vDlsCpnBjr0UfVEjKjuqbeQFnFldcACRZXD5hA4+bjj7IprlkXKN+hGBt09gO6x1YQylSbLSzshOfudzm/xeG601/IymcL3E+1kgoZzhnzn...", sysinfo_hs: "aHVuZHN1bkAxQHBmSXRjeU9kNDdpYm1HN3JCdkIzUnVkME8zUkZFcStOU1Y0djROYnVZTFlBWmFLZHovYW1PT05lNjFkVE5uR3JIRTJxUjJXckN0RHNUeDA0TXJoZXBkV3pPN0JYeXhQNEJzL1cvbX...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 0000021297996520
+2025-07-09 16:13:13,213 [INFO] [0x00006034] [net] connection 183.36.35.2:65300 set compress type 2025-07-09 16:13:13,213 [INFO] [0x0000450c] m_nDiffTime: -3
+2025-07-09 16:13:13,216 [INFO] [0x0000450c] [REQ] seq: 3 queryServerConfig
+2025-07-09 16:13:13,219 [INFO] [0x0000450c] onQueryServerConfig maxNum: 100000, stockDurationMilliSec: 30000000
+2025-07-09 16:13:13,219 [INFO] [0x0000450c] onGetMarketAndTradeDay, tradeDay: 20250709
+2025-07-09 16:13:13,222 [INFO] [0x0000450c] [onQueryCommands] size: 0
+2025-07-09 16:13:13,227 [INFO] [0x0000450c] [initAccountInfo] accountID: 1014609 accountKey 1____21004____21004_237____-1____1014609____, client: 0000021297996520
+2025-07-09 16:13:13,227 [INFO] [0x0000450c] [initAccountInfo] accountID: 1037933 accountKey 1____21004____21004_237____-1____1037933____, client: 0000021297996520
+2025-07-09 16:13:13,227 [INFO] [0x0000450c] [initAccountInfo] accountID: 1037935 accountKey 1____21004____21004_237____-1____1037935____, client: 0000021297996520
+2025-07-09 16:13:13,227 [INFO] [0x0000450c] [initAccountInfo] accountID: 6005775 accountKey 6____61073____61073____49____6005775____, client: 0000021297996520
+2025-07-09 16:13:13,227 [INFO] [0x0000450c] [initAccountInfo] accountID: 6005910 accountKey 6____61073____61073____49____6005910____, client: 0000021297996520
+2025-07-09 16:13:13,227 [INFO] [0x0000450c] [initAccountInfo] accountID: 6005911 accountKey 6____61073____61073____49____6005911____, client: 0000021297996520
+2025-07-09 16:13:13,227 [INFO] [0x0000450c] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1037933____, userName 测试?
+2025-07-09 16:13:13,227 [INFO] [0x0000450c] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1037935____, userName 测试?
+2025-07-09 16:13:13,227 [INFO] [0x0000450c] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1014609____, userName 测试?
+2025-07-09 16:13:13,227 [INFO] [0x0000450c] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005775____, userName 测试?
+2025-07-09 16:13:13,227 [INFO] [0x0000450c] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005910____, userName 测试?
+2025-07-09 16:13:13,227 [INFO] [0x0000450c] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005911____, userName 测试?
+2025-07-09 16:13:13,243 [INFO] [0x00005a60] onRtnLoginStatus, accountID: 1037935, accountKey: 1____21004____21004_237____-1____1037935____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 16:13:13,243 [INFO] [0x0000450c] set portfolios [0]
+2025-07-09 16:13:13,243 [INFO] [0x0000450c] onUserLogin userName: tbtest, [0|]
+2025-07-09 16:13:13,244 [INFO] [0x00002670] onRtnLoginStatus, accountID: 1014609, accountKey: 1____21004____21004_237____-1____1014609____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 16:13:13,244 [INFO] [0x00002670] onRtnLoginStatus, accountID: 6005911, accountKey: 6____61073____61073____49____6005911____, status: 6, errorMsg: ?
+2025-07-09 16:13:13,244 [INFO] [0x00002670] onRtnLoginStatus, accountID: 6005910, accountKey: 6____61073____61073____49____6005910____, status: 6, errorMsg: ?
+2025-07-09 16:13:13,245 [INFO] [0x00002670] onRtnLoginStatus, accountID: 6005775, accountKey: 6____61073____61073____49____6005775____, status: 6, errorMsg: ?
+2025-07-09 16:13:13,245 [INFO] [0x00002670] onRtnLoginStatus, accountID: 1037933, accountKey: 1____21004____21004_237____-1____1037933____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 16:13:13,344 [INFO] [0x00005cac] [REQ] queryData accountDetail accountID: 1014609, actKey: , typeId: 543
+2025-07-09 16:13:13,349 [INFO] [0x00005cac] [RSP] [reqAccountDetailSync] m_strAccountKey: 1____21004____21004_237____-1____1014609____, actType: 1, trdDate: 20250709, m_dFrozenMargin: 0.000, m_dFrozenCash: 0.000, m_dFrozenCommission: 0.000, m_dRisk: 0.010, m_dNav: 0.000, m_dPreBalance: 489114.995, m_dBalance: 490774.995, m_dAvailable: 485209.195, m_dCommission: 0.000, m_dPositionProfit: 740.000, m_dCloseProfit: 0.000, m_dCashIn: 0.000, m_dCurrMargin: 4825.800, m_dInstrumentValue: 69680.000, m_dDeposit: 0.000, m_dWithdraw: 0.000, m_dCredit: 0.000, m_dMortgage: 0.000, m_dStockValue: 0.000, m_dLoanValue: 0.000, m_dFundValue: 0.000, m_dRepurchaseValue: 0.000, m_dLongValue: 69680.000, m_dShortValue: 0.000, m_dNetValue: 69680.000, m_dAssureAsset: 490774.995, m_dTotalDebit: 0.000, m_dPremiumNetExpense: 4825.800, m_dEnableMargin: 0.000, m_dFetchBalance: 0.000, m_dAvailableSH: 0.000, m_dAvailableSZ: 0.000, m_dUsedMargin: 4825.800, m_dRoyalty: 0.000, m_dDaysProfit: -10870.000, m_nProductId: 0, m_dAssetBalance: 505414.995, m_dRiskDegree: 0.010, m_dInitCloseMoney: 0.000
+2025-07-09 16:14:30,381 [INFO] [0x000060f0] async_log false
+2025-07-09 16:14:30,381 [INFO] [0x000060f0] compress reuse false
+2025-07-09 16:14:31,581 [INFO] [0x000060f0] XtTraderApiImplement::init, address: 183.36.35.2:65300.
+2025-07-09 16:14:31,581 [INFO] [0x000060f0] Compile: Jun 26 2025 15:36:35
+2025-07-09 16:14:31,584 [INFO] [0x000060f0] getAllMacAddr Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:14:31,584 [INFO] [0x000060f0] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:14:31,584 [INFO] [0x000060f0] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 000001A81E0F8E10
+2025-07-09 16:14:31,587 [INFO] [0x000038e8] [net] onConnectionMade, local addr: 192.168.11.64:64415 peer addr: 183.36.35.2:65300
+2025-07-09 16:14:31,587 [INFO] [0x00005d7c] connect success
+2025-07-09 16:14:31,589 [INFO] [0x000060f0] [REQ] [batchSubscribQuote] nRequestId: 1 reqData. exchangeId: , instrumentId: jd2508-C-3500
+2025-07-09 16:14:31,589 [INFO] [0x000060f0] [REQ] [batchSubscribQuote] nRequestId: 1 reqData. exchangeId: , instrumentId: jd2509-P-3900
+2025-07-09 16:14:31,589 [INFO] [0x000060f0] XtTraderApiImplement::join
+2025-07-09 16:14:31,591 [INFO] [0x000038e8] [net] connection 183.36.35.2:65300 set compress type 2025-07-09 16:14:31,591 [INFO] [0x000038e8] [net] net work error, error code: 2, error msg: End of file, remote addr: 183.36.35.2:65300, local addr: 192.168.11.64:64415, now: 1752048871, last receive: 1752048871, last send: 1752048871, interval: 60
+2025-07-09 16:14:31,591 [INFO] [0x00005d7c] [onSubscribQuote] errno: 200000, errmsg: no proxy client
+2025-07-09 16:14:31,591 [INFO] [0x00005d7c] [onSubscribQuote] errmsg: 
+2025-07-09 16:14:31,591 [INFO] [0x00005d7c] [onSubscribQuote] errno: 300000, errmsg: End of file
+2025-07-09 16:14:31,591 [INFO] [0x00005d7c] [onSubscribQuote] errmsg: 
+2025-07-09 16:14:31,592 [INFO] [0x00005d7c] connect false. errorMsg: { errorID: 2, error: "End of file", isNetError: true }
+2025-07-09 16:14:34,611 [INFO] [0x000038e8] [net] onConnectionMade, local addr: 192.168.11.64:64422 peer addr: 183.36.35.2:65300
+2025-07-09 16:14:34,611 [INFO] [0x00005d7c] connect success
+2025-07-09 16:17:30,970 [INFO] [0x000022e0] async_log false
+2025-07-09 16:17:30,970 [INFO] [0x000022e0] compress reuse false
+2025-07-09 16:17:32,182 [INFO] [0x000022e0] XtTraderApiImplement::init, address: 183.36.35.2:65300.
+2025-07-09 16:17:32,182 [INFO] [0x000022e0] Compile: Jun 26 2025 15:36:35
+2025-07-09 16:17:32,184 [INFO] [0x000022e0] getAllMacAddr Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:17:32,184 [INFO] [0x000022e0] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:17:32,184 [INFO] [0x000022e0] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 000001EBBF915CC0
+2025-07-09 16:17:32,185 [INFO] [0x000022e0] [COrdinaryOrder] orderInfo, account: 1014609, market: DCE, instrument: jd2508-C-3600, secondnstrument: , amount: 1, priceType: 11, operationType: 0, tCondition: 51, vCondition: 49, combId: , remark: , nPortfolioID: -1, m_strSecuAccount: , TriggerType: 0, TriggerPrice: 0.000000, HedgeFlag: 49, Price: 22.500000, m_dOccurBalance: 0.000000, m_eFirstSideFlag: 48, m_eSecondSideFlag: 48, m_dSuperPriceRate: 0.200000, m_nLimitedPriceType: 0, m_eCmdDateLimit: 0 
+2025-07-09 16:17:32,186 [INFO] [0x000022e0] createCommand ordinaryOrder error. errorMsg: 未找到账号或者工作流为空者工作流为空?
+2025-07-09 16:17:32,189 [INFO] [0x000022e0] XtTraderApiImplement::join
+2025-07-09 16:17:32,190 [INFO] [0x0000292c] [net] onConnectionMade, local addr: 192.168.11.64:65003 peer addr: 183.36.35.2:65300
+2025-07-09 16:17:32,190 [INFO] [0x000059f0] connect success
+2025-07-09 16:17:33,230 [INFO] [0x00000914] get client login time, userName: tbtest, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 18368, user: "tbtest", version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{80514471-30B5-4590-95C8-DCCD882D4156}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core(TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "o0neKcBaF7FJTOICTBJBXuQC4SwyeCBZQK/pIUXksQRceC+x80qBlQodkzOGDtwKZZzMiF7F03exZIqu4TtWt3b1j+/lGjZA7KFNKmhZY+eI26fYsQX3NCtwF38MVxIk6tZbzJK2QBamJw9somHIIn...", sysinfo_hs: "aHVuZHN1bkAxQFVVc2NHa1ZUeEZ1UCtLTzJJTEUrVm4zak5zbEo0RXRLU2cxV3RLU0tHa3ZmYjRvU21XdU9ReDVrdmovRmJPRk5HTlYxVi9YalMxNmVPTlpla3NJZGZrZVhpN0ZXZ25KaFVSTWV4SE...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, localip: "192.168.1.172", mac: "5C-F9-DD-73-7C-83", diskid: "0682056C", guid: "BFEBFBFF000206A7", hostName: "DESKTOP-84OBV5E", diskInfo: "C,NTFS,223", cpuidex: "6VKJD3X", sysinfo_ctp: "o0neKcBaF7FJTOICTBJBXuQC4SwyeCBZQK/pIUXksQRceC+x80qBlQodkzOGDtwKZZzMiF7F03exZIqu4TtWt3b1j+/lGjZA7KFNKmhZY+eI26fYsQX3NCtwF38MVxIk6tZbzJK2QBamJw9somHIIn...", sysinfo_hs: "aHVuZHN1bkAxQFVVc2NHa1ZUeEZ1UCtLTzJJTEUrVm4zak5zbEo0RXRLU2cxV3RLU0tHa3ZmYjRvU21XdU9ReDVrdmovRmJPRk5HTlYxVi9YalMxNmVPTlpla3NJZGZrZVhpN0ZXZ25KaFVSTWV4SE...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 000001EBBF915CC0
+2025-07-09 16:17:33,245 [INFO] [0x0000292c] [net] connection 183.36.35.2:65300 set compress type 2025-07-09 16:17:33,246 [INFO] [0x000059f0] m_nDiffTime: -3
+2025-07-09 16:17:33,248 [INFO] [0x000059f0] [REQ] seq: 3 queryServerConfig
+2025-07-09 16:17:33,251 [INFO] [0x000059f0] onQueryServerConfig maxNum: 100000, stockDurationMilliSec: 30000000
+2025-07-09 16:17:33,251 [INFO] [0x000059f0] onGetMarketAndTradeDay, tradeDay: 20250709
+2025-07-09 16:17:33,253 [INFO] [0x000059f0] [onQueryCommands] size: 0
+2025-07-09 16:17:33,257 [INFO] [0x000059f0] [initAccountInfo] accountID: 1014609 accountKey 1____21004____21004_237____-1____1014609____, client: 000001EBBF915CC0
+2025-07-09 16:17:33,257 [INFO] [0x000059f0] [initAccountInfo] accountID: 1037933 accountKey 1____21004____21004_237____-1____1037933____, client: 000001EBBF915CC0
+2025-07-09 16:17:33,257 [INFO] [0x000059f0] [initAccountInfo] accountID: 1037935 accountKey 1____21004____21004_237____-1____1037935____, client: 000001EBBF915CC0
+2025-07-09 16:17:33,257 [INFO] [0x000059f0] [initAccountInfo] accountID: 6005775 accountKey 6____61073____61073____49____6005775____, client: 000001EBBF915CC0
+2025-07-09 16:17:33,257 [INFO] [0x000059f0] [initAccountInfo] accountID: 6005910 accountKey 6____61073____61073____49____6005910____, client: 000001EBBF915CC0
+2025-07-09 16:17:33,257 [INFO] [0x000059f0] [initAccountInfo] accountID: 6005911 accountKey 6____61073____61073____49____6005911____, client: 000001EBBF915CC0
+2025-07-09 16:17:33,257 [INFO] [0x000059f0] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1037933____, userName 测试?
+2025-07-09 16:17:33,257 [INFO] [0x000059f0] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1037935____, userName 测试?
+2025-07-09 16:17:33,257 [INFO] [0x000059f0] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1014609____, userName 测试?
+2025-07-09 16:17:33,257 [INFO] [0x000059f0] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005775____, userName 测试?
+2025-07-09 16:17:33,257 [INFO] [0x000059f0] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005910____, userName 测试?
+2025-07-09 16:17:33,257 [INFO] [0x000059f0] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005911____, userName 测试?
+2025-07-09 16:17:33,272 [INFO] [0x00003e60] onRtnLoginStatus, accountID: 1037933, accountKey: 1____21004____21004_237____-1____1037933____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 16:17:33,272 [INFO] [0x000059f0] set portfolios [0]
+2025-07-09 16:17:33,272 [INFO] [0x000059f0] onUserLogin userName: tbtest, [0|]
+2025-07-09 16:17:33,274 [INFO] [0x000060bc] onRtnLoginStatus, accountID: 1037935, accountKey: 1____21004____21004_237____-1____1037935____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 16:17:33,275 [INFO] [0x000060bc] onRtnLoginStatus, accountID: 6005775, accountKey: 6____61073____61073____49____6005775____, status: 6, errorMsg: ?
+2025-07-09 16:17:33,275 [INFO] [0x000060bc] onRtnLoginStatus, accountID: 6005910, accountKey: 6____61073____61073____49____6005910____, status: 6, errorMsg: ?
+2025-07-09 16:17:33,275 [INFO] [0x000060bc] onRtnLoginStatus, accountID: 1014609, accountKey: 1____21004____21004_237____-1____1014609____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 16:17:33,278 [INFO] [0x000060bc] onRtnLoginStatus, accountID: 6005911, accountKey: 6____61073____61073____49____6005911____, status: 6, errorMsg: ?
+2025-07-09 16:19:58,402 [INFO] [0x00003dc8] async_log false
+2025-07-09 16:19:58,402 [INFO] [0x00003dc8] compress reuse false
+2025-07-09 16:19:59,612 [INFO] [0x00003dc8] XtTraderApiImplement::init, address: 183.36.35.2:65300.
+2025-07-09 16:19:59,612 [INFO] [0x00003dc8] Compile: Jun 26 2025 15:36:35
+2025-07-09 16:19:59,614 [INFO] [0x00003dc8] getAllMacAddr Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:19:59,615 [INFO] [0x00003dc8] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 16:19:59,615 [INFO] [0x00003dc8] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 000001CB14447DB0
+2025-07-09 16:19:59,620 [INFO] [0x0000342c] [net] onConnectionMade, local addr: 192.168.11.64:65391 peer addr: 183.36.35.2:65300
+2025-07-09 16:19:59,620 [INFO] [0x00005084] connect success
+2025-07-09 16:20:00,661 [INFO] [0x00003dd0] get client login time, userName: tbtest, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 23556, user: "tbtest", version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{7F1FCDF9-902F-46EF-81DD-CE1FCCA3FD73}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core(TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "WgOArVQemUC8U8CrQP9Wx3/y1THUk02dHXZecOf+G2exKSAniNRbI3P46P4R51OhP0mWugDmnMAmfcOKgalonUBEmQSs9ImHvHd87/Ijpj0PMTWH4aQKSbNRHK9H5BQoU9Paxr/WdhcQ1SiFLxKSqa...", sysinfo_hs: "aHVuZHN1bkAxQHdFMjAvOE5hdG1ManpzMnlBUUpmVXNsQnpDRlc1cFpMQ3dMdm5DVEszN3dWTmVhSGE5d0tFNmh6eVQrT1hWM0VDWkdXTjJnUFFsQi9uV0ZscnpwR2c2eW5rOG81b2EyRWhHSHhlWG...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, localip: "192.168.1.172", mac: "5C-F9-DD-73-7C-83", diskid: "0682056C", guid: "BFEBFBFF000206A7", hostName: "DESKTOP-84OBV5E", diskInfo: "C,NTFS,223", cpuidex: "6VKJD3X", sysinfo_ctp: "WgOArVQemUC8U8CrQP9Wx3/y1THUk02dHXZecOf+G2exKSAniNRbI3P46P4R51OhP0mWugDmnMAmfcOKgalonUBEmQSs9ImHvHd87/Ijpj0PMTWH4aQKSbNRHK9H5BQoU9Paxr/WdhcQ1SiFLxKSqa...", sysinfo_hs: "aHVuZHN1bkAxQHdFMjAvOE5hdG1ManpzMnlBUUpmVXNsQnpDRlc1cFpMQ3dMdm5DVEszN3dWTmVhSGE5d0tFNmh6eVQrT1hWM0VDWkdXTjJnUFFsQi9uV0ZscnpwR2c2eW5rOG81b2EyRWhHSHhlWG...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 000001CB14447DB0
+2025-07-09 16:20:00,675 [INFO] [0x0000342c] [net] connection 183.36.35.2:65300 set compress type 2025-07-09 16:20:00,676 [INFO] [0x00005084] m_nDiffTime: -4
+2025-07-09 16:20:00,678 [INFO] [0x00005084] [REQ] seq: 3 queryServerConfig
+2025-07-09 16:20:00,682 [INFO] [0x00005084] onQueryServerConfig maxNum: 100000, stockDurationMilliSec: 30000000
+2025-07-09 16:20:00,683 [INFO] [0x00005084] onGetMarketAndTradeDay, tradeDay: 20250709
+2025-07-09 16:20:00,684 [INFO] [0x00005084] [onQueryCommands] size: 0
+2025-07-09 16:20:00,688 [INFO] [0x00005084] [initAccountInfo] accountID: 1014609 accountKey 1____21004____21004_237____-1____1014609____, client: 000001CB14447DB0
+2025-07-09 16:20:00,688 [INFO] [0x00005084] [initAccountInfo] accountID: 1037933 accountKey 1____21004____21004_237____-1____1037933____, client: 000001CB14447DB0
+2025-07-09 16:20:00,688 [INFO] [0x00005084] [initAccountInfo] accountID: 1037935 accountKey 1____21004____21004_237____-1____1037935____, client: 000001CB14447DB0
+2025-07-09 16:20:00,688 [INFO] [0x00005084] [initAccountInfo] accountID: 6005775 accountKey 6____61073____61073____49____6005775____, client: 000001CB14447DB0
+2025-07-09 16:20:00,688 [INFO] [0x00005084] [initAccountInfo] accountID: 6005910 accountKey 6____61073____61073____49____6005910____, client: 000001CB14447DB0
+2025-07-09 16:20:00,688 [INFO] [0x00005084] [initAccountInfo] accountID: 6005911 accountKey 6____61073____61073____49____6005911____, client: 000001CB14447DB0
+2025-07-09 16:20:00,688 [INFO] [0x00005084] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1037933____, userName 测试?
+2025-07-09 16:20:00,688 [INFO] [0x00005084] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1037935____, userName 测试?
+2025-07-09 16:20:00,688 [INFO] [0x00005084] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1014609____, userName 测试?
+2025-07-09 16:20:00,688 [INFO] [0x00005084] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005775____, userName 测试?
+2025-07-09 16:20:00,688 [INFO] [0x00005084] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005910____, userName 测试?
+2025-07-09 16:20:00,688 [INFO] [0x00005084] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005911____, userName 测试?
+2025-07-09 16:20:00,704 [INFO] [0x00005bd8] onRtnLoginStatus, accountID: 1014609, accountKey: 1____21004____21004_237____-1____1014609____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 16:20:00,704 [INFO] [0x00005084] set portfolios [0]
+2025-07-09 16:20:00,704 [INFO] [0x00005084] onUserLogin userName: tbtest, [0|]
+2025-07-09 16:20:00,706 [INFO] [0x00000698] onRtnLoginStatus, accountID: 1037935, accountKey: 1____21004____21004_237____-1____1037935____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 16:20:00,707 [INFO] [0x00000698] onRtnLoginStatus, accountID: 6005910, accountKey: 6____61073____61073____49____6005910____, status: 6, errorMsg: ?
+2025-07-09 16:20:00,708 [INFO] [0x00000698] onRtnLoginStatus, accountID: 1037933, accountKey: 1____21004____21004_237____-1____1037933____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 16:20:00,710 [INFO] [0x00000698] onRtnLoginStatus, accountID: 6005911, accountKey: 6____61073____61073____49____6005911____, status: 6, errorMsg: ?
+2025-07-09 16:20:00,710 [INFO] [0x00000698] onRtnLoginStatus, accountID: 6005775, accountKey: 6____61073____61073____49____6005775____, status: 6, errorMsg: ?
+2025-07-09 16:20:00,720 [INFO] [0x00003dc8] [COrdinaryOrder] orderInfo, account: 1014609, market: DCE, instrument: jd2508-C-3600, secondnstrument: , amount: 1, priceType: 11, operationType: 0, tCondition: 51, vCondition: 49, combId: , remark: , nPortfolioID: -1, m_strSecuAccount: , TriggerType: 0, TriggerPrice: 0.000000, HedgeFlag: 49, Price: 22.500000, m_dOccurBalance: 0.000000, m_eFirstSideFlag: 48, m_eSecondSideFlag: 48, m_dSuperPriceRate: 0.200000, m_nLimitedPriceType: 0, m_eCmdDateLimit: 0 
+2025-07-09 16:20:00,724 [INFO] [0x00003dc8] [REQ] seq: 13 [COrdinaryOrder] nRequestId: 2, remark: 
+2025-07-09 16:20:00,724 [INFO] [0x00003dc8] XtTraderApiImplement::join
+2025-07-09 16:20:00,973 [INFO] [0x00005084] [XtTraderApiImplement::onCreateCommand] nRequestID:2, orderID: 98851, remark: 
+2025-07-09 16:20:00,973 [INFO] [0x00000698] onRtnOrder, accountID: 1014609, orderID: 98851, status: -1, remark: 
+2025-07-09 16:20:00,973 [INFO] [0x00005084] [xti::XtTraderApiImplement::onCreateCommand] createCommand Success. nRequestID: 2, orderID: 98851, remark: 
+2025-07-09 16:20:00,974 [INFO] [0x00000698] onRtnOrder, accountID: 1014609, orderID: 98851, status: 2, remark: 
+2025-07-09 16:20:01,007 [INFO] [0x00000698] onRtnOrderDetail, accountID: 1014609, actType: 1, volumeTraded: 0, instrumentID: jd2508-C-3600, orderSysID: 2025070900079817, orderID: 98851, orderStatus: 48�?remark: , usedTime(ms): 0.999023437575
+2025-07-09 16:20:01,012 [INFO] [0x00000698] onRtnOrderDetail, accountID: 1014609, actType: 1, volumeTraded: 1, instrumentID: jd2508-C-3600, orderSysID: 2025070900079817, orderID: 98851, orderStatus: 56�?remark: , usedTime(ms): 0.999023437575
+2025-07-09 16:20:01,012 [INFO] [0x00005bd8] onRtnOrder, accountID: 1014609, orderID: 98851, status: 4, remark: 
+2025-07-09 16:20:01,015 [INFO] [0x00005bd8] onRtnDealDetail, accountID: 1014609, actType: 1, exchangeID: DCE, productID: jd_o, instrumentID: jd2508-C-3600, tradeID: 12025070900096947, orderSysID: 2025070900079817, avgPrice: 7.0, volume: 1, tradeDate: 20250709, tradeTime: 162004, comssion: 0.5, amount: 70.0, orderID: 98851, direction: 48, offsetFlag: 48, hedgeFlag: 49, orderPriceType: 50, entrustType: 48, coveredFlag: 48, onRtnDealDetail, remark: , instrumentName: jd2508C3600, accountKey: 1____21004____21004_237____-1____1014609____, strategyID: 0, secuAccount: 0, productId: 519, productName: 唐斌, combID: , occupiedMargin: 0.00.0
+2025-07-09 16:20:01,015 [INFO] [0x00005bd8] onRtnDealDetail, accountID: 1014609, actType: 1, volume: 1, instrumentID: jd2508-C-3600, orderSysID: 2025070900079817, traderID: 12025070900096947, orderID: 98851�?remark: , , usedTime(ms): 0.0.0
+2025-07-09 16:20:01,623 [INFO] [0x00005bd8] onRtnOrder, accountID: 1014609, orderID: 98851, status: 4, remark: 
+2025-07-09 16:20:01,769 [INFO] [0x00005bd8] onRtnOrder, accountID: 1014609, orderID: 98851, status: 4, remark: 
+2025-07-09 16:31:43,977 [INFO] [0x00003e2c] async_log false
+2025-07-09 16:31:43,977 [INFO] [0x00003e2c] compress reuse false
+2025-07-09 16:31:45,187 [INFO] [0x00003e2c] XtTraderApiImplement::init, address: 192.168.10.100:56000.
+2025-07-09 16:31:45,187 [INFO] [0x00003e2c] Compile: Jun 26 2025 15:36:35
+2025-07-09 16:31:45,189 [INFO] [0x00003e2c] getAllMacAddr Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 16:31:45,189 [INFO] [0x00003e2c] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 16:31:45,189 [INFO] [0x00003e2c] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 0000020A1EA9F0E0
+2025-07-09 16:31:45,190 [INFO] [0x00002bf4] [net] onConnectionMade, local addr: 192.168.11.64:50765 peer addr: 192.168.10.100:56000
+2025-07-09 16:31:45,190 [INFO] [0x0000283c] connect success
+2025-07-09 16:31:46,246 [INFO] [0x00002884] get client login time, userName: 唐斌, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 18960, user: "鍞愭�?, version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "鍞愭�?, pass: "fb?, pass: "fb85731a1721fed7c60ccb035f9a5bd8d7c5b0f2", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{4D96D7F0-3101-40D0-B706-8E6FBBF5E2E5}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core((TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "qzuRvRXt6cPtsk4dyQx6dC8vw7LGGL+EeQpMvaRIBkMsxFeMM/Op8azdoIYLyaRP+xcAztHeRLHVg6BOphSJiy/SARSXzZQiQWKJQUKQf0dj37TAcjFy7tXuEnynVwXFkIk7P62j7cPWzP4e8vgmMr...", sysinfo_hs: "aHVuZHN1bkAxQEZJODhRQTdpamN5ajlQR1VsY3VPS1E5ODQvTDU4eDJXcUNYRG0wNTBkYkFUSUQ1dDV5bENselhBcy9qMlZlYmtBY2ZaeDNXRml2NVlYeUF4djF3c2RpQ2l5NUd4c1J3YmIrbVh4MX...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "鍞愭�?, pass: "fb85731a1721fed7c60ccb035f9a5bd8d7c5b0f2", cmd: 0, client_id: 6, localip: "192.168.1.172", mac: "5C-F9-DD-73-7C-83", diskid: "0682056C", guid: "BFEBFBFF000206A7", ho", hostName: "DESKTOP-84OBV5E", diskInfo: "C,NTFS,223", cpuidex: "6VKJD3X", sysinfo_ctp: "qzuRvRXt6cPtsk4dyQx6dC8vw7LGGL+EeQpMvaRIBkMsxFeMM/Op8azdoIYLyaRP+xcAztHeRLHVg6BOphSJiy/SARSXzZQiQWKJQUKQf0dj37TAcjFy7tXuEnynVwXFkIk7P62j7cPWzP4e8vgmMr...", sysinfo_hs: "aHVuZHN1bkAxQEZJODhRQTdpamN5ajlQR1VsY3VPS1E5ODQvTDU4eDJXcUNYRG0wNTBkYkFUSUQ1dDV5bENselhBcy9qMlZlYmtBY2ZaeDNXRml2NVlYeUF4djF3c2RpQ2l5NUd4c1J3YmIrbVh4MX...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 0000020A1EA9F0E0
+2025-07-09 16:31:46,248 [INFO] [0x00002bf4] [net] connection 192.168.10.100:56000 set compress type 2025-07-09 16:31:46,248 [INFO] [0x0000283c] m_nDiffTime: 1752049906
+2025-07-09 16:31:46,248 [INFO] [0x0000283c] error: { result: 1, reason: "用户名或密码错误", sessionTag: "1752049909____192.168.11.64____50765", company: "优美利私募实�?, serverType: 0 }���?, serverType: 0 }0 }
+2025-07-09 17:21:04,154 [INFO] [0x00005aac] async_log false
+2025-07-09 17:21:04,155 [INFO] [0x00005aac] compress reuse false
+2025-07-09 17:21:05,535 [INFO] [0x00005aac] XtTraderApiImplement::init, address: 192.168.10.100:56000.
+2025-07-09 17:21:05,535 [INFO] [0x00005aac] Compile: Jun 26 2025 15:36:35
+2025-07-09 17:21:05,538 [INFO] [0x00005aac] getAllMacAddr Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:21:05,538 [INFO] [0x00005aac] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:21:05,538 [INFO] [0x00005aac] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 0000012C3652A3D0
+2025-07-09 17:21:05,543 [INFO] [0x000040e0] [net] onConnectionMade, local addr: 192.168.11.64:58526 peer addr: 192.168.10.100:56000
+2025-07-09 17:21:05,543 [INFO] [0x000055a4] connect success
+2025-07-09 17:21:06,685 [INFO] [0x00005aac] get client login time, userName: 唐斌, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 11140, user: "鍞愭�?, version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "鍞愭�?, pass: "c8?, pass: "c85786c94b8995f4f22ee92ac2b5533ce502b280", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{5C402C19-4A62-4DF5-9817-B5924454B594}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core((TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "kx3ANxxcEYJ1wEjU0NAXCE+6ZIZIXTw8TvG2nU57l7mTu3aoSV5j/vqumo79d8PNgulWadMBhdCnsaWwMU00c3CVA1DjGsaxCkoZj11j4ir3j1NM/ozZ0N9q5d8lm7F5lvXyTIuu8zX4y+Xc/XpCjM...", sysinfo_hs: "aHVuZHN1bkAxQGFKT3RyVEhkT1ZJNy9hd2R5UWNIS3Y3ZE1kelh0RDdsME9IeGl4MVdoaTFSZXBGdWNJUVR1RGdMaHQ4WFBBZXlvZGtPMUFDRkJIOG1CQ2lOTnhTeEFZbDZKR0JqUUthM2FEQjV4Nn...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "鍞愭�?, pass: "c85786c94b8995f4f22ee92ac2b5533ce502b280", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "kx3ANxxcEYJ1wEjU0NAXCE+6ZIZIXTw8TvG2nU57l7mTu3aoSV5j/vqumo79d8PNgulWadMBhadMBhdCnsaWwMU00c3CVA1DjGsaxCkoZj11j4ir3j1NM/ozZ0N9q5d8lm7F5lvXyTIuu8zX4y+Xc/XpCjM...", sysinfo_hs: "aHVuZHN1bkAxQGFKT3RyVEhkT1ZJNy9hd2R5UWNIS3Y3ZE1kelh0RDdsME9IeGl4MVdoaTFSZXBGdWNJUVR1RGdMaHQ4WFBBZXlvZGtPMUFDRkJIOG1CQ2lOTnhTeEFZbDZKR0JqUUthM2FEQjV4Nn...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 0000012C3652A3D0
+2025-07-09 17:21:06,689 [INFO] [0x000040e0] [net] connection 192.168.10.100:56000 set compress type 2025-07-09 17:21:06,690 [INFO] [0x000055a4] m_nDiffTime: 1752052866
+2025-07-09 17:21:06,690 [INFO] [0x000055a4] error: { result: 1, reason: "用户名或密码错误", sessionTag: "1752052870____192.168.11.64____58526", company: "优美利私募实�?, serverType: 0 }���?, serverType: 0 }0 }
+2025-07-09 17:21:16,651 [INFO] [0x0000621c] async_log false
+2025-07-09 17:21:16,651 [INFO] [0x0000621c] compress reuse false
+2025-07-09 17:21:17,872 [INFO] [0x0000621c] XtTraderApiImplement::init, address: 192.168.10.100:56000.
+2025-07-09 17:21:17,872 [INFO] [0x0000621c] Compile: Jun 26 2025 15:36:35
+2025-07-09 17:21:17,873 [INFO] [0x0000621c] getAllMacAddr Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:21:17,874 [INFO] [0x0000621c] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:21:17,874 [INFO] [0x0000621c] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 0000017B146175D0
+2025-07-09 17:21:17,875 [INFO] [0x0000414c] [net] onConnectionMade, local addr: 192.168.11.64:58575 peer addr: 192.168.10.100:56000
+2025-07-09 17:21:17,875 [INFO] [0x0000374c] connect success
+2025-07-09 17:21:19,028 [INFO] [0x0000621c] get client login time, userName: 唐斌, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 19744, user: "鍞愭�?, version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "鍞愭�?, pass: "c1?, pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{EBE42C50-D507-4A94-AE40-B87B4952B15C}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core((TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "uHU9RrKTwVGSe/jXhr97D9tfWi95S3ztE523WkTtZdLjfi58xZ99xJqdhpIpDZsVNYSPiLYdRzDwrM3zufa472dsm9rigufAw+LH+cUqD7s84ZyL5zaTvk6Jl49lvV3LVhagjG+k24OssUq0zTDJMt...", sysinfo_hs: "aHVuZHN1bkAxQEd1OXF0b2c4QkNrTHhGdmxBUUlNRnNkbU1mR2JWdDl6dmhUYlNBblcyWXRpVDM4UWxCQ28wRnhOZTdNbWhQTDA3VXlRcDZQVytYUnNtMWFRZnpZY0RVQmtuNkJyWmErQmFyZjVtTT...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "鍞愭�?, pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "uHU9RrKTwVGSe/jXhr97D9tfWi95S3ztE523WkTtZdLjfi58xZ99xJqdhpIpDZsVNYSPiLYdRiLYdRzDwrM3zufa472dsm9rigufAw+LH+cUqD7s84ZyL5zaTvk6Jl49lvV3LVhagjG+k24OssUq0zTDJMt...", sysinfo_hs: "aHVuZHN1bkAxQEd1OXF0b2c4QkNrTHhGdmxBUUlNRnNkbU1mR2JWdDl6dmhUYlNBblcyWXRpVDM4UWxCQ28wRnhOZTdNbWhQTDA3VXlRcDZQVytYUnNtMWFRZnpZY0RVQmtuNkJyWmErQmFyZjVtTT...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 0000017B146175D0
+2025-07-09 17:21:19,031 [INFO] [0x0000414c] [net] connection 192.168.10.100:56000 set compress type 2025-07-09 17:21:19,031 [INFO] [0x0000374c] m_nDiffTime: 1752052879
+2025-07-09 17:21:19,031 [INFO] [0x0000374c] error: { result: 1, reason: "用户名或密码错误", sessionTag: "1752052882____192.168.11.64____58575", company: "优美利私募实�?, serverType: 0 }���?, serverType: 0 }0 }
+2025-07-09 17:21:26,711 [INFO] [0x00000508] async_log false
+2025-07-09 17:21:26,711 [INFO] [0x00000508] compress reuse false
+2025-07-09 17:21:27,902 [INFO] [0x00000508] XtTraderApiImplement::init, address: 192.168.10.100:56000.
+2025-07-09 17:21:27,902 [INFO] [0x00000508] Compile: Jun 26 2025 15:36:35
+2025-07-09 17:21:27,905 [INFO] [0x00000508] getAllMacAddr Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:21:27,905 [INFO] [0x00000508] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:21:27,905 [INFO] [0x00000508] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 00000230B50150A0
+2025-07-09 17:21:27,906 [INFO] [0x000061a0] [net] onConnectionMade, local addr: 192.168.11.64:58620 peer addr: 192.168.10.100:56000
+2025-07-09 17:21:27,906 [INFO] [0x00003d8c] connect success
+2025-07-09 17:21:29,056 [INFO] [0x00000508] get client login time, userName: 唐斌, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 22828, user: "鍞愭�?, version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "鍞愭�?, pass: "22?, pass: "22ebdecc4005bcce0b56155b70d8d944beb34a66", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{369691FE-14D8-4E82-BA6E-20B7A1C8EFB6}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core((TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "PlVCQ/dSai0K5MTg70Xbj3r3rCEGTEOfm9m5h2xSZVbh2uQuLkMQZqYO520iTnyHNFFSPx9l/+Y7U0Ph2lr0fCwVUwIf7mEqKfaL30waLX/9N+CTApWBeHIHz4yf0IYP0gHr4KHX7bM455UWwEP3c6...", sysinfo_hs: "aHVuZHN1bkAxQE9uNTJrRFpEM3JDU3BKZHkwT3lXZ3RmdVFvTXpZRFpZSE1hSUNEM0I5UFJQWXltUnorTzUzUGVsRHZ0VzVhWmhvQWg1TjNUdW8rczgraml6cWFKNnRIWUxib3BtZm5RZkpKSW4veX...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "鍞愭�?, pass: "22ebdecc4005bcce0b56155b70d8d944beb34a66", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "PlVCQ/dSai0K5MTg70Xbj3r3rCEGTEOfm9m5h2xSZVbh2uQuLkMQZqYO520iTnyHNFFSPx9l/Px9l/+Y7U0Ph2lr0fCwVUwIf7mEqKfaL30waLX/9N+CTApWBeHIHz4yf0IYP0gHr4KHX7bM455UWwEP3c6...", sysinfo_hs: "aHVuZHN1bkAxQE9uNTJrRFpEM3JDU3BKZHkwT3lXZ3RmdVFvTXpZRFpZSE1hSUNEM0I5UFJQWXltUnorTzUzUGVsRHZ0VzVhWmhvQWg1TjNUdW8rczgraml6cWFKNnRIWUxib3BtZm5RZkpKSW4veX...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 00000230B50150A0
+2025-07-09 17:21:29,058 [INFO] [0x000061a0] [net] connection 192.168.10.100:56000 set compress type 2025-07-09 17:21:29,058 [INFO] [0x00003d8c] m_nDiffTime: 1752052889
+2025-07-09 17:21:29,058 [INFO] [0x00003d8c] error: { result: 1, reason: "用户名或密码错误", sessionTag: "1752052892____192.168.11.64____58620", company: "优美利私募实�?, serverType: 0 }���?, serverType: 0 }0 }
+2025-07-09 17:22:55,725 [INFO] [0x00003cb8] async_log false
+2025-07-09 17:22:55,725 [INFO] [0x00003cb8] compress reuse false
+2025-07-09 17:22:56,937 [INFO] [0x00003cb8] XtTraderApiImplement::init, address: 192.168.10.100:56000.
+2025-07-09 17:22:56,937 [INFO] [0x00003cb8] Compile: Jun 26 2025 15:36:35
+2025-07-09 17:22:56,939 [INFO] [0x00003cb8] getAllMacAddr Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:22:56,939 [INFO] [0x00003cb8] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:22:56,939 [INFO] [0x00003cb8] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 000001E37DCFCA40
+2025-07-09 17:22:56,940 [INFO] [0x00003f00] [net] onConnectionMade, local addr: 192.168.11.64:58872 peer addr: 192.168.10.100:56000
+2025-07-09 17:22:56,940 [INFO] [0x00005bc4] connect success
+2025-07-09 17:22:58,081 [INFO] [0x00003cb8] get client login time, userName: 唐斌, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 21744, user: "鍞愭�?, version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "鍞愭�?, pass: "22?, pass: "22ebdecc4005bcce0b56155b70d8d944beb34a66", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{21020EAD-EF14-484D-AC6E-F5ACF8DF2498}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core((TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "6KED9HrnyBWIs3wXwd7QPKZSa+LP0CrVNAOUydSi+RXvILo+y1FwhIQFiZ5/maO5MtA8JS2J2UoJ1Cdm0uZIdQcnA7GMgU2UD60yBmZ+T8k42FeMxcCnO8VBZKjCC0CWBZ3KhrstO1XvE/RtGMyL1I...", sysinfo_hs: "aHVuZHN1bkAxQDdNVllkbnBmMW9IYy94d0dYWlJwa00yR3VkcXdIam9uYk5HUUw0d3lYNUlNRm1RdGllT09pSDl5NzdQNEk2dys0eGpYNUxvbmsyZ2hSZUFRMUNhbTJwbm5mT2kzdDk3ajhkZ3V3cz...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "鍞愭�?, pass: "22ebdecc4005bcce0b56155b70d8d944beb34a66", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "6KED9HrnyBWIs3wXwd7QPKZSa+LP0CrVNAOUydSi+RXvILo+y1FwhIQFiZ5/maO5MtA8JS2J2JS2J2UoJ1Cdm0uZIdQcnA7GMgU2UD60yBmZ+T8k42FeMxcCnO8VBZKjCC0CWBZ3KhrstO1XvE/RtGMyL1I...", sysinfo_hs: "aHVuZHN1bkAxQDdNVllkbnBmMW9IYy94d0dYWlJwa00yR3VkcXdIam9uYk5HUUw0d3lYNUlNRm1RdGllT09pSDl5NzdQNEk2dys0eGpYNUxvbmsyZ2hSZUFRMUNhbTJwbm5mT2kzdDk3ajhkZ3V3cz...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 000001E37DCFCA40
+2025-07-09 17:22:58,084 [INFO] [0x00003f00] [net] connection 192.168.10.100:56000 set compress type 2025-07-09 17:22:58,084 [INFO] [0x00005bc4] m_nDiffTime: 1752052978
+2025-07-09 17:22:58,084 [INFO] [0x00005bc4] error: { result: 1, reason: "用户名或密码错误", sessionTag: "1752052981____192.168.11.64____58872", company: "优美利私募实�?, serverType: 0 }���?, serverType: 0 }0 }
+2025-07-09 17:24:05,583 [INFO] [0x00001524] async_log false
+2025-07-09 17:24:05,583 [INFO] [0x00001524] compress reuse false
+2025-07-09 17:24:06,778 [INFO] [0x00001524] XtTraderApiImplement::init, address: 183.36.35.2:65300.
+2025-07-09 17:24:06,778 [INFO] [0x00001524] Compile: Jun 26 2025 15:36:35
+2025-07-09 17:24:06,780 [INFO] [0x00001524] getAllMacAddr Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 17:24:06,780 [INFO] [0x00001524] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 17:24:06,780 [INFO] [0x00001524] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 00000279667B1A40
+2025-07-09 17:24:06,785 [INFO] [0x00003234] [net] onConnectionMade, local addr: 192.168.11.64:59060 peer addr: 183.36.35.2:65300
+2025-07-09 17:24:06,785 [INFO] [0x000012ac] connect success
+2025-07-09 17:24:07,935 [INFO] [0x00001524] get client login time, userName: tbtest, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 9032, user: "tbtest", version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{164A79C3-9E33-48CC-9A8C-9E8226AEF123}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core(TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "1ZAyA+qxdHx86x8KzMp27QNJtDJ11xrXp5+bkDtG3t7ms/RzlKP6rsVe3s3xbvt/HWDEIu9DmLrNtc60lP2QmazZVM6FjUYMfN8zs6+34pBnqOfLuPgMZfJE6t85v3bKmaV1ECAP4hxBXksTjpVpb1...", sysinfo_hs: "aHVuZHN1bkAxQEMrMVFqeG1JTnBwWVcrQ29IQWdJUFl4N2hqU0JQQW1hcEgyZjkrekhTdkdkdDl5TGFQeUZPZjY1N2s4UEdIb1pTM1NiSXlRSVlzNy9aUjB0Z2RXalQ2Qy8rbng4YmpQTEV5RUFkdE...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "1ZAyA+qxdHx86x8KzMp27QNJtDJ11xrXp5+bkDtG3t7ms/RzlKP6rsVe3s3xbvt/HWDEIu9DmLrNtc60lP2QmazZVM6FjUYMfN8zs6+34pBnqOfLuPgMZfJE6t85v3bKmaV1ECAP4hxBXksTjpVpb1...", sysinfo_hs: "aHVuZHN1bkAxQEMrMVFqeG1JTnBwWVcrQ29IQWdJUFl4N2hqU0JQQW1hcEgyZjkrekhTdkdkdDl5TGFQeUZPZjY1N2s4UEdIb1pTM1NiSXlRSVlzNy9aUjB0Z2RXalQ2Qy8rbng4YmpQTEV5RUFkdE...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 00000279667B1A40
+2025-07-09 17:24:07,950 [INFO] [0x00003234] [net] connection 183.36.35.2:65300 set compress type 2025-07-09 17:24:07,950 [INFO] [0x000012ac] m_nDiffTime: -4
+2025-07-09 17:24:07,957 [INFO] [0x000012ac] [REQ] seq: 3 queryServerConfig
+2025-07-09 17:24:07,958 [INFO] [0x000012ac] onGetMarketAndTradeDay, tradeDay: 20250709
+2025-07-09 17:24:07,961 [INFO] [0x000012ac] onQueryServerConfig maxNum: 100000, stockDurationMilliSec: 30000000
+2025-07-09 17:24:07,970 [INFO] [0x000012ac] [onQueryCommands] size: 1
+2025-07-09 17:24:07,979 [INFO] [0x000012ac] [initAccountInfo] accountID: 1014609 accountKey 1____21004____21004_237____-1____1014609____, client: 00000279667B1A40
+2025-07-09 17:24:07,979 [INFO] [0x000012ac] [initAccountInfo] accountID: 1037933 accountKey 1____21004____21004_237____-1____1037933____, client: 00000279667B1A40
+2025-07-09 17:24:07,979 [INFO] [0x000012ac] [initAccountInfo] accountID: 1037935 accountKey 1____21004____21004_237____-1____1037935____, client: 00000279667B1A40
+2025-07-09 17:24:07,979 [INFO] [0x000012ac] [initAccountInfo] accountID: 6005775 accountKey 6____61073____61073____49____6005775____, client: 00000279667B1A40
+2025-07-09 17:24:07,979 [INFO] [0x000012ac] [initAccountInfo] accountID: 6005910 accountKey 6____61073____61073____49____6005910____, client: 00000279667B1A40
+2025-07-09 17:24:07,979 [INFO] [0x000012ac] [initAccountInfo] accountID: 6005911 accountKey 6____61073____61073____49____6005911____, client: 00000279667B1A40
+2025-07-09 17:24:07,979 [INFO] [0x000012ac] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1037933____, userName 测试?
+2025-07-09 17:24:07,979 [INFO] [0x000012ac] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1037935____, userName 测试?
+2025-07-09 17:24:07,979 [INFO] [0x000012ac] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1014609____, userName 测试?
+2025-07-09 17:24:07,979 [INFO] [0x000012ac] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005775____, userName 测试?
+2025-07-09 17:24:07,979 [INFO] [0x000012ac] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005910____, userName 测试?
+2025-07-09 17:24:07,979 [INFO] [0x000012ac] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005911____, userName 测试?
+2025-07-09 17:24:07,995 [INFO] [0x000051bc] onRtnLoginStatus, accountID: 1037935, accountKey: 1____21004____21004_237____-1____1037935____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 17:24:07,996 [INFO] [0x000012ac] set portfolios [0]
+2025-07-09 17:24:07,996 [INFO] [0x000012ac] onUserLogin userName: tbtest, [0|]
+2025-07-09 17:24:07,996 [INFO] [0x00001e40] onRtnLoginStatus, accountID: 1037933, accountKey: 1____21004____21004_237____-1____1037933____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 17:24:07,997 [INFO] [0x00001e40] onRtnLoginStatus, accountID: 1014609, accountKey: 1____21004____21004_237____-1____1014609____, status: 0, errorMsg: 登录成功成功?
+2025-07-09 17:24:07,997 [INFO] [0x00001e40] onRtnLoginStatus, accountID: 6005775, accountKey: 6____61073____61073____49____6005775____, status: 6, errorMsg: ?
+2025-07-09 17:24:07,997 [INFO] [0x00001e40] onRtnLoginStatus, accountID: 6005911, accountKey: 6____61073____61073____49____6005911____, status: 6, errorMsg: ?
+2025-07-09 17:24:07,997 [INFO] [0x00001e40] onRtnLoginStatus, accountID: 6005910, accountKey: 6____61073____61073____49____6005910____, status: 6, errorMsg: ?
+2025-07-09 17:24:08,097 [INFO] [0x00001524] [REQ] queryData accountDetail accountID: 1014609, actKey: , typeId: 543
+2025-07-09 17:24:08,102 [INFO] [0x00001524] [RSP] [reqAccountDetailSync] m_strAccountKey: 1____21004____21004_237____-1____1014609____, actType: 1, trdDate: 20250709, m_dFrozenMargin: 0.000, m_dFrozenCash: 0.000, m_dFrozenCommission: 0.000, m_dRisk: 0.010, m_dNav: 0.000, m_dPreBalance: 489114.995, m_dBalance: 490769.995, m_dAvailable: 485209.195, m_dCommission: 0.000, m_dPositionProfit: 740.000, m_dCloseProfit: 0.000, m_dCashIn: 0.000, m_dCurrMargin: 4825.800, m_dInstrumentValue: 69680.000, m_dDeposit: 0.000, m_dWithdraw: 0.000, m_dCredit: 0.000, m_dMortgage: 0.000, m_dStockValue: 0.000, m_dLoanValue: 0.000, m_dFundValue: 0.000, m_dRepurchaseValue: 0.000, m_dLongValue: 69680.000, m_dShortValue: 0.000, m_dNetValue: 69680.000, m_dAssureAsset: 490769.995, m_dTotalDebit: 0.000, m_dPremiumNetExpense: 4825.800, m_dEnableMargin: 0.000, m_dFetchBalance: 0.000, m_dAvailableSH: 0.000, m_dAvailableSZ: 0.000, m_dUsedMargin: 4825.800, m_dRoyalty: -70.000, m_dDaysProfit: -10875.000, m_nProductId: 0, m_dAssetBalance: 505414.995, m_dRiskDegree: 0.010, m_dInitCloseMoney: 0.000
+2025-07-09 17:24:21,156 [INFO] [0x00006130] async_log false
+2025-07-09 17:24:21,156 [INFO] [0x00006130] compress reuse false
+2025-07-09 17:24:22,352 [INFO] [0x00006130] XtTraderApiImplement::init, address: 192.168.10.100:56000.
+2025-07-09 17:24:22,352 [INFO] [0x00006130] Compile: Jun 26 2025 15:36:35
+2025-07-09 17:24:22,355 [INFO] [0x00006130] getAllMacAddr Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:24:22,356 [INFO] [0x00006130] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:24:22,356 [INFO] [0x00006130] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 0000023EFC4B3380
+2025-07-09 17:24:22,357 [INFO] [0x000011dc] [net] onConnectionMade, local addr: 192.168.11.64:59115 peer addr: 192.168.10.100:56000
+2025-07-09 17:24:22,357 [INFO] [0x00005404] connect success
+2025-07-09 17:24:23,498 [INFO] [0x00006130] get client login time, userName: 唐斌, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 652, user: "鍞愭�?, version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "鍞愭�?, pass: "22eb, pass: "22ebdecc4005bcce0b56155b70d8d944beb34a66", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{3CB55888-EC7F-415A-A60D-7B454EC781E2}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core(TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "gLIMt4PElkWUQP/zmzPbFrhFakhzTxgz+MfctqxnhnRVRJfi8Q8I6bt+R36CMJ77uYPL9TI0wzvQnxgg4Xq8kZ8oKs0zT6XZfaJKdZed4lHs9/LGoYSJRRV6srPO8nnNwP+Vr1IyY7Y+Hz+8GKxg7q...", sysinfo_hs: "aHVuZHN1bkAxQE1LUVkxM2NjYm1ZT0lKQUwxMEo1YVlVUEhBQW5PV2ZQWTRHMGk1MlZwUDFCSzFqYjZzeWpHeFU0Z0VLZEFHMWRHWGI5SGg5VXJBN0JpV2xFL0ZWMllRdHQ2V1E1VC9iZm9mc1JwSm...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "鍞愭�?, pass: "22ebdecc4005bcce0b56155b70d8d944beb34a66", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "gLIMt4PElkWUQP/zmzPbFrhFakhzTxgz+MfctqxnhnRVRJfi8Q8I6bt+R36CMJ77uYPL9TI0wzvI0wzvQnxgg4Xq8kZ8oKs0zT6XZfaJKdZed4lHs9/LGoYSJRRV6srPO8nnNwP+Vr1IyY7Y+Hz+8GKxg7q...", sysinfo_hs: "aHVuZHN1bkAxQE1LUVkxM2NjYm1ZT0lKQUwxMEo1YVlVUEhBQW5PV2ZQWTRHMGk1MlZwUDFCSzFqYjZzeWpHeFU0Z0VLZEFHMWRHWGI5SGg5VXJBN0JpV2xFL0ZWMllRdHQ2V1E1VC9iZm9mc1JwSm...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 0000023EFC4B3380
+2025-07-09 17:24:23,500 [INFO] [0x000011dc] [net] connection 192.168.10.100:56000 set compress type 2025-07-09 17:24:23,500 [INFO] [0x00005404] m_nDiffTime: 1752053063
+2025-07-09 17:24:23,500 [INFO] [0x00005404] error: { result: 1, reason: "用户名或密码错误", sessionTag: "1752053067____192.168.11.64____59115", company: "优美利私募实�?, serverType: 0 }���?, serverType: 0 }0 }
+2025-07-09 17:25:34,563 [INFO] [0x00000cdc] async_log false
+2025-07-09 17:25:34,563 [INFO] [0x00000cdc] compress reuse false
+2025-07-09 17:25:35,790 [INFO] [0x00000cdc] XtTraderApiImplement::init, address: 192.168.10.100:56000.
+2025-07-09 17:25:35,790 [INFO] [0x00000cdc] Compile: Jun 26 2025 15:36:35
+2025-07-09 17:25:35,792 [INFO] [0x00000cdc] getAllMacAddr Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:25:35,792 [INFO] [0x00000cdc] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:192.168.10.100:56000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:25:35,792 [INFO] [0x00000cdc] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 0000017E0F3ECAB0
+2025-07-09 17:25:35,793 [INFO] [0x00004250] [net] onConnectionMade, local addr: 192.168.11.64:59353 peer addr: 192.168.10.100:56000
+2025-07-09 17:25:35,793 [INFO] [0x000017d4] connect success
+2025-07-09 17:25:36,933 [INFO] [0x00000cdc] get client login time, userName: 唐斌, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 17516, user: "鍞愭�?, version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "鍞愭�?, pass: "22?, pass: "22ebdecc4005bcce0b56155b70d8d944beb34a66", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{4F699EBE-89EA-4F76-99BF-E025A6BB8887}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core((TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "hgvEQMwGjztAwWmXfK5wjQ36McTlnLr0xo5KzXLN66CyygPEkiE2u9WDBMfl/ahJegjxBbOn5rYMRuag5OUmO+YCLW5ZAeHKBFBKJGjTsO0tkcV8XBYE68Rt0QSy+0p6GamFbRSihnI2IA3Q2tm59N...", sysinfo_hs: "aHVuZHN1bkAxQDRhVldTNkhkNDk2T3JuR2xlb3o2cnZnUDdCR1dpWTQ0YTRHR2pRRFRJdTZaOFZSSDYrbFVIZGFqMDkrd0NxSkRzMlNZbXJFdjFVZUJSOFpsdGFqdzlmdTlwODRGOVhsSlFBVTJLR0...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "鍞愭�?, pass: "22ebdecc4005bcce0b56155b70d8d944beb34a66", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "hgvEQMwGjztAwWmXfK5wjQ36McTlnLr0xo5KzXLN66CyygPEkiE2u9WDBMfl/ahJegjxBbOn5BbOn5rYMRuag5OUmO+YCLW5ZAeHKBFBKJGjTsO0tkcV8XBYE68Rt0QSy+0p6GamFbRSihnI2IA3Q2tm59N...", sysinfo_hs: "aHVuZHN1bkAxQDRhVldTNkhkNDk2T3JuR2xlb3o2cnZnUDdCR1dpWTQ0YTRHR2pRRFRJdTZaOFZSSDYrbFVIZGFqMDkrd0NxSkRzMlNZbXJFdjFVZUJSOFpsdGFqdzlmdTlwODRGOVhsSlFBVTJLR0...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 0000017E0F3ECAB0
+2025-07-09 17:25:36,936 [INFO] [0x00004250] [net] connection 192.168.10.100:56000 set compress type 2025-07-09 17:25:36,936 [INFO] [0x000017d4] m_nDiffTime: 1752053136
+2025-07-09 17:25:36,936 [INFO] [0x000017d4] error: { result: 1, reason: "用户名或密码错误", sessionTag: "1752053140____192.168.11.64____59353", company: "优美利私募实�?, serverType: 0 }���?, serverType: 0 }0 }
+2025-07-09 17:42:39,263 [INFO] [0x00005310] async_log false
+2025-07-09 17:42:39,263 [INFO] [0x00005310] compress reuse false
+2025-07-09 17:42:40,462 [INFO] [0x00005310] XtTraderApiImplement::init, address: 183.57.40.218:59000.
+2025-07-09 17:42:40,462 [INFO] [0x00005310] Compile: Jun 26 2025 15:36:35
+2025-07-09 17:42:40,464 [INFO] [0x00005310] getAllMacAddr Target:183.57.40.218:59000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:42:40,464 [INFO] [0x00005310] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.57.40.218:59000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:42:40,464 [INFO] [0x00005310] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 0000013A0A472FE0
+2025-07-09 17:42:40,466 [INFO] [0x00005968] [net] onConnectionMade, local addr: 192.168.11.64:62206 peer addr: 183.57.40.218:59000
+2025-07-09 17:42:40,466 [INFO] [0x00002d34] connect success
+2025-07-09 17:43:16,602 [INFO] [0x00004f5c] async_log false
+2025-07-09 17:43:16,602 [INFO] [0x00004f5c] compress reuse false
+2025-07-09 17:43:17,815 [INFO] [0x00004f5c] XtTraderApiImplement::init, address: 183.57.40.218:59000.
+2025-07-09 17:43:17,815 [INFO] [0x00004f5c] Compile: Jun 26 2025 15:36:35
+2025-07-09 17:43:17,817 [INFO] [0x00004f5c] getAllMacAddr Target:183.57.40.218:59000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:43:17,818 [INFO] [0x00004f5c] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.57.40.218:59000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:43:17,818 [INFO] [0x00004f5c] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 000002651BF91D70
+2025-07-09 17:43:17,819 [INFO] [0x000046d4] [net] onConnectionMade, local addr: 192.168.11.64:62332 peer addr: 183.57.40.218:59000
+2025-07-09 17:43:17,819 [INFO] [0x00001c48] connect success
+2025-07-09 17:43:53,620 [INFO] [0x000021fc] async_log false
+2025-07-09 17:43:53,620 [INFO] [0x000021fc] compress reuse false
+2025-07-09 17:43:54,819 [INFO] [0x000021fc] XtTraderApiImplement::init, address: 183.57.40.218:59000.
+2025-07-09 17:43:54,819 [INFO] [0x000021fc] Compile: Jun 26 2025 15:36:35
+2025-07-09 17:43:54,821 [INFO] [0x000021fc] getAllMacAddr Target:183.57.40.218:59000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:43:54,821 [INFO] [0x000021fc] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.57.40.218:59000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:43:54,821 [INFO] [0x000021fc] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 0000019BF1A5F370
+2025-07-09 17:43:54,823 [INFO] [0x00003764] [net] onConnectionMade, local addr: 192.168.11.64:62462 peer addr: 183.57.40.218:59000
+2025-07-09 17:43:54,823 [INFO] [0x00002f34] connect success
+2025-07-09 17:45:02,843 [INFO] [0x00002048] async_log false
+2025-07-09 17:45:02,843 [INFO] [0x00002048] compress reuse false
+2025-07-09 17:45:04,039 [INFO] [0x00002048] XtTraderApiImplement::init, address: 183.57.40.218:59000.
+2025-07-09 17:45:04,039 [INFO] [0x00002048] Compile: Jun 26 2025 15:36:35
+2025-07-09 17:45:04,041 [INFO] [0x00002048] getAllMacAddr Target:183.57.40.218:59000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:45:04,041 [INFO] [0x00002048] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.57.40.218:59000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:45:04,041 [INFO] [0x00002048] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 000001CACE91C360
+2025-07-09 17:45:04,043 [INFO] [0x00000e68] [net] onConnectionMade, local addr: 192.168.11.64:62685 peer addr: 183.57.40.218:59000
+2025-07-09 17:45:04,043 [INFO] [0x00004240] connect success
+2025-07-09 17:48:50,160 [INFO] [0x00005998] async_log false
+2025-07-09 17:48:50,160 [INFO] [0x00005998] compress reuse false
+2025-07-09 17:48:51,375 [INFO] [0x00005998] XtTraderApiImplement::init, address: 183.36.35.2:65300.
+2025-07-09 17:48:51,375 [INFO] [0x00005998] Compile: Jun 26 2025 15:36:35
+2025-07-09 17:48:51,377 [INFO] [0x00005998] getAllMacAddr Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 17:48:51,377 [INFO] [0x00005998] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.36.35.2:65300  Result:00-E0-1F-18-02-D3
+2025-07-09 17:48:51,377 [INFO] [0x00005998] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 000002EB8ACE0830
+2025-07-09 17:48:51,381 [INFO] [0x00001c74] [net] onConnectionMade, local addr: 192.168.11.64:63430 peer addr: 183.36.35.2:65300
+2025-07-09 17:48:51,381 [INFO] [0x00000640] connect success
+2025-07-09 17:48:52,454 [INFO] [0x00002434] get client login time, userName: tbtest, md5Str: 18687f1acbb5652525481d6e3d0e83a2, computer: { function: "login", client_id: 6, process_id: 24808, user: "tbtest", version: "1.0.1.000", mac: "00-E0-1F-18-02-D3", md5_checking: "18687f1acbb5652525481d6e3d0e83a2", param: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, mac: "00-E0-1F-18-02-D3", cpuid: "BFEBFBFF00090672", diskid: "2C3E_BFFF_F000_06CC.", guid: "{74AC4342-E8B3-4D62-8D0D-98BAAEC48E82}", cpuidex: "GenuineIntel__12th Gen Intel(R) Core(TM) i5-12490F__BFEBFBFF00090672", biosId: "Default string__", diskname: "", hostName: "PC-20230302PKWH", diskInfo: "C,NTFS,100,ae6081bc", localip: "192.168.11.64", sysinfo_ctp: "NgWh4jU7lVct7IixO3VWOM5Z7avvOtgWCK9xAZ+QDh2W3TsYT379mWhrehWkrpbF3Wsip5OuPJg5/ZqL6EPDwB4y5VCnTAgsA2S4kypWatSpwrEAqUEGEpE4aXNYT7uiSrK81o2tBYFLiDLiRpYZPQ...", sysinfo_hs: "aHVuZHN1bkAxQGxpdTF4dkpqNktZZ1c1ellCa1ZONmJ6WTNwNWYzZmZsb1pRZlhCcktSWFdpQ3VlNlFSeXZwR2dObTBMeDhTZjdXcnpBd05pSmhrbVltVUJiVTEwSU42eXBXa0drQVl1eTFNaFk3RU...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, localip: "192.168.1.172", mac: "5C-F9-DD-73-7C-83", diskid: "0682056C", guid: "BFEBFBFF000206A7", hostName: "DESKTOP-84OBV5E", diskInfo: "C,NTFS,223", cpuidex: "6VKJD3X", sysinfo_ctp: "NgWh4jU7lVct7IixO3VWOM5Z7avvOtgWCK9xAZ+QDh2W3TsYT379mWhrehWkrpbF3Wsip5OuPJg5/ZqL6EPDwB4y5VCnTAgsA2S4kypWatSpwrEAqUEGEpE4aXNYT7uiSrK81o2tBYFLiDLiRpYZPQ...", sysinfo_hs: "aHVuZHN1bkAxQGxpdTF4dkpqNktZZ1c1ellCa1ZONmJ6WTNwNWYzZmZsb1pRZlhCcktSWFdpQ3VlNlFSeXZwR2dObTBMeDhTZjdXcnpBd05pSmhrbVltVUJiVTEwSU42eXBXa0drQVl1eTFNaFk3RU...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 000002EB8ACE0830
+2025-07-09 17:48:52,469 [INFO] [0x00001c74] [net] connection 183.36.35.2:65300 set compress type 2025-07-09 17:48:52,469 [INFO] [0x00000640] m_nDiffTime: -4
+2025-07-09 17:48:52,471 [INFO] [0x00000640] [REQ] seq: 3 queryServerConfig
+2025-07-09 17:48:52,475 [INFO] [0x00000640] onQueryServerConfig maxNum: 100000, stockDurationMilliSec: 30000000
+2025-07-09 17:48:52,475 [INFO] [0x00000640] onGetMarketAndTradeDay, tradeDay: 20250709
+2025-07-09 17:48:52,477 [INFO] [0x00000640] [onQueryCommands] size: 1
+2025-07-09 17:48:52,482 [INFO] [0x00000640] [initAccountInfo] accountID: 1014609 accountKey 1____21004____21004_237____-1____1014609____, client: 000002EB8ACE0830
+2025-07-09 17:48:52,482 [INFO] [0x00000640] [initAccountInfo] accountID: 1037933 accountKey 1____21004____21004_237____-1____1037933____, client: 000002EB8ACE0830
+2025-07-09 17:48:52,482 [INFO] [0x00000640] [initAccountInfo] accountID: 1037935 accountKey 1____21004____21004_237____-1____1037935____, client: 000002EB8ACE0830
+2025-07-09 17:48:52,482 [INFO] [0x00000640] [initAccountInfo] accountID: 6005775 accountKey 6____61073____61073____49____6005775____, client: 000002EB8ACE0830
+2025-07-09 17:48:52,482 [INFO] [0x00000640] [initAccountInfo] accountID: 6005910 accountKey 6____61073____61073____49____6005910____, client: 000002EB8ACE0830
+2025-07-09 17:48:52,482 [INFO] [0x00000640] [initAccountInfo] accountID: 6005911 accountKey 6____61073____61073____49____6005911____, client: 000002EB8ACE0830
+2025-07-09 17:48:52,482 [INFO] [0x00000640] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1037933____, userName 测试?
+2025-07-09 17:48:52,482 [INFO] [0x00000640] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1037935____, userName 测试?
+2025-07-09 17:48:52,482 [INFO] [0x00000640] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1014609____, userName 测试?
+2025-07-09 17:48:52,482 [INFO] [0x00000640] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005775____, userName 测试?
+2025-07-09 17:48:52,482 [INFO] [0x00000640] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005910____, userName 测试?
+2025-07-09 17:48:52,482 [INFO] [0x00000640] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005911____, userName 测试?
+2025-07-09 17:48:52,497 [INFO] [0x000009e0] onRtnLoginStatus, accountID: 1037935, accountKey: 1____21004____21004_237____-1____1037935____, status: 6, errorMsg: ?
+2025-07-09 17:48:52,497 [INFO] [0x00000640] set portfolios [0]
+2025-07-09 17:48:52,497 [INFO] [0x00000640] onUserLogin userName: tbtest, [0|]
+2025-07-09 17:48:52,498 [INFO] [0x0000508c] onRtnLoginStatus, accountID: 1037933, accountKey: 1____21004____21004_237____-1____1037933____, status: 6, errorMsg: ?
+2025-07-09 17:48:52,498 [INFO] [0x0000508c] onRtnLoginStatus, accountID: 1014609, accountKey: 1____21004____21004_237____-1____1014609____, status: 6, errorMsg: ?
+2025-07-09 17:48:52,498 [INFO] [0x0000508c] onRtnLoginStatus, accountID: 6005911, accountKey: 6____61073____61073____49____6005911____, status: 6, errorMsg: ?
+2025-07-09 17:48:52,498 [INFO] [0x0000508c] onRtnLoginStatus, accountID: 6005910, accountKey: 6____61073____61073____49____6005910____, status: 6, errorMsg: ?
+2025-07-09 17:48:52,498 [INFO] [0x0000508c] onRtnLoginStatus, accountID: 6005775, accountKey: 6____61073____61073____49____6005775____, status: 6, errorMsg: ?
+2025-07-09 17:49:07,779 [INFO] [0x00003200] async_log false
+2025-07-09 17:49:07,779 [INFO] [0x00003200] compress reuse false
+2025-07-09 17:49:08,985 [INFO] [0x00003200] XtTraderApiImplement::init, address: 183.57.40.218:59000.
+2025-07-09 17:49:08,985 [INFO] [0x00003200] Compile: Jun 26 2025 15:36:35
+2025-07-09 17:49:08,987 [INFO] [0x00003200] getAllMacAddr Target:183.57.40.218:59000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:49:08,987 [INFO] [0x00003200] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.57.40.218:59000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:49:08,987 [INFO] [0x00003200] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 0000022632D49950
+2025-07-09 17:49:08,989 [INFO] [0x0000387c] [net] onConnectionMade, local addr: 192.168.11.64:63517 peer addr: 183.57.40.218:59000
+2025-07-09 17:49:08,989 [INFO] [0x00003360] connect success
+2025-07-09 17:52:58,559 [INFO] [0x00003568] async_log false
+2025-07-09 17:52:58,559 [INFO] [0x00003568] compress reuse false
+2025-07-09 17:52:59,773 [INFO] [0x00003568] XtTraderApiImplement::init, address: 183.57.40.218:59000.
+2025-07-09 17:52:59,773 [INFO] [0x00003568] Compile: Jun 26 2025 15:36:35
+2025-07-09 17:52:59,775 [INFO] [0x00003568] getAllMacAddr Target:183.57.40.218:59000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:52:59,776 [INFO] [0x00003568] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.57.40.218:59000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:52:59,776 [INFO] [0x00003568] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 0000021FAE4F4A60
+2025-07-09 17:52:59,776 [INFO] [0x00003568] login fail. userName: ?
+2025-07-09 17:52:59,777 [INFO] [0x00000844] [net] onConnectionMade, local addr: 192.168.11.64:64139 peer addr: 183.57.40.218:59000
+2025-07-09 17:52:59,777 [INFO] [0x00003c9c] connect success
+2025-07-09 17:53:57,642 [INFO] [0x000008d0] async_log false
+2025-07-09 17:53:57,642 [INFO] [0x000008d0] compress reuse false
+2025-07-09 17:53:58,848 [INFO] [0x000008d0] XtTraderApiImplement::init, address: 183.57.40.218:59000.
+2025-07-09 17:53:58,849 [INFO] [0x000008d0] Compile: Jun 26 2025 15:36:35
+2025-07-09 17:53:58,851 [INFO] [0x000008d0] getAllMacAddr Target:183.57.40.218:59000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:53:58,851 [INFO] [0x000008d0] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.57.40.218:59000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:53:58,851 [INFO] [0x000008d0] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 000001969F07F050
+2025-07-09 17:53:58,852 [INFO] [0x000008d0] login fail. userName: ?
+2025-07-09 17:53:58,853 [INFO] [0x00006054] [net] onConnectionMade, local addr: 192.168.11.64:64305 peer addr: 183.57.40.218:59000
+2025-07-09 17:53:58,853 [INFO] [0x000031a0] connect success
+2025-07-09 17:54:11,574 [INFO] [0x000019a0] async_log false
+2025-07-09 17:54:11,574 [INFO] [0x000019a0] compress reuse false
+2025-07-09 17:54:12,761 [INFO] [0x000019a0] XtTraderApiImplement::init, address: 183.57.40.218:59000.
+2025-07-09 17:54:12,761 [INFO] [0x000019a0] Compile: Jun 26 2025 15:36:35
+2025-07-09 17:54:12,763 [INFO] [0x000019a0] getAllMacAddr Target:183.57.40.218:59000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:54:12,764 [INFO] [0x000019a0] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.57.40.218:59000  Result:00-E0-1F-18-02-D3
+2025-07-09 17:54:12,764 [INFO] [0x000019a0] m_strMacAddr: 00-E0-1F-18-02-D3,  client: 0000015A02AC61A0
+2025-07-09 17:54:12,764 [INFO] [0x000019a0] login fail. userName: ?
+2025-07-09 17:54:12,765 [INFO] [0x00005950] [net] onConnectionMade, local addr: 192.168.11.64:64359 peer addr: 183.57.40.218:59000
+2025-07-09 17:54:12,765 [INFO] [0x000043c0] connect success
+2025-07-09 20:15:05,149 [INFO] [0x00005950] [net] net work error, error code: 2, error msg: End of file, remote addr: 183.57.40.218:59000, local addr: 192.168.11.64:64359, now: 1752063305, last receive: 1752063304, last send: 1752063304, interval: 60
+2025-07-09 20:15:05,150 [INFO] [0x000043c0] connect false. errorMsg: { errorID: 2, error: "End of file", isNetError: true }
+2025-07-09 20:15:10,186 [INFO] [0x000043c0] connect false. errorMsg: { errorID: 10061, error: "由于目标计算机积极拒绝，无法连接�?, isNetError: true }���?, isNetError: true }e }
+2025-07-09 20:15:15,230 [INFO] [0x000043c0] connect false. errorMsg: { errorID: 10061, error: "由于目标计算机积极拒绝，无法连接�?, isNetError: true }���?, isNetError: true }e }
+2025-07-09 20:15:19,779 [INFO] [0x00005950] [net] onConnectionMade, local addr: 192.168.11.64:52075 peer addr: 183.57.40.218:59000
+2025-07-09 20:15:19,779 [INFO] [0x000043c0] connect success
+2025-07-09 20:15:23,816 [INFO] [0x00005950] [net] net work error, error code: 10054, error msg: Զ������ǿ�ȹر���һ�����е����ӡ�, remote addr: 183.57.40.218:59000, local addr: 192.168.11.64:52075, now: 1752063323, last receive: 1752063320, last send: 1752063323, interval: 60323, interval: 60
+2025-07-09 20:15:23,816 [INFO] [0x000043c0] connect false. errorMsg: { errorID: 10054, error: "远程主机强迫关闭了一个现有的连接�?, isNetError: true }���?, isNetError: true }e }
+2025-07-09 20:15:26,828 [INFO] [0x00005950] [net] onConnectionMade, local addr: 192.168.11.64:52095 peer addr: 183.57.40.218:59000
+2025-07-09 20:15:26,828 [INFO] [0x000043c0] connect success
+2025-07-10 08:15:01,573 [INFO] [0x00005950] [net] net work error, error code: 2, error msg: End of file, remote addr: 183.57.40.218:59000, local addr: 192.168.11.64:52095, now: 1752106501, last receive: 1752106500, last send: 1752106500, interval: 60
+2025-07-10 08:15:01,573 [INFO] [0x000043c0] connect false. errorMsg: { errorID: 2, error: "End of file", isNetError: true }
+2025-07-10 08:15:06,619 [INFO] [0x000043c0] connect false. errorMsg: { errorID: 10061, error: "由于目标计算机积极拒绝，无法连接�?, isNetError: true }���?, isNetError: true }e }
+2025-07-10 08:15:11,678 [INFO] [0x000043c0] connect false. errorMsg: { errorID: 10061, error: "由于目标计算机积极拒绝，无法连接�?, isNetError: true }���?, isNetError: true }e }
+2025-07-10 08:15:16,716 [INFO] [0x000043c0] connect false. errorMsg: { errorID: 10061, error: "由于目标计算机积极拒绝，无法连接�?, isNetError: true }���?, isNetError: true }e }
+2025-07-10 08:15:19,730 [INFO] [0x00005950] [net] onConnectionMade, local addr: 192.168.11.64:57829 peer addr: 183.57.40.218:59000
+2025-07-10 08:15:19,730 [INFO] [0x000043c0] connect success

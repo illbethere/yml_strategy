@@ -1,0 +1,397 @@
+2025-06-23 14:57:16,453 [INFO] [0x00005be4] [logInit] *********************************************************************
+2025-06-23 14:57:16,453 [INFO] [0x00005be4] [logInit] xtquant
+2025-06-23 14:57:16,453 [INFO] [0x00005be4] [logInit] version: __version__
+2025-06-23 14:57:16,453 [INFO] [0x00005be4] [logInit] URL: ^/XtItClient/branches/xtquant_2406
+2025-06-23 14:57:16,453 [INFO] [0x00005be4] [logInit] Revision: 605830
+2025-06-23 14:57:16,453 [INFO] [0x00005be4] [logInit] Build Time: 2024-09-30 16:50:24
+2025-06-23 14:57:16,453 [INFO] [0x00005be4] [logInit] Build machine: 172.30.4.126
+2025-06-23 14:57:16,453 [INFO] [0x00005be4] [logInit] External link info:
+2025-06-23 14:57:16,453 [INFO] [0x00005be4] [logInit] 	name, url, version
+2025-06-23 14:57:16,453 [INFO] [0x00005be4] [logInit] *********************************************************************
+2025-06-23 14:57:16,453 [INFO] [0x00005be4] [logInit] [xtdc]log helper init, data_dir:data, config_dir:c:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\xtquant\config, token_enc:173c6ca5aa0d9423bf2d561edcb0c6abe0408f1528bfbd67ce0685ac0882ae18
+2025-06-23 14:57:16,453 [INFO] [0x00005be4] [start_init_quote] [xtdc]cp
+2025-06-23 14:57:16,454 [INFO] [0x00005a70] [init_quote] [xtdc]start
+2025-06-23 14:57:16,459 [INFO] [0x00005a70] [rzrk::setKlineMirrorEnable] cp, enabled:false
+2025-06-23 14:57:16,459 [INFO] [0x00005a70] [init_quote] [init] set futureTimeMode : 1
+2025-06-23 14:57:16,467 [INFO] [0x00005a70] [quotedebug][wholequote] gear: 5
+2025-06-23 14:57:16,469 [INFO] [0x00005a70] [quotedebug][req_qsdataimp] get qsdataimp NULL, create with proxyType: 5, qskey: 5_SH_L1
+2025-06-23 14:57:16,469 [INFO] [0x00005a70] [quotedebug][qsdataimp] QuoteSubscriber::initQSDataImp key: 5_SH_L1, server: 115.231.218.73:55310__6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b
+2025-06-23 14:57:16,469 [INFO] [0x00005a70] [0x2465ca22e70] [se::QSDataImp::setLoginStatus] [quotedebug] setLoginStatus true > true
+2025-06-23 14:57:16,472 [INFO] [0x00005a70] [se::WholeMarketQuoter::setRPCClient] [quotedebug][quoteclient]setRPCClient, from:0x0, to:0x2465ccdec30, to_conn:0x0, to_remote:115.231.218.73:55310
+2025-06-23 14:57:16,473 [INFO] [0x00005a70] [quotedebug][req_qsdataimp] get qsdataimp NULL, create with proxyType: 5, qskey: 5_SZ_L1
+2025-06-23 14:57:16,473 [INFO] [0x00005a70] [quotedebug][qsdataimp] QuoteSubscriber::initQSDataImp key: 5_SZ_L1, server: 115.231.218.73:55310__6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b
+2025-06-23 14:57:16,473 [INFO] [0x00005a70] [0x2465ca22f60] [se::QSDataImp::setLoginStatus] [quotedebug] setLoginStatus true > true
+2025-06-23 14:57:16,473 [INFO] [0x00005a70] [quotedebug][qsdataimp][init] QuoteSubscriber::setQuoteConnInfo start init serverlist
+2025-06-23 14:57:16,474 [INFO] [0x00004b1c] [se::CServerList::updateServerConfig] [serverlist] updateServerConfig fetchRemoteServerConfig, param_size:8
+2025-06-23 14:57:16,475 [INFO] [0x00005a70] [2501232185840] [se::DividInfo::init] [quotedebug][dividdata] init done
+2025-06-23 14:57:16,476 [INFO] [0x00005a70] [DownloadSchedule::loadScheduleData] file not exists:c:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\xtquant\config\defaultDownloadSchedule.json
+2025-06-23 14:57:16,476 [INFO] [0x00005a70] [DownloadSchedule::load] file remove failed:c:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\xtquant\config\defaultDownloadScheduleUpdate.ini
+2025-06-23 14:57:16,479 [INFO] [0x00005a70] [se::MetaInfoManager::loadMetaInfo] start
+2025-06-23 14:57:16,479 [WARN] [0x00005a70] [se::MetaInfoManager::loadMetaInfo] home dir not exists, path:data\datadir\metainfo
+2025-06-23 14:57:16,479 [INFO] [0x00005a70] [se::v2::MarketLoader::loadLocal] cp, auths:[0]
+2025-06-23 14:57:16,481 [INFO] [0x00005a70] [se::WholeMarketQuoter::setMarkets] [wholequoter] cp, add market:
+2025-06-23 14:57:16,482 [INFO] [0x00005a70] [2501228395424] [se::StockList::init] [quotedebug][stocklist] init from remote: 1
+2025-06-23 14:57:16,482 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting start, waiting:[18, BJ, DF, GF, HGT, IF, INE, NASDAQ, NEEQ, NYSE, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:16,482 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[18, BJ, DF, GF, HGT, IF, INE, NASDAQ, NEEQ, NYSE, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:16,499 [INFO] [0x0000346c] [se::CServerList::fetchRemoteServerConfig::<lambda_2cf0e622559c4b881edb1694a673efd1>::()::<lambda_e924d1e0999e5cb398f7923528575696>::operator ()] [serverlist] requestProxyList cp, ip:115.231.218.79, port:55310, func:requestProxyList, param:{ token_enc: "173c6ca5aa0d9423bf2d561edcb0c6abe0408f1528bfbd67ce0685ac0882ae18", sdk_version: "1.0.97", clienttype: 12, user: "", pass_enc: "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b" }
+2025-06-23 14:57:16,501 [INFO] [0x0000346c] [se::QuoteClient::onConnected] [quotedebug][quoteclient]connected, response:{}, error:{}, client:0x2465ccdec30, conn:0x2465cef6e00, remote:115.231.218.73:55310
+2025-06-23 14:57:16,501 [INFO] [0x00005390] [se::CServerList::fetchRemoteServerConfig::<lambda_2cf0e622559c4b881edb1694a673efd1>::()::<lambda_e924d1e0999e5cb398f7923528575696>::operator ()] [serverlist] requestProxyList cp, ip:218.16.123.11, port:55310, func:requestProxyList, param:{ token_enc: "173c6ca5aa0d9423bf2d561edcb0c6abe0408f1528bfbd67ce0685ac0882ae18", sdk_version: "1.0.97", clienttype: 12, user: "", pass_enc: "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b" }
+2025-06-23 14:57:16,501 [INFO] [0x0000346c] [se::QuoteClient::onConnected] [quotedebug][quoteclient]login cp, param:{ cmd: 0, user: "", pass_enc: "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b", clientid: "", version: "1.0.0.1", sdk_version: "1.0.97", client_internal_ip: "192.168.11.64:54421", clienttype: 12, kick: 1, token_enc: "173c6ca5aa0d9423bf2d561edcb0c6abe0408f1528bfbd67ce0685ac0882ae18", clientip: "", clientmac: "", clientprocessid: 8720 }, client:0x2465ccdec30, conn:0x2465cef6e00, remote:115.231.218.73:55310
+2025-06-23 14:57:16,503 [INFO] [0x0000346c] [se::CServerList::fetchRemoteServerConfig::<lambda_2cf0e622559c4b881edb1694a673efd1>::()::<lambda_e924d1e0999e5cb398f7923528575696>::operator ()] [serverlist] requestProxyList cp, ip:115.231.218.73, port:55310, func:requestProxyList, param:{ token_enc: "173c6ca5aa0d9423bf2d561edcb0c6abe0408f1528bfbd67ce0685ac0882ae18", sdk_version: "1.0.97", clienttype: 12, user: "", pass_enc: "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b" }
+2025-06-23 14:57:16,504 [INFO] [0x0000346c] [se::CServerList::fetchRemoteServerConfig::<lambda_2cf0e622559c4b881edb1694a673efd1>::()::<lambda_e924d1e0999e5cb398f7923528575696>::operator ()] [serverlist] requestProxyList cp, ip:43.242.96.162, port:55300, func:requestProxyList, param:{ token_enc: "173c6ca5aa0d9423bf2d561edcb0c6abe0408f1528bfbd67ce0685ac0882ae18", sdk_version: "1.0.97", clienttype: 12, user: "", pass_enc: "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b" }
+2025-06-23 14:57:16,508 [INFO] [0x0000346c] [se::CServerList::fetchRemoteServerConfig::<lambda_2cf0e622559c4b881edb1694a673efd1>::()::<lambda_e924d1e0999e5cb398f7923528575696>::operator ()] [serverlist] requestProxyList cp, ip:43.242.96.164, port:55300, func:requestProxyList, param:{ token_enc: "173c6ca5aa0d9423bf2d561edcb0c6abe0408f1528bfbd67ce0685ac0882ae18", sdk_version: "1.0.97", clienttype: 12, user: "", pass_enc: "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b" }
+2025-06-23 14:57:16,550 [INFO] [0x0000346c] [se::QuoteClient::onLoginResponse] [quotedebug][quoteclient][login response]receive login response, resp:{ result: 8, reason: "token, username or password wrong" }, error:{}, conn:0x2465cef6e00, remote:115.231.218.73:55310
+2025-06-23 14:57:16,550 [WARN] [0x0000346c] [se::QuoteClient::onLoginResponse] [quotedebug][quoteclient][login response]login failed, error:[8, 用户密码错误], reason:token, username or password wrong, proxyType:5, username:, platformid:1, serverIp:115.231.218.73, serverPort:55310ort:55310
+2025-06-23 14:57:16,989 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[18, BJ, DF, GF, HGT, IF, INE, NASDAQ, NEEQ, NYSE, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:17,493 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[18, BJ, DF, GF, HGT, IF, INE, NASDAQ, NEEQ, NYSE, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:17,504 [INFO] [0x0000346c] [se::CServerList::fetchRemoteServerConfig::<lambda_2cf0e622559c4b881edb1694a673efd1>::()::<lambda_e924d1e0999e5cb398f7923528575696>::operator ()] [serverlist] requestProxyList cp, ip:218.16.123.27, port:55310, func:requestProxyList, param:{ token_enc: "173c6ca5aa0d9423bf2d561edcb0c6abe0408f1528bfbd67ce0685ac0882ae18", sdk_version: "1.0.97", clienttype: 12, user: "", pass_enc: "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b" }
+2025-06-23 14:57:17,505 [INFO] [0x0000346c] [se::CServerList::fetchRemoteServerConfig::<lambda_2cf0e622559c4b881edb1694a673efd1>::()::<lambda_e924d1e0999e5cb398f7923528575696>::operator ()] [serverlist] requestProxyList cp, ip:218.16.123.121, port:55300, func:requestProxyList, param:{ token_enc: "173c6ca5aa0d9423bf2d561edcb0c6abe0408f1528bfbd67ce0685ac0882ae18", sdk_version: "1.0.97", clienttype: 12, user: "", pass_enc: "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b" }
+2025-06-23 14:57:17,506 [INFO] [0x0000346c] [se::CServerList::fetchRemoteServerConfig::<lambda_2cf0e622559c4b881edb1694a673efd1>::()::<lambda_e924d1e0999e5cb398f7923528575696>::operator ()] [serverlist] requestProxyList cp, ip:218.16.123.122, port:55300, func:requestProxyList, param:{ token_enc: "173c6ca5aa0d9423bf2d561edcb0c6abe0408f1528bfbd67ce0685ac0882ae18", sdk_version: "1.0.97", clienttype: 12, user: "", pass_enc: "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b" }
+2025-06-23 14:57:17,999 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[18, BJ, DF, GF, HGT, IF, INE, NASDAQ, NEEQ, NYSE, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:18,487 [INFO] [0x00003764] [se::CServerList::fetchRemoteServerConfig::<lambda_2cf0e622559c4b881edb1694a673efd1>::operator ()] [serverlist] requestProxyList failed, timeout, ip:218.16.123.121, port:55300
+2025-06-23 14:57:18,487 [INFO] [0x00004fa4] [se::CServerList::fetchRemoteServerConfig::<lambda_2cf0e622559c4b881edb1694a673efd1>::operator ()] [serverlist] requestProxyList failed, timeout, ip:218.16.123.122, port:55300
+2025-06-23 14:57:18,488 [INFO] [0x00004b1c] [se::CServerList::fetchRemoteServerConfig] [serverlist] dump origin serverlist from:115.231.218.73:55310, config:{ "43.242.96.162:55300" : { "markets" : { "BANK|BJ|BKZS|CICC|DF|GF|GI|HGT|IF|INE|LSE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|ZF" : { "dataKind" : [ "L1" ] }, "DF|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "迅投浦东电信", "domain" : "shmd1.thinktrader.net", "local" : "", "vip" : 0, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }, "43.242.96.164:55300" : { "markets" : { "BANK|BJ|BKZS|CICC|DF|GF|GI|HGT|IF|INE|LSE|NEEQ|SF|SNEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|ZF" : { "dataKind" : [ "L1" ] }, "DF|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "迅投浦东电信", "domain" : "shmd2.thinktrader.net", "local" : "", "vip" : 0, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "data ], "dataSourceType" : 0, "kind" : 1 }, "115.231.218.73:55310" : { "markets" : { "BANK|BJ|BKZS|CSI|DF|FX|GF|GI|HGT|HK|IF|INE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|VIX|ZF" : { "dataKind" : [ "L1" ] }, "DF|HK|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "VIP迅投绍兴电信", "domain" : "vipsxmd1.thinktrader.net", "local" : "10.10.3.208:55310", "vip" : 0, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }, "115.231.218.79:55310" : { "markets" : { "BANK|BJ|BKZS|CSI|DF|FX|GF|GF|FX|GF|GI|HGT|HK|IF|INE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|VIX|ZF" : { "dataKind" : [ "L1" ] }, "DF|HK|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "VIP迅投绍兴电信", "domain" : "vipsxmd2.thinktrader.net", "local" : "10.10.3.116:55310", "vip" : 0, "ver: 0, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }, "36.99.48.20:55300" : { "markets" : { "BANK|BJ|BKZS|DF|GF|GI|HGT|HK|IF|INE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|VIX|ZF" : { "dataKind" : [ "L1" ] }, "DF|HK|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "VIP迅投郑州电信", "domain" : "dxzzmd1.thinktrader.net", "local" : "", "vip" : 1, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }, "36.99.48.21:55300" : { "markets" : { "BAN : { "BANK|BJ|BKZS|DF|GF|GI|HGT|HK|IF|INE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|VIX|ZF" : { "dataKind" : [ "L1" ] }, "DF|HK|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "VIP迅投郑州电信", "domain" : "dxzzmd2.thinktrader.net", "local" : "", "vip" : 1, "veri 1, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }, "42.228.16.210:55300" : { "markets" : { "BANK|BJ|BKZS|DF|GF|GI|HGT|HK|IF|INE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|VIX|ZF" : { "dataKind" : [ "L1" ] }, "DF|HK|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "VIP迅投郑州联�?, "domain" : "ltzzmd1.thinktrader.net", "local" : "", "vip" : 1, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }, "42.228.16.211:55300" : { "markets" : { "ts" : { "BANK|BJ|BKZS|DF|GF|GI|HGT|HK|IF|INE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|VIX|ZF" : { "dataKind" : [ "L1" ] }, "DF|HK|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "VIP迅投郑州联�?, "domain" : "ltzzmd2.thinktrader.net", "local" : "", "vip" : 1, "v" : 1, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }, "119.147.202.41:55300" : { "markets" : { "BANK|BJ|BKZS|CICC|DF|GF|GI|HGT|IF|INE|LSE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|ZF" : { "dataKind" : [ "L1" ] }, "DF|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "迅投东莞电信", "domain" : "szmd1.thinktrader.net", "local" : "", "vip" : 0, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }, "119.147.202.42:55300" : { "markets" : { "Bs" : { "BANK|BJ|BKZS|CICC|DF|GF|GI|HGT|IF|INE|LSE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|ZF" : { "dataKind" : [ "L1" ] }, "DF|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "迅投东莞电信", "domain" : "szmd2.thinktrader.net", "local" : "", "vip" : 0, "verify" "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 } }
+2025-06-23 14:57:18,489 [INFO] [0x00004b1c] [se::CServerList::fetchRemoteServerConfig] [serverlist] parse config from:115.231.218.73:55310, config:"43.242.96.162:55300" : { "markets" : { "BANK|BJ|BKZS|CICC|DF|GF|GI|HGT|IF|INE|LSE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|ZF" : { "dataKind" : [ "L1" ] }, "DF|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "迅投浦东电信", "domain" : "shmd1.thinktrader.net", "local" : "", "vip" : 0, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }nd" : 1 }
+2025-06-23 14:57:18,489 [INFO] [0x00004b1c] [se::CServerList::fetchRemoteServerConfig] [serverlist] parse config from:115.231.218.73:55310, config:"43.242.96.164:55300" : { "markets" : { "BANK|BJ|BKZS|CICC|DF|GF|GI|HGT|IF|INE|LSE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|ZF" : { "dataKind" : [ "L1" ] }, "DF|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "迅投浦东电信", "domain" : "shmd2.thinktrader.net", "local" : "", "vip" : 0, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }nd" : 1 }
+2025-06-23 14:57:18,489 [INFO] [0x00004b1c] [se::CServerList::fetchRemoteServerConfig] [serverlist] parse config from:115.231.218.73:55310, config:"115.231.218.73:55310" : { "markets" : { "BANK|BJ|BKZS|CSI|DF|FX|GF|GI|HGT|HK|IF|INE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|VIX|ZF" : { "dataKind" : [ "L1" ] }, "DF|HK|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "VIP迅投绍兴电信", "domain" : "vipsxmd1.thinktrader.net", "local" : "10.10.3.208:55310", "vip" : 0, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }nd" : 1 }
+2025-06-23 14:57:18,489 [INFO] [0x00004b1c] [se::CServerList::fetchRemoteServerConfig] [serverlist] parse config from:115.231.218.73:55310, config:"115.231.218.79:55310" : { "markets" : { "BANK|BJ|BKZS|CSI|DF|FX|GF|GI|HGT|HK|IF|INE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|VIX|ZF" : { "dataKind" : [ "L1" ] }, "DF|HK|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "VIP迅投绍兴电信", "domain" : "vipsxmd2.thinktrader.net", "local" : "10.10.3.116:55310", "vip" : 0, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }nd" : 1 }
+2025-06-23 14:57:18,489 [INFO] [0x00004b1c] [se::CServerList::fetchRemoteServerConfig] [serverlist] parse config from:115.231.218.73:55310, config:"36.99.48.20:55300" : { "markets" : { "BANK|BJ|BKZS|DF|GF|GI|HGT|HK|IF|INE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|VIX|ZF" : { "dataKind" : [ "L1" ] }, "DF|HK|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "VIP迅投郑州电信", "domain" : "dxzzmd1.thinktrader.net", "local" : "", "vip" : 1, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }nd" : 1 }
+2025-06-23 14:57:18,489 [INFO] [0x00004b1c] [se::CServerList::fetchRemoteServerConfig] [serverlist] parse config from:115.231.218.73:55310, config:"36.99.48.21:55300" : { "markets" : { "BANK|BJ|BKZS|DF|GF|GI|HGT|HK|IF|INE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|VIX|ZF" : { "dataKind" : [ "L1" ] }, "DF|HK|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "VIP迅投郑州电信", "domain" : "dxzzmd2.thinktrader.net", "local" : "", "vip" : 1, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }nd" : 1 }
+2025-06-23 14:57:18,489 [INFO] [0x00004b1c] [se::CServerList::fetchRemoteServerConfig] [serverlist] parse config from:115.231.218.73:55310, config:"42.228.16.210:55300" : { "markets" : { "BANK|BJ|BKZS|DF|GF|GI|HGT|HK|IF|INE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|VIX|ZF" : { "dataKind" : [ "L1" ] }, "DF|HK|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "VIP迅投郑州联�?, "domain" : "ltzzmd1.thinktrader.net", "local" : "", "vip" : 1, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }nd" : 1 }
+2025-06-23 14:57:18,489 [INFO] [0x00004b1c] [se::CServerList::fetchRemoteServerConfig] [serverlist] parse config from:115.231.218.73:55310, config:"42.228.16.211:55300" : { "markets" : { "BANK|BJ|BKZS|DF|GF|GI|HGT|HK|IF|INE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|VIX|ZF" : { "dataKind" : [ "L1" ] }, "DF|HK|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "VIP迅投郑州联�?, "domain" : "ltzzmd2.thinktrader.net", "local" : "", "vip" : 1, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }nd" : 1 }
+2025-06-23 14:57:18,489 [INFO] [0x00004b1c] [se::CServerList::fetchRemoteServerConfig] [serverlist] parse config from:115.231.218.73:55310, config:"119.147.202.41:55300" : { "markets" : { "BANK|BJ|BKZS|CICC|DF|GF|GI|HGT|IF|INE|LSE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|ZF" : { "dataKind" : [ "L1" ] }, "DF|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "迅投东莞电信", "domain" : "szmd1.thinktrader.net", "local" : "", "vip" : 0, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }nd" : 1 }
+2025-06-23 14:57:18,489 [INFO] [0x00004b1c] [se::CServerList::fetchRemoteServerConfig] [serverlist] parse config from:115.231.218.73:55310, config:"119.147.202.42:55300" : { "markets" : { "BANK|BJ|BKZS|CICC|DF|GF|GI|HGT|IF|INE|LSE|NEEQ|SF|SGT|SH|SHO|SPOT|SZ|SZO|ZF" : { "dataKind" : [ "L1" ] }, "DF|IF|INE|SF|ZF" : { "dataKind" : [ "L2" ] } }, "name" : "迅投东莞电信", "domain" : "szmd2.thinktrader.net", "local" : "", "vip" : 0, "verify" : 0, "mirrors" : "", "serverType" : [ "A" ], "dataSourceType" : 0, "kind" : 1 }nd" : 1 }
+2025-06-23 14:57:18,489 [INFO] [0x00004b1c] [se::CServerList::fetchRemoteServerConfig] [serverlist] build plain config from:218.16.123.121:55300, config:"218.16.123.121:55300" : { "markets" : { "BJ|BKZS|DF|GF|HGT|HK|IF|INE|NASDAQ|NEEQ|NYSE|SF|SGT|SH|SHO|SPOT|SZ|SZO|VIX|ZF" : { "dataKind" : [ "L1" ] } }, "name" : "", "station" : "" }
+2025-06-23 14:57:18,489 [INFO] [0x00004b1c] [se::CServerList::fetchRemoteServerConfig] [serverlist] build plain config from:218.16.123.122:55300, config:"218.16.123.122:55300" : { "markets" : { "BJ|BKZS|DF|GF|HGT|HK|IF|INE|NASDAQ|NEEQ|NYSE|SF|SGT|SH|SHO|SPOT|SZ|SZO|VIX|ZF" : { "dataKind" : [ "L1" ] } }, "name" : "", "station" : "" }
+2025-06-23 14:57:18,489 [INFO] [0x00004b1c] [se::CServerList::fetchRemoteServerConfig] [serverlist] plain server, address:218.16.123.121:55300 , config:"218.16.123.121:55300" : { "markets" : { "BJ|BKZS|DF|GF|HGT|HK|IF|INE|NASDAQ|NEEQ|NYSE|SF|SGT|SH|SHO|SPOT|SZ|SZO|VIX|ZF" : { "dataKind" : [ "L1" ] } }, "name" : "", "station" : "" }
+2025-06-23 14:57:18,489 [INFO] [0x00004b1c] [se::CServerList::fetchRemoteServerConfig] [serverlist] plain server, address:218.16.123.122:55300 , config:"218.16.123.122:55300" : { "markets" : { "BJ|BKZS|DF|GF|HGT|HK|IF|INE|NASDAQ|NEEQ|NYSE|SF|SGT|SH|SHO|SPOT|SZ|SZO|VIX|ZF" : { "dataKind" : [ "L1" ] } }, "name" : "", "station" : "" }
+2025-06-23 14:57:18,490 [INFO] [0x00004b1c] [quotedebug][initnotify]QuoteSubscriber::initServerList setup notifier
+2025-06-23 14:57:18,490 [INFO] [0x00004b1c] [se::CServerList::testLoad] [serverlist] testLoad
+2025-06-23 14:57:18,503 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[18, BJ, DF, GF, HGT, IF, INE, NASDAQ, NEEQ, NYSE, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:18,503 [INFO] [0x000023b8] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad login failed, error occurred, ip:119.147.202.42, port:55300, isTimeout:false, error:{}, resp:{ result: 8, reason: "token, username or password wrong" }
+2025-06-23 14:57:18,503 [INFO] [0x000023b8] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad done, ip:119.147.202.42, port:55300, checkLogin:true, accessible:false, load:13.9375, delay:3.995849609375, vip:0
+2025-06-23 14:57:18,508 [INFO] [0x00004d84] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad login failed, error occurred, ip:119.147.202.41, port:55300, isTimeout:false, error:{}, resp:{ result: 8, reason: "token, username or password wrong" }
+2025-06-23 14:57:18,508 [INFO] [0x00004d84] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad done, ip:119.147.202.41, port:55300, checkLogin:true, accessible:false, load:13.697916666666666, delay:3.995849609375, vip:0
+2025-06-23 14:57:18,571 [INFO] [0x000006a4] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad login failed, error occurred, ip:115.231.218.73, port:55310, isTimeout:false, error:{}, resp:{ result: 8, reason: "token, username or password wrong" }
+2025-06-23 14:57:18,571 [INFO] [0x000006a4] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad done, ip:115.231.218.73, port:55310, checkLogin:true, accessible:false, load:17.6796875, delay:26.995849609375, vip:0
+2025-06-23 14:57:18,574 [INFO] [0x000044dc] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad login failed, error occurred, ip:43.242.96.162, port:55300, isTimeout:false, error:{}, resp:{ result: 8, reason: "token, username or password wrong" }
+2025-06-23 14:57:18,574 [INFO] [0x000044dc] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad done, ip:43.242.96.162, port:55300, checkLogin:true, accessible:false, load:9.614583333333334, delay:27.998046875, vip:0
+2025-06-23 14:57:18,582 [INFO] [0x00003ff0] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad login failed, error occurred, ip:115.231.218.79, port:55310, isTimeout:false, error:{}, resp:{ result: 8, reason: "token, username or password wrong" }
+2025-06-23 14:57:18,582 [INFO] [0x00003ff0] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad done, ip:115.231.218.79, port:55310, checkLogin:true, accessible:false, load:18.34375, delay:27.9990234375, vip:0
+2025-06-23 14:57:18,584 [INFO] [0x00005a30] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad login failed, error occurred, ip:36.99.48.20, port:55300, isTimeout:false, error:{}, resp:{ result: 8, reason: "token, username or password wrong" }
+2025-06-23 14:57:18,584 [INFO] [0x00005a30] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad done, ip:36.99.48.20, port:55300, checkLogin:true, accessible:false, load:18.3046875, delay:15.4984130859375, vip:1
+2025-06-23 14:57:18,585 [INFO] [0x0000223c] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad login failed, error occurred, ip:43.242.96.164, port:55300, isTimeout:false, error:{}, resp:{ result: 8, reason: "token, username or password wrong" }
+2025-06-23 14:57:18,585 [INFO] [0x0000223c] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad done, ip:43.242.96.164, port:55300, checkLogin:true, accessible:false, load:8.718749999999998, delay:31.997802734375, vip:0
+2025-06-23 14:57:18,614 [INFO] [0x00001ac8] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad login failed, error occurred, ip:36.99.48.21, port:55300, isTimeout:false, error:{}, resp:{ result: 8, reason: "token, username or password wrong" }
+2025-06-23 14:57:18,614 [INFO] [0x00001ac8] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad done, ip:36.99.48.21, port:55300, checkLogin:true, accessible:false, load:14.546875, delay:18.4989013671875, vip:1
+2025-06-23 14:57:18,794 [INFO] [0x00005a38] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad login failed, error occurred, ip:42.228.16.210, port:55300, isTimeout:false, error:{}, resp:{ result: 8, reason: "token, username or password wrong" }
+2025-06-23 14:57:18,795 [INFO] [0x00005a38] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad done, ip:42.228.16.210, port:55300, checkLogin:true, accessible:false, load:18.3046875, delay:48.785888671875, vip:1
+2025-06-23 14:57:18,801 [INFO] [0x00005bbc] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad login failed, error occurred, ip:42.228.16.211, port:55300, isTimeout:false, error:{}, resp:{ result: 8, reason: "token, username or password wrong" }
+2025-06-23 14:57:18,802 [INFO] [0x00005bbc] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad done, ip:42.228.16.211, port:55300, checkLogin:true, accessible:false, load:14.546875, delay:48.785888671875, vip:1
+2025-06-23 14:57:19,006 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[18, BJ, DF, GF, HGT, IF, INE, NASDAQ, NEEQ, NYSE, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:19,252 [INFO] [0x00003f44] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad login failed, error occurred, ip:218.16.123.122, port:55300, isTimeout:false, error:{}, resp:{ result: 8, reason: "token, username or password wrong" }
+2025-06-23 14:57:19,252 [INFO] [0x00003f44] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad done, ip:218.16.123.122, port:55300, checkLogin:true, accessible:false, load:13.9375, delay:27.0009765625, vip:0
+2025-06-23 14:57:19,259 [INFO] [0x000007ac] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad login failed, error occurred, ip:218.16.123.121, port:55300, isTimeout:false, error:{}, resp:{ result: 8, reason: "token, username or password wrong" }
+2025-06-23 14:57:19,259 [INFO] [0x000007ac] [se::CServerList::testLoad::<lambda_2c0be0f664f19f0e1e0a5cdac3b4ef76>::operator ()] [serverlist] testLoad done, ip:218.16.123.121, port:55300, checkLogin:true, accessible:false, load:13.697916666666666, delay:26.995849609375, vip:0
+2025-06-23 14:57:19,259 [INFO] [0x00004b1c] [se::CServerList::optmize] [serverlist] optmize emit finish
+2025-06-23 14:57:19,259 [INFO] [0x0000592c] [quotedebug][qsdataimp][init] QuoteSubscriber::onServerListInit finished
+2025-06-23 14:57:19,260 [INFO] [0x0000592c] [quotedebug][initnotify]QuoteSubscriber::initServerList allStarted set, allStarted: 1, peers: 0, waitings: 0
+2025-06-23 14:57:19,260 [INFO] [0x0000592c] [quotedebug][initnotify]QuoteSubscriber::initServerList trigger
+2025-06-23 14:57:19,260 [INFO] [0x0000592c] DataCenter::onInitCompleted start downDrData
+2025-06-23 14:57:19,260 [INFO] [0x0000592c] [se::MetaInfoManager::updateMetaInfo] start
+2025-06-23 14:57:19,260 [WARN] [0x0000592c] [se::MetaInfoManager::updateMetaInfo] market server not found
+2025-06-23 14:57:19,260 [WARN] [0x0000592c] [2501232185840] [se::DividInfo::downloadDividData] [quotedebug][dividdata] client is NULL
+2025-06-23 14:57:19,260 [WARN] [0x0000592c] [se::v3::QuoteTimeInfo::doDownloadQuoteTimeInfo] [TradingTime] client empty
+2025-06-23 14:57:19,260 [WARN] [0x0000592c] [se::DataCenter::downAHInfo] download failed, client is NULL
+2025-06-23 14:57:19,260 [WARN] [0x0000592c] [se::DataCenter::downHKBrokerInfo] getQSDataImp for 0_HK_L2 failed!
+2025-06-23 14:57:19,260 [WARN] [0x0000592c] [se::DataCenter::downComingTradeInfo] getQSDataImp for 0_SH_L1 failed!
+2025-06-23 14:57:19,260 [WARN] [0x0000592c] [2501225512752] [se::changeBond2::readDatas] fopen file error, file path:data\data\changebond_SH_4004.bo
+2025-06-23 14:57:19,260 [WARN] [0x0000592c] [2501225512752] [se::changeBond2::readDatas] fopen file error, file path:data\data\changebond_SZ_4004.bo
+2025-06-23 14:57:19,262 [WARN] [0x0000592c] FetchQuoteData::fetch failed, error:{ ErrorID: 300000, ErrorMsg: "未建立连�? }, job:[seq:35, ji:0], meta:SH_FFFFFF_2032_86400000, require:[19900101000000, 20380119111406], receive:[0, 0, 0], boresult:[0, 0, 0], timeCost:0.998046875, peer:<NULL>r:<NULL>
+2025-06-23 14:57:19,264 [WARN] [0x0000592c] [quotedebug][riskfreerate][exception] in se::RiskFreeRate::downRiskFreeRate, msg = { ErrorID: 300000, ErrorMsg: "未建立连�? }���? }" }
+2025-06-23 14:57:19,264 [INFO] [0x0000592c] DataCenter::start download history main contract
+2025-06-23 14:57:19,264 [INFO] [0x0000592c] HisMainContract::downHisMainContract, client empty
+2025-06-23 14:57:19,264 [INFO] [0x0000592c] DataCenter::download history main contract Completed
+2025-06-23 14:57:19,264 [INFO] [0x0000592c] [se::DataCenter::onInitCompleted] DataCenter::onInitCompleted end, m_isInitCompleted = true
+2025-06-23 14:57:19,507 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, not in serverlist, finish_one:[NASDAQ, <NULL>], waiting:[17, BJ, DF, GF, HGT, IF, INE, NEEQ, NYSE, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:19,507 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, not in serverlist, finish_one:[NYSE, <NULL>], waiting:[16, BJ, DF, GF, HGT, IF, INE, NEEQ, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:19,507 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[16, BJ, DF, GF, HGT, IF, INE, NEEQ, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:20,009 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[16, BJ, DF, GF, HGT, IF, INE, NEEQ, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:20,514 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[16, BJ, DF, GF, HGT, IF, INE, NEEQ, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:21,015 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[16, BJ, DF, GF, HGT, IF, INE, NEEQ, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:21,520 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[16, BJ, DF, GF, HGT, IF, INE, NEEQ, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:22,025 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[16, BJ, DF, GF, HGT, IF, INE, NEEQ, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:22,528 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[16, BJ, DF, GF, HGT, IF, INE, NEEQ, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:23,032 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[16, BJ, DF, GF, HGT, IF, INE, NEEQ, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:23,553 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[16, BJ, DF, GF, HGT, IF, INE, NEEQ, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:24,066 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[16, BJ, DF, GF, HGT, IF, INE, NEEQ, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:24,567 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[16, BJ, DF, GF, HGT, IF, INE, NEEQ, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:25,073 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[16, BJ, DF, GF, HGT, IF, INE, NEEQ, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:25,575 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[16, BJ, DF, GF, HGT, IF, INE, NEEQ, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:26,080 [INFO] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, waiting:[16, BJ, DF, GF, HGT, IF, INE, NEEQ, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:26,584 [WARN] [0x00005a70] [quotedebug][stocklist]StockList::init waiting, timeout, waiting:[16, BJ, DF, GF, HGT, IF, INE, NEEQ, SF, SGT, SH, SHO, SPOT, SZ, SZO, VIX, ZF]
+2025-06-23 14:57:26,584 [INFO] [0x00005a70] [2501228395424] [se::StockList::onConnect] proxy connected!
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:BJ
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:BKZS
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:DF
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:GF
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:HGT
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:HK
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:IF
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:INE
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:NASDAQ
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:NEEQ
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:NYSE
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:SF
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:SGT
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:SH
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:SHO
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:SPOT
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:SZ
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:SZO
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:VIX
+2025-06-23 14:57:26,585 [WARN] [0x00005a70] [quotedebug][stocklist] StockList::initFromServer client not found, market:ZF
+2025-06-23 14:57:26,585 [INFO] [0x00005a70] [`anonymous-namespace'::onInitQuote] [onInitQuote] status:1, msg:正在初始化股票列�?..��票列�?..�?....
+2025-06-23 14:57:26,586 [INFO] [0x00005a70] [`anonymous-namespace'::onInitQuote] [onInitQuote] status:1, msg:正在加载本地合约信息...合约信息...�?....
+2025-06-23 14:57:26,587 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market BJ Cached STOCKLIST: total 0
+2025-06-23 14:57:26,588 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: BJ total number of contracts loaded: total 0
+2025-06-23 14:57:26,588 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:BJ, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,589 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:BJ
+2025-06-23 14:57:26,591 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:BJ, e:bad storage file
+2025-06-23 14:57:26,591 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:BJ, e:bad storage file
+2025-06-23 14:57:26,591 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:BJ, data:0x24644a9a9d0
+2025-06-23 14:57:26,592 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:BJ, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,592 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:BJ, sl:[0]
+2025-06-23 14:57:26,593 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: BJ, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,593 [INFO] [0x00005a70] [quotedebug][stocklist] BJ total market pending contracts: 0
+2025-06-23 14:57:26,594 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market BKZS Cached STOCKLIST: total 0
+2025-06-23 14:57:26,594 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: BKZS total number of contracts loaded: total 0
+2025-06-23 14:57:26,594 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:BKZS, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,594 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:BKZS
+2025-06-23 14:57:26,594 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:BKZS, e:bad storage file
+2025-06-23 14:57:26,594 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:BKZS, e:bad storage file
+2025-06-23 14:57:26,594 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:BKZS, data:0x24644a9aa30
+2025-06-23 14:57:26,595 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:BKZS, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,595 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:BKZS, sl:[0]
+2025-06-23 14:57:26,595 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: BKZS, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,595 [INFO] [0x00005a70] [quotedebug][stocklist] BKZS total market pending contracts: 0
+2025-06-23 14:57:26,595 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market DF Cached STOCKLIST: total 0
+2025-06-23 14:57:26,595 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: DF total number of contracts loaded: total 0
+2025-06-23 14:57:26,595 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:DF, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,595 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:DF
+2025-06-23 14:57:26,595 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:DF, e:bad storage file
+2025-06-23 14:57:26,595 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:DF, e:bad storage file
+2025-06-23 14:57:26,595 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:DF, data:0x24644a9a970
+2025-06-23 14:57:26,595 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:DF, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:DF, sl:[0]
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: DF, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [quotedebug][stocklist] DF total market pending contracts: 0
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market GF Cached STOCKLIST: total 0
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: GF total number of contracts loaded: total 0
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:GF, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:GF
+2025-06-23 14:57:26,596 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:GF, e:bad storage file
+2025-06-23 14:57:26,596 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:GF, e:bad storage file
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:GF, data:0x24644a9aa30
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:GF, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:GF, sl:[0]
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: GF, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [quotedebug][stocklist] GF total market pending contracts: 0
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market HGT Cached STOCKLIST: total 0
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: HGT total number of contracts loaded: total 0
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:HGT, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:HGT
+2025-06-23 14:57:26,596 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:HGT, e:bad storage file
+2025-06-23 14:57:26,596 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:HGT, e:bad storage file
+2025-06-23 14:57:26,596 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:HGT, data:0x24644a9a9d0
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:HGT, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:HGT, sl:[0]
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: HGT, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [quotedebug][stocklist] HGT total market pending contracts: 0
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market HK Cached STOCKLIST: total 0
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: HK total number of contracts loaded: total 0
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:HK, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:HK
+2025-06-23 14:57:26,597 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:HK, e:bad storage file
+2025-06-23 14:57:26,597 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:HK, e:bad storage file
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:HK, data:0x24644a9a9d0
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:HK, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:HK, sl:[0]
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: HK, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [quotedebug][stocklist] HK total market pending contracts: 0
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market IF Cached STOCKLIST: total 0
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: IF total number of contracts loaded: total 0
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:IF, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,597 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:IF
+2025-06-23 14:57:26,598 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:IF, e:bad storage file
+2025-06-23 14:57:26,598 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:IF, e:bad storage file
+2025-06-23 14:57:26,598 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:IF, data:0x24644a9a7f0
+2025-06-23 14:57:26,598 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:IF, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,598 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:IF, sl:[0]
+2025-06-23 14:57:26,598 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: IF, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,598 [INFO] [0x00005a70] [quotedebug][stocklist] IF total market pending contracts: 0
+2025-06-23 14:57:26,598 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market INE Cached STOCKLIST: total 0
+2025-06-23 14:57:26,598 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: INE total number of contracts loaded: total 0
+2025-06-23 14:57:26,598 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:INE, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,598 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:INE
+2025-06-23 14:57:26,598 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:INE, e:bad storage file
+2025-06-23 14:57:26,598 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:INE, e:bad storage file
+2025-06-23 14:57:26,598 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:INE, data:0x24644a9a7f0
+2025-06-23 14:57:26,599 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:INE, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,599 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:INE, sl:[0]
+2025-06-23 14:57:26,599 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: INE, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,599 [INFO] [0x00005a70] [quotedebug][stocklist] INE total market pending contracts: 0
+2025-06-23 14:57:26,599 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market NASDAQ Cached STOCKLIST: total 0
+2025-06-23 14:57:26,599 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: NASDAQ total number of contracts loaded: total 0
+2025-06-23 14:57:26,599 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:NASDAQ, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,599 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:NASDAQ
+2025-06-23 14:57:26,599 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:NASDAQ, e:bad storage file
+2025-06-23 14:57:26,599 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:NASDAQ, e:bad storage file
+2025-06-23 14:57:26,599 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:NASDAQ, data:0x246437fb0d0
+2025-06-23 14:57:26,599 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:NASDAQ, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,600 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:NASDAQ, sl:[0]
+2025-06-23 14:57:26,601 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: NASDAQ, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,601 [INFO] [0x00005a70] [quotedebug][stocklist] NASDAQ total market pending contracts: 0
+2025-06-23 14:57:26,601 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market NEEQ Cached STOCKLIST: total 0
+2025-06-23 14:57:26,601 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: NEEQ total number of contracts loaded: total 0
+2025-06-23 14:57:26,601 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:NEEQ, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,601 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:NEEQ
+2025-06-23 14:57:26,602 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:NEEQ, e:bad storage file
+2025-06-23 14:57:26,602 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:NEEQ, e:bad storage file
+2025-06-23 14:57:26,602 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:NEEQ, data:0x2465d2ca850
+2025-06-23 14:57:26,602 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:NEEQ, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,602 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:NEEQ, sl:[0]
+2025-06-23 14:57:26,602 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: NEEQ, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,602 [INFO] [0x00005a70] [quotedebug][stocklist] NEEQ total market pending contracts: 0
+2025-06-23 14:57:26,602 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market NYSE Cached STOCKLIST: total 0
+2025-06-23 14:57:26,602 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: NYSE total number of contracts loaded: total 0
+2025-06-23 14:57:26,602 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:NYSE, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,602 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:NYSE
+2025-06-23 14:57:26,602 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:NYSE, e:bad storage file
+2025-06-23 14:57:26,602 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:NYSE, e:bad storage file
+2025-06-23 14:57:26,602 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:NYSE, data:0x2465d2ca670
+2025-06-23 14:57:26,603 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:NYSE, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,603 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:NYSE, sl:[0]
+2025-06-23 14:57:26,604 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: NYSE, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,604 [INFO] [0x00005a70] [quotedebug][stocklist] NYSE total market pending contracts: 0
+2025-06-23 14:57:26,604 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market SF Cached STOCKLIST: total 0
+2025-06-23 14:57:26,604 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: SF total number of contracts loaded: total 0
+2025-06-23 14:57:26,604 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:SF, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,604 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:SF
+2025-06-23 14:57:26,604 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:SF, e:bad storage file
+2025-06-23 14:57:26,604 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:SF, e:bad storage file
+2025-06-23 14:57:26,604 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:SF, data:0x2465d2ca550
+2025-06-23 14:57:26,605 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:SF, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,605 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:SF, sl:[0]
+2025-06-23 14:57:26,605 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: SF, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,605 [INFO] [0x00005a70] [quotedebug][stocklist] SF total market pending contracts: 0
+2025-06-23 14:57:26,605 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market SGT Cached STOCKLIST: total 0
+2025-06-23 14:57:26,605 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: SGT total number of contracts loaded: total 0
+2025-06-23 14:57:26,605 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:SGT, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,605 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:SGT
+2025-06-23 14:57:26,605 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:SGT, e:bad storage file
+2025-06-23 14:57:26,605 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:SGT, e:bad storage file
+2025-06-23 14:57:26,605 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:SGT, data:0x2465d2ca670
+2025-06-23 14:57:26,606 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:SGT, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,606 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:SGT, sl:[0]
+2025-06-23 14:57:26,606 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: SGT, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,606 [INFO] [0x00005a70] [quotedebug][stocklist] SGT total market pending contracts: 0
+2025-06-23 14:57:26,606 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market SH Cached STOCKLIST: total 0
+2025-06-23 14:57:26,606 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: SH total number of contracts loaded: total 0
+2025-06-23 14:57:26,606 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:SH, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,606 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:SH
+2025-06-23 14:57:26,606 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:SH, e:bad storage file
+2025-06-23 14:57:26,606 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:SH, e:bad storage file
+2025-06-23 14:57:26,606 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:SH, data:0x2465d2ca370
+2025-06-23 14:57:26,606 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:SH, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:SH, sl:[0]
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: SH, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [quotedebug][stocklist] SH total market pending contracts: 0
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market SHO Cached STOCKLIST: total 0
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: SHO total number of contracts loaded: total 0
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:SHO, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:SHO
+2025-06-23 14:57:26,607 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:SHO, e:bad storage file
+2025-06-23 14:57:26,607 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:SHO, e:bad storage file
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:SHO, data:0x2465d2ca2b0
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:SHO, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:SHO, sl:[0]
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: SHO, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [quotedebug][stocklist] SHO total market pending contracts: 0
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market SPOT Cached STOCKLIST: total 0
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: SPOT total number of contracts loaded: total 0
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:SPOT, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:SPOT
+2025-06-23 14:57:26,607 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:SPOT, e:bad storage file
+2025-06-23 14:57:26,607 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:SPOT, e:bad storage file
+2025-06-23 14:57:26,607 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:SPOT, data:0x2465d2ca2b0
+2025-06-23 14:57:26,608 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:SPOT, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,608 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:SPOT, sl:[0]
+2025-06-23 14:57:26,608 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: SPOT, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,608 [INFO] [0x00005a70] [quotedebug][stocklist] SPOT total market pending contracts: 0
+2025-06-23 14:57:26,608 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market SZ Cached STOCKLIST: total 0
+2025-06-23 14:57:26,608 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: SZ total number of contracts loaded: total 0
+2025-06-23 14:57:26,608 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:SZ, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,608 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:SZ
+2025-06-23 14:57:26,608 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:SZ, e:bad storage file
+2025-06-23 14:57:26,608 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:SZ, e:bad storage file
+2025-06-23 14:57:26,608 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:SZ, data:0x2465d2ca610
+2025-06-23 14:57:26,608 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:SZ, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,608 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:SZ, sl:[0]
+2025-06-23 14:57:26,609 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: SZ, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,609 [INFO] [0x00005a70] [quotedebug][stocklist] SZ total market pending contracts: 0
+2025-06-23 14:57:26,609 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market SZO Cached STOCKLIST: total 0
+2025-06-23 14:57:26,609 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: SZO total number of contracts loaded: total 0
+2025-06-23 14:57:26,609 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:SZO, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,609 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:SZO
+2025-06-23 14:57:26,609 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:SZO, e:bad storage file
+2025-06-23 14:57:26,609 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:SZO, e:bad storage file
+2025-06-23 14:57:26,609 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:SZO, data:0x2465d2ca370
+2025-06-23 14:57:26,609 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:SZO, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,609 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:SZO, sl:[0]
+2025-06-23 14:57:26,609 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: SZO, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,609 [INFO] [0x00005a70] [quotedebug][stocklist] SZO total market pending contracts: 0
+2025-06-23 14:57:26,609 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market VIX Cached STOCKLIST: total 0
+2025-06-23 14:57:26,609 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: VIX total number of contracts loaded: total 0
+2025-06-23 14:57:26,609 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:VIX, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,609 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:VIX
+2025-06-23 14:57:26,609 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:VIX, e:bad storage file
+2025-06-23 14:57:26,609 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:VIX, e:bad storage file
+2025-06-23 14:57:26,609 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:VIX, data:0x2465d2ca550
+2025-06-23 14:57:26,610 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:VIX, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,610 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:VIX, sl:[0]
+2025-06-23 14:57:26,610 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: VIX, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,610 [INFO] [0x00005a70] [quotedebug][stocklist] VIX total market pending contracts: 0
+2025-06-23 14:57:26,610 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market ZF Cached STOCKLIST: total 0
+2025-06-23 14:57:26,610 [INFO] [0x00005a70] [896650958376] [se::StockListFetcher::parseStockList] [quotedebug][stocklist] Market: ZF total number of contracts loaded: total 0
+2025-06-23 14:57:26,610 [INFO] [0x00005a70] [se::StockList::resetTradeDateList] save trading day list to marketloader, market:ZF, tradeDates:[0, 0, 0]
+2025-06-23 14:57:26,610 [INFO] [0x00005a70] [se::v2::MarketLoader::createMarket] cp, market:ZF
+2025-06-23 14:57:26,610 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load trading day list falied, market:ZF, e:bad storage file
+2025-06-23 14:57:26,610 [WARN] [0x00005a70] [se::v2::MarketInst::_loadFromLocal] load stock list falied, market:ZF, e:bad storage file
+2025-06-23 14:57:26,610 [INFO] [0x00005a70] [se::v2::MarketInst::applyChange] cp, market:ZF, data:0x2465d2ca3d0
+2025-06-23 14:57:26,610 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save trading day list done, market:ZF, tdl:[0, 0, 0], boData.size:5
+2025-06-23 14:57:26,610 [INFO] [0x00005a70] [se::v2::MarketInst::_saveToLocal] save stock list done, market:ZF, sl:[0]
+2025-06-23 14:57:26,610 [INFO] [0x00005a70] [quotedebug][MarketInfo] resetTradeDateList, market: ZF, front: 0, back: 0, size: 0
+2025-06-23 14:57:26,610 [INFO] [0x00005a70] [quotedebug][stocklist] ZF total market pending contracts: 0
+2025-06-23 14:57:26,611 [INFO] [0x00005a70] [0x24643a8f290] [se::StockListPublisher::start] [quotedebug][stocklist] Market: 
+2025-06-23 14:57:26,612 [INFO] [0x00003f40] [2500806111888] [se::StockListPublisher::startThread::<lambda_2217ea732c0831fd66f1b2a943c637de>::operator ()] [quotedebug][stocklist] Launch of market contract inspection service
+2025-06-23 14:57:26,618 [WARN] [0x00005a70] tradetimeconfig not find in "c:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\xtquant\config", open config failed
+2025-06-23 14:57:29,891 [INFO] [0x00005a70] init complete
+2025-06-23 14:57:29,892 [WARN] [0x00005a70] [se::v2::QuoteConvertLoader::_loadConfig] load config failed, p:c:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\xtquant\config\tradetimeconfig2.json
+2025-06-23 14:57:29,892 [INFO] [0x00005a70] [`anonymous-namespace'::onInitQuote] [onInitQuote] status:2, msg:?
+2025-06-23 14:57:29,901 [INFO] [0x00005a70] [rzrk::incrementGenerateSystemSectorList] system sector start, map size:20
+2025-06-23 14:57:29,909 [INFO] [0x00005a70] [rzrk::incrementGenerateSystemSectorList] system sector end, map size:1
+2025-06-23 14:57:30,063 [INFO] [0x00005a70] [rzrk::incrementGenerateHistorySectorList] history sector end, map size:21
+2025-06-23 14:57:30,081 [INFO] [0x00005a70] [se::generateSystemSectorList] generate system sector end, size:21
+2025-06-23 14:57:30,085 [INFO] [0x00005a70] [quotedebug][HisContract] download done, market:SHO, dataTime:19700101080000, dataSize:0, peer:<NULL>
+2025-06-23 14:57:30,085 [INFO] [0x00005a70] [quotedebug][HisContract] download done, market:SZO, dataTime:19700101080000, dataSize:0, peer:<NULL>
+2025-06-23 14:57:30,085 [INFO] [0x00005a70] [quotedebug][HisContract] download done, market:IF, dataTime:19700101080000, dataSize:0, peer:<NULL>
+2025-06-23 14:57:30,085 [INFO] [0x00005a70] [quotedebug][HisContract] download done, market:DF, dataTime:19700101080000, dataSize:0, peer:<NULL>
+2025-06-23 14:57:30,085 [INFO] [0x00005a70] [quotedebug][HisContract] download done, market:SF, dataTime:19700101080000, dataSize:0, peer:<NULL>
+2025-06-23 14:57:30,085 [INFO] [0x00005a70] [quotedebug][HisContract] download done, market:ZF, dataTime:19700101080000, dataSize:0, peer:<NULL>
+2025-06-23 14:57:30,085 [INFO] [0x00005a70] [quotedebug][HisContract] download done, market:GF, dataTime:19700101080000, dataSize:0, peer:<NULL>
+2025-06-23 14:57:30,085 [INFO] [0x00005a70] [quotedebug][HisContract] download done, market:INE, dataTime:19700101080000, dataSize:0, peer:<NULL>
+2025-06-23 14:57:30,086 [INFO] [0x00005a70] [KLineMirror] KLineMirrorMgr::onStockListInit, try set tradedate, status:2, msg:?
+2025-06-23 14:57:30,086 [INFO] [0x00005a70] [se::WholeMarketQuoter::waitForInitFinish] wait before send subscribe
+2025-06-23 14:57:35,216 [WARN] [0x00005a70] [se::WholeMarketQuoter::waitForInitFinish] wait before send subscribe, timeout
+2025-06-23 14:57:35,218 [INFO] [0x00005a70] [init_quote] [xtdc]finished

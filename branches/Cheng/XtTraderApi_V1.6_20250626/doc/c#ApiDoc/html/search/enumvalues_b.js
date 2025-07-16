@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['tfo_5fpause_0',['TFO_PAUSE',['../namespace_net_api.html#a203da3cdc98bd32a096ddb55777b3a19a93afeb7cfeaac1d54d3695d78ed2e9c8',1,'NetApi']]],
+  ['tfo_5fresume_1',['TFO_RESUME',['../namespace_net_api.html#a203da3cdc98bd32a096ddb55777b3a19a3e91b59c43ea5090f7fb11a926a03b9c',1,'NetApi']]],
+  ['time_5fcondition_5fgfa_2',['TIME_CONDITION_GFA',['../namespace_net_api.html#a1a2b5c4f7919e418b8386c1b22fad16aab02af468097000ee306231ba109e72d8',1,'NetApi']]],
+  ['time_5fcondition_5fgfd_3',['TIME_CONDITION_GFD',['../namespace_net_api.html#a1a2b5c4f7919e418b8386c1b22fad16aae2bb0b653962a219b87a5a1fae0d7a91',1,'NetApi']]],
+  ['time_5fcondition_5fgfs_4',['TIME_CONDITION_GFS',['../namespace_net_api.html#a1a2b5c4f7919e418b8386c1b22fad16aae06a53a17e4fc95bf9b608221ba2c3aa',1,'NetApi']]],
+  ['time_5fcondition_5fgtc_5',['TIME_CONDITION_GTC',['../namespace_net_api.html#a1a2b5c4f7919e418b8386c1b22fad16aae07b1f23ebcf297725ca4f026ded6258',1,'NetApi']]],
+  ['time_5fcondition_5fgtd_6',['TIME_CONDITION_GTD',['../namespace_net_api.html#a1a2b5c4f7919e418b8386c1b22fad16aafa228cc737840a8df638581426e5aee9',1,'NetApi']]],
+  ['time_5fcondition_5fioc_7',['TIME_CONDITION_IOC',['../namespace_net_api.html#a1a2b5c4f7919e418b8386c1b22fad16aa0d3ec2b38bd88cdf80f43276e6ff7a11',1,'NetApi']]],
+  ['trans_5fdirection_5fbank_5fto_5fsecurities_8',['TRANS_DIRECTION_BANK_TO_SECURITIES',['../namespace_net_api.html#a2cbbbcac085f82449afcee5d7c7a3fc0a36daca2bd538015ebeb6acbb7df5a62d',1,'NetApi']]],
+  ['trans_5fdirection_5fcenter_5fto_5fquick_9',['TRANS_DIRECTION_CENTER_TO_QUICK',['../namespace_net_api.html#a2cbbbcac085f82449afcee5d7c7a3fc0afc40bbd77c634b8eaf8998df1946357c',1,'NetApi']]],
+  ['trans_5fdirection_5fquery_10',['TRANS_DIRECTION_QUERY',['../namespace_net_api.html#a2cbbbcac085f82449afcee5d7c7a3fc0ab756c21e1a746364e039baa341682f8f',1,'NetApi']]],
+  ['trans_5fdirection_5fquick_5fto_5fcenter_11',['TRANS_DIRECTION_QUICK_TO_CENTER',['../namespace_net_api.html#a2cbbbcac085f82449afcee5d7c7a3fc0a2aa814a4d2ec4c9199df94b826ad8a25',1,'NetApi']]],
+  ['trans_5fdirection_5fsecurities_5fto_5fbank_12',['TRANS_DIRECTION_SECURITIES_TO_BANK',['../namespace_net_api.html#a2cbbbcac085f82449afcee5d7c7a3fc0a504fa09ec4222414ccd884556d0e9ab8',1,'NetApi']]],
+  ['trans_5ftransfer_5fcredit_5fshare_13',['TRANS_TRANSFER_CREDIT_SHARE',['../namespace_net_api.html#a33a63b666229c459a2e58554dd9a28c6aa7fdc0a36ed0b41f5cc23ace129b2221',1,'NetApi']]],
+  ['trans_5ftransfer_5fshare_14',['TRANS_TRANSFER_SHARE',['../namespace_net_api.html#a33a63b666229c459a2e58554dd9a28c6a4df34d21cf145f7250498b71e71e874f',1,'NetApi']]],
+  ['trans_5ftransfer_5fspecial_5fpositions_15',['TRANS_TRANSFER_SPECIAL_POSITIONS',['../namespace_net_api.html#a33a63b666229c459a2e58554dd9a28c6af232550263f071f06cb40097944ad1f8',1,'NetApi']]],
+  ['type_5fduration_5falo_16',['TYPE_DURATION_ALO',['../namespace_net_api.html#a9c07f28752bdbd8ec2ed9cc4d6854172ae39a0c2a915a2ae4b28fefb4cadc62f2',1,'NetApi']]],
+  ['type_5fduration_5fao_17',['TYPE_DURATION_AO',['../namespace_net_api.html#a9c07f28752bdbd8ec2ed9cc4d6854172aa172825b3ee3ab65cecdd516ed98b704',1,'NetApi']]],
+  ['type_5fduration_5felo_18',['TYPE_DURATION_ELO',['../namespace_net_api.html#a9c07f28752bdbd8ec2ed9cc4d6854172a5ab5fca4d6409af5882385b0148e7c9d',1,'NetApi']]],
+  ['type_5fduration_5flmt_19',['TYPE_DURATION_LMT',['../namespace_net_api.html#a9c07f28752bdbd8ec2ed9cc4d6854172a2d0f9fef1d6e72653c08c325ebe303ed',1,'NetApi']]],
+  ['type_5fduration_5fmkt_20',['TYPE_DURATION_MKT',['../namespace_net_api.html#a9c07f28752bdbd8ec2ed9cc4d6854172a58eaa9d8f3de89eea1fee44fbdc7b3c9',1,'NetApi']]],
+  ['type_5fduration_5foli_21',['TYPE_DURATION_OLI',['../namespace_net_api.html#a9c07f28752bdbd8ec2ed9cc4d6854172a24abb451bd4676a0bc1335d9bed005b6',1,'NetApi']]],
+  ['type_5fduration_5fslo_22',['TYPE_DURATION_SLO',['../namespace_net_api.html#a9c07f28752bdbd8ec2ed9cc4d6854172a958bf88597f5fe0b81aa898562c952c0',1,'NetApi']]]
+];

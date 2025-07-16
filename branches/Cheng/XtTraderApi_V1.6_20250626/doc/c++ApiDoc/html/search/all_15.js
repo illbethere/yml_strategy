@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['volume_5fbuy1_0',['VOLUME_BUY1',['../_xt_data_type_8h.html#abff22d24d98a63eafb899f29033eabf9',1,'XtDataType.h']]],
+  ['volume_5fbuy12_1',['VOLUME_BUY12',['../_xt_data_type_8h.html#abcc88013c5656dda8a664481f97293d9',1,'XtDataType.h']]],
+  ['volume_5fbuy123_2',['VOLUME_BUY123',['../_xt_data_type_8h.html#a55e921a337de7c2d8941bf584d375e84',1,'XtDataType.h']]],
+  ['volume_5fbuy1234_3',['VOLUME_BUY1234',['../_xt_data_type_8h.html#ab62aa4fcc723653ee897314ddf7ca1c3',1,'XtDataType.h']]],
+  ['volume_5fbuy12345_4',['VOLUME_BUY12345',['../_xt_data_type_8h.html#a3b72f537ab72fc269695afa2c0044149',1,'XtDataType.h']]],
+  ['volume_5fcondition_5fany_5',['VOLUME_CONDITION_ANY',['../_xt_data_type_8h.html#ab6dd9191e9c0e8c544df5f16641c2da7',1,'XtDataType.h']]],
+  ['volume_5fcondition_5fmin_6',['VOLUME_CONDITION_MIN',['../_xt_data_type_8h.html#a343c5eecd850ff209b8d8a24f37bf723',1,'XtDataType.h']]],
+  ['volume_5fcondition_5ftotal_7',['VOLUME_CONDITION_TOTAL',['../_xt_data_type_8h.html#a30b800eebe2c38652e484de458d68b21',1,'XtDataType.h']]],
+  ['volume_5ffix_8',['VOLUME_FIX',['../_xt_data_type_8h.html#a9028e2a188acdd6f5cd06d6dbcf79a3f',1,'XtDataType.h']]],
+  ['volume_5finvalid_9',['VOLUME_INVALID',['../_xt_data_type_8h.html#a367cd58b76ef4f0c7098dcd84aaa2d72',1,'XtDataType.h']]],
+  ['volume_5fleft_10',['VOLUME_LEFT',['../_xt_data_type_8h.html#a2255c6c176be3d3e39bf43095e0ff980',1,'XtDataType.h']]],
+  ['volume_5fposition_11',['VOLUME_POSITION',['../_xt_data_type_8h.html#a310503d885fc2be6189fbab6b7889f72',1,'XtDataType.h']]],
+  ['volume_5fsale1_12',['VOLUME_SALE1',['../_xt_data_type_8h.html#a14aa01ae49ed6569a5958f02fdf3d117',1,'XtDataType.h']]],
+  ['volume_5fsale12_13',['VOLUME_SALE12',['../_xt_data_type_8h.html#a139ca8d30afb6d561455461108453e00',1,'XtDataType.h']]],
+  ['volume_5fsale123_14',['VOLUME_SALE123',['../_xt_data_type_8h.html#a03cc39dd51de1a36bf100f3dba09b4a6',1,'XtDataType.h']]],
+  ['volume_5fsale1234_15',['VOLUME_SALE1234',['../_xt_data_type_8h.html#acf846d2fc14a72fed64aae4f664a869e',1,'XtDataType.h']]],
+  ['volume_5fsale12345_16',['VOLUME_SALE12345',['../_xt_data_type_8h.html#a8d6d84bd44f3b12575303e4f86b0a81e',1,'XtDataType.h']]]
+];

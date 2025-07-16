@@ -1,0 +1,22 @@
+/* 全局 router-link 默认样式 */
+.router-link {
+  color: #222;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+/* 鼠标悬停时 */
+.router-link:hover {
+  color: #409EFF;
+  text-decoration: underline;
+}
+
+/* 激活时 */
+.router-link-exact-active {
+  color: #67C23A !important;
+  /* 绿色高亮 */
+  font-weight: bold;
+  text-decoration: underline;
+}

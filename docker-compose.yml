@@ -1,0 +1,13 @@
+version: '3'
+services:
+  svn-server:
+    image: elleflorio/svn-server
+    container_name: svn-server
+    ports:
+      - "3690:3690"
+    environment:
+      - REPOS=mysvnrepo
+      - USER=admin
+      - PASS=admin123
+    volumes:
+      - ./svn-repo:/var/opt/svn

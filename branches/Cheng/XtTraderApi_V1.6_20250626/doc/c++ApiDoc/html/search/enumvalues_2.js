@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['stock_5fstatus_5fauction_0',['STOCK_STATUS_AUCTION',['../namespacexti.html#a77c3b424786d047ce1169a316b16d67fad928876110823c84d5428c77e792657f',1,'xti']]],
+  ['stock_5fstatus_5fbefore_5ftrading_1',['STOCK_STATUS_BEFORE_TRADING',['../namespacexti.html#a77c3b424786d047ce1169a316b16d67fa0180a75879fcf2fa8245be47d8d039a7',1,'xti']]],
+  ['stock_5fstatus_5fbreak_2',['STOCK_STATUS_BREAK',['../namespacexti.html#a77c3b424786d047ce1169a316b16d67fa4fdfe5748a529ae1b5471c20e120b239',1,'xti']]],
+  ['stock_5fstatus_5fcall_5fauction_3',['STOCK_STATUS_CALL_AUCTION',['../namespacexti.html#a77c3b424786d047ce1169a316b16d67fa0f5c851a3a5aaf4da7c8652b2e2cc703',1,'xti']]],
+  ['stock_5fstatus_5fclose_5fremove_4',['STOCK_STATUS_CLOSE_REMOVE',['../namespacexti.html#a77c3b424786d047ce1169a316b16d67fa81a868286bc18ec7185c0da8255b8a69',1,'xti']]],
+  ['stock_5fstatus_5fclosed_5',['STOCK_STATUS_CLOSED',['../namespacexti.html#a77c3b424786d047ce1169a316b16d67fadc2268d6c8615fb3f7e0bdb6df258435',1,'xti']]],
+  ['stock_5fstatus_5fclosing_5fbidding_6',['STOCK_STATUS_CLOSING_BIDDING',['../namespacexti.html#a77c3b424786d047ce1169a316b16d67fae8b19bd1e6281f273517dd90b339bf07',1,'xti']]],
+  ['stock_5fstatus_5fcontinous_7',['STOCK_STATUS_CONTINOUS',['../namespacexti.html#a77c3b424786d047ce1169a316b16d67fa2f77ac915ee3ae322d20a8fc9ee1e46f',1,'xti']]],
+  ['stock_5fstatus_5fdefault_8',['STOCK_STATUS_DEFAULT',['../namespacexti.html#a77c3b424786d047ce1169a316b16d67fa066377322ffd7354c364c1d1ff6fee4e',1,'xti']]],
+  ['stock_5fstatus_5ferror_9',['STOCK_STATUS_ERROR',['../namespacexti.html#a77c3b424786d047ce1169a316b16d67fa12d6b630945d6101180196cb0fa40d0c',1,'xti']]],
+  ['stock_5fstatus_5ffaked_10',['STOCK_STATUS_FAKED',['../namespacexti.html#a77c3b424786d047ce1169a316b16d67fa97da9484372da897f7986d893f269cac',1,'xti']]],
+  ['stock_5fstatus_5fhalt_5ftrading_11',['STOCK_STATUS_HALT_TRADING',['../namespacexti.html#a77c3b424786d047ce1169a316b16d67fadb875522dbe22585b1f5a6e8ec98ac2b',1,'xti']]],
+  ['stock_5fstatus_5fpost_5ftrade_12',['STOCK_STATUS_POST_TRADE',['../namespacexti.html#a77c3b424786d047ce1169a316b16d67facd4569d512e9a5349ddf8dc3a1474df3',1,'xti']]],
+  ['stock_5fstatus_5fpost_5ftrade_5fclose_13',['STOCK_STATUS_POST_TRADE_CLOSE',['../namespacexti.html#a77c3b424786d047ce1169a316b16d67fa67c230d6c239445f7ca35beeba73c2cc',1,'xti']]],
+  ['stock_5fstatus_5fsidecar_14',['STOCK_STATUS_SIDECAR',['../namespacexti.html#a77c3b424786d047ce1169a316b16d67fa1c0d166ba8c41b0d6afa30aeea836428',1,'xti']]],
+  ['stock_5fstatus_5fvolatility_5fdisruption_15',['STOCK_STATUS_VOLATILITY_DISRUPTION',['../namespacexti.html#a77c3b424786d047ce1169a316b16d67fa46329b70ab6ebddd162c0c4b617e22e8',1,'xti']]]
+];

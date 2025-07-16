@@ -1,0 +1,9 @@
+2025071192230,352  order(ordinaryOrder)  account: 1037935,  market: DCE,  instrument: al2508.SF,  volume:1,  price:20710,  operationType:0,  priceType:11,  portfolioID:-1
+2025071192247,717  order(ordinaryOrder)  account: 6005775,  market: DCE,  instrument: al2508.SF,  volume:1,  price:20710,  operationType:0,  priceType:11,  portfolioID:-1
+2025071192752,602  order(ordinaryOrder)  account: 6005911,  market: DCE,  instrument: hc2510.SF,  volume:1,  price:3278,  operationType:0,  priceType:11,  portfolioID:-1
+2025071192852,051  order(ordinaryOrder)  account: 1037933,  market: DCE,  instrument: al2508.SF,  volume:1,  price:20715,  operationType:3,  priceType:11,  portfolioID:-1
+2025071193204,512  order(ordinaryOrder)  account: 1037935,  market: DCE,  instrument: al2508.SF,  volume:1,  price:20725,  operationType:0,  priceType:11,  portfolioID:-1
+2025071193204,822  order(ordinaryOrder)  account: 6005911,  market: DCE,  instrument: al2508.SF,  volume:1,  price:20725,  operationType:0,  priceType:11,  portfolioID:-1
+2025071193204,822  order(ordinaryOrder)  account: 1014609,  market: DCE,  instrument: al2508.SF,  volume:1,  price:20725,  operationType:0,  priceType:11,  portfolioID:-1
+20250711110216,857  order(ordinaryOrder)  account: 6005911,  market: DCE,  instrument: ao2509.SF,  volume:1,  price:3149,  operationType:0,  priceType:11,  portfolioID:-1
+20250711133904,010  order(ordinaryOrder)  account: 1037933,  market: DCE,  instrument: hc2510.SF,  volume:2,  price:200,  operationType:0,  priceType:11,  portfolioID:-1

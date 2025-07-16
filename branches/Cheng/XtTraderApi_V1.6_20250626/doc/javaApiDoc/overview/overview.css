@@ -1,0 +1,11 @@
+<style>
+code {
+  border-radius: 5px;
+  border: 1px solid #C4CFE5;
+  background: #F5F5F5;
+  padding: 10px; 
+  display:block;
+  max-height:300px;
+  overflow:auto;
+}
+</style>

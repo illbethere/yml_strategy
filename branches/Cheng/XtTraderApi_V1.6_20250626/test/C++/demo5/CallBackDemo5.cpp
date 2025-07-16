@@ -1,0 +1,301 @@
+﻿#include "time.h"
+#include <demo5/CallBackDemo5.h>
+
+namespace demo5
+{
+    Callback::Callback(const string& address, const string& username, const string& password):
+        m_nRequestId(1),
+        m_strAddress(address),
+        m_strUserName(username),
+        m_strPassWord(password),
+        m_client(NULL)
+    {
+    }
+
+    Callback::~Callback()
+    {
+        if (m_client != NULL)
+        {
+            m_client->destroy();
+            delete m_client;
+        }
+    }
+
+    int Callback::init()
+    {
+        cout << endl;
+        cout << "[init] server: " << m_strAddress << ", username: " << m_strUserName << endl;
+        m_client = XtTraderApi::createXtTraderApi(m_strAddress.c_str());
+        if (NULL == m_client)
+        {
+            cout << "[init] create api failure" << endl;
+            return -1;
+        }
+
+        m_client->setCallback(this);
+        return m_client->init("../config");
+    }
+
+    long long Callback::genRequestId()
+    {
+        return ++m_nRequestId;
+    }
+
+    string Callback::getAccountTypeDesc(int brokerType)
+    {
+        switch (brokerType)
+        {
+        case AT_FUTURE:
+            return "期货账号";
+        case AT_STOCK:
+            return "股票账号";
+        case AT_CREDIT:
+            return "信用账号";
+        case AT_GOLD:
+            return "贵金属账号";
+        case AT_FUTURE_OPTION:
+            return "期货期权账号";
+        case AT_STOCK_OPTION:
+            return "个股期权账号";
+        case AT_HUGANGTONG:
+            return "沪港通账号";
+        case AT_SHENGANGTONG:
+            return "深港通账号";
+        case AT_NEW3BOARD:
+            return "新三板账号";
+        default:
+            break;
+        }
+        return "未知账号";
+    }
+
+    std::string Callback::getAccountStatusDesc(int status)
+    {
+        switch (status)
+        {
+        case BROKER_LOGIN_STATUS_INALID:    return "登录无效";
+        case BROKER_LOGIN_STATUS_OK:        return "可用，初始化完成";
+        case BROKER_LOGIN_STATUS_WAITING_LOGIN:  return "连接中";
+        case BROKER_LOGIN_STATUS_LOGINING:  return "登录中";
+        case BROKER_LOGIN_STATUS_FAIL:      return "失败";
+        case BROKER_LOGIN_STATUS_INITING:   return "在初始化中";
+        case BROKER_LOGIN_STATUS_CORRECTING:return "数据刷新校正中";
+        case BROKER_LOGIN_STATUS_CLOSED:    return "收盘后（休市中）";
+        default: return "未知";
+        }
+    }
+
+    void Callback::testAlgorithmOrder(const string& accountId)
+    {
+        // 这里以股票为例，期货、信用和股票期权见上面
+        CAlgorithmOrder orderInfo;
+
+        // 资金账号，必填字段。如果不填写会被api打回
+        strcpy(orderInfo.m_strAccountID, accountId.c_str());
+
+        // 单笔超价比率，必填字段
+        orderInfo.m_dSuperPriceRate = 0.2;
+
+        // 指令有效起始终止时间，api处理，写了也没用
+        orderInfo.m_nValidTimeStart = time(NULL);
+        orderInfo.m_nValidTimeEnd = time(NULL) + 1800;
+
+        // 报单下撤单间隔，股票最小为10s，期货为0.5s
+        orderInfo.m_dPlaceOrderInterval = 10;
+        orderInfo.m_dWithdrawOrderInterval = 10;
+
+        // 超价起始笔数，默认为1
+        orderInfo.m_nSuperPriceStart = 1;
+
+        // 报单量，必填字段。不可为0，默认值为无效值。不填或填0或被api打回
+        orderInfo.m_nVolume = 1000;
+
+        // 单笔下单比率，默认值为1，委托总量m_nVolume*单笔下单比率m_dSingleVolumeRate = 单笔下单量
+        // 比如，下单总量1000 * 0.005 = 5 < 最小委托量100(限于股票)， 
+        orderInfo.m_dSingleVolumeRate = 1;
+
+        // 单笔下单最小值，默认为int型最大值。股票最小为100，期货最小为1
+        orderInfo.m_nSingleNumMin = 100;
+
+        // 单笔委托最大量，默认为int型最大值。最大可报100W
+        // 如果 m_nVolume*m_dSingleVolumeRate > m_nMaxOrderCount，则以m_nMaxOrderCount为准
+        orderInfo.m_nSingleNumMax = 1000;
+
+        // 尾单最小量
+        orderInfo.m_nLastVolumeMin = 100;
+
+        // 最大下单数
+        orderInfo.m_nMaxOrderCount = 100;
+
+        // 单笔基准：目标量、买1、买1+2、买1+2+3等，默认为目标量
+        orderInfo.m_eSingleVolumeType = VOLUME_FIX;
+
+        // 投机套保标志，选填字段。有"投机"/"套利"/"套保"方式。除期货三个方式都可选之外都是填“投机”。默认为“投机”
+        orderInfo.m_eHedgeFlag = HEDGE_FLAG_SPECULATION;
+
+        // 市场，必填字段。应该填写MarketType.h里的，股票市场有"SH"/"SZ"，如果填空或填错都会被api直接打回
+        strcpy(orderInfo.m_strMarket, MARKET_SHANGHAI);
+
+        // 合约代码，必填字段。
+        strcpy(orderInfo.m_strInstrument, "600000");
+
+        // 报单委托类型。必填字段。根据相应的业务选择，具体请参考XtDataType.h，默认为无效值(OPT_INVALID)。不填会被api打回
+        orderInfo.m_eOperationType = OPT_BUY;
+
+        // 报单价格，默认为double最大值。当价格类型m_ePriceType为指定价PRTP_FIX时，必填字段。当价格类型为其他时填了也没用
+        orderInfo.m_dPrice = 10.32;
+
+        // 报单价格，默认为double最大值。当价格类型m_ePriceType为指定价PRTP_FIX时，必填字段。当价格类型为其他时填了也没用
+        orderInfo.m_ePriceType = PRTP_FIX;
+
+        orderInfo.m_eTimeCondition = TIME_CONDITION_IOC;
+        orderInfo.m_eVolumeCondition = VOLUME_CONDITION_MIN;
+
+        //requestID，本地用于确定服务器返回的 
+        m_client->order(&orderInfo, genRequestId());
+    }
+
+    void Callback::join()
+    {
+        m_client->join();
+    }
+
+    void Callback::onConnected(bool success, const char* errorMsg) 
+    {
+        cout << "[onConnected] server connect " << (success ? string("success") : string("failure, err: ") + errorMsg) << endl;
+        if (success)
+        {
+            m_client->userLogin(m_strUserName.c_str(), m_strPassWord.c_str(), m_nRequestId++);
+        }
+    }
+
+    void Callback::onUserLogin(const char* userName, const char* password, int nRequestId, const XtError& error)
+    {
+        cout << "[onUserLogin] login " << (error.isSuccess() ? "success" : string("failure, err: ") + error.errorMsg()) << endl;
+    }
+
+    void Callback::onRtnLoginStatus(const char* accountId, EBrokerLoginStatus status, int brokerType, const char* errorMsg)
+    {
+        cout << "[onRtnLoginStatus] account id: " << accountId << ", type: " << getAccountTypeDesc(brokerType) << ", status: " << getAccountStatusDesc(status) << endl;
+
+        switch (brokerType)
+        {
+        case AT_STOCK:
+            m_strStockAccount = accountId;
+            // 算法单
+            testAlgorithmOrder(accountId);
+            break;
+        case AT_FUTURE:
+            m_strFutureAccount = accountId;
+            break;
+        case AT_STOCK_OPTION:
+            m_strOptionAccount = accountId;
+            break;
+        case AT_CREDIT:
+            m_strCreditAccount = accountId;
+            break;
+        default:
+            break;
+        }
+    }
+
+    void Callback::onOrder(int nRequestId, int orderId, const char* strRemark, const XtError& error)
+    {
+        cout << "[onOrder] isSuccess: " << (error.isSuccess() ? "true" : "false")
+            << "\n    orderId:  " << orderId
+            << "\n    RequestId: " << nRequestId
+            << "\n    errorMsg: " << error.errorMsg()
+            << endl;
+    }
+
+    void Callback::onRtnOrder(const COrderInfo* data)
+    {
+        string orderStatus = "";
+        switch (data->m_eStatus)
+        {
+        case OCS_CHECKING:   orderStatus = "风控检查中";  break;
+        case OCS_APPROVING:  orderStatus = "审批中";  break;
+        case OCS_REJECTED:   orderStatus = "已驳回";  break;
+        case OCS_RUNNING:    orderStatus = "运行中";  break;
+        case OCS_CANCELING:  orderStatus = "撤销中";  break;
+        case OCS_FINISHED:   orderStatus = "已完成";  break;
+        case OCS_STOPPED:    orderStatus = "已撤销";  break;
+        }
+
+        cout << "[onRtnOrder]"
+            << "\n    下单ID: " << data->m_nOrderID
+            << "\n    m_startTime：" << data->m_startTime
+            << "\n    m_endTime: " << data->m_endTime
+            << "\n    指令状态：" << orderStatus
+            << "\n    成交量：" << data->m_dTradedVolume
+            << "\n    撤销者：" << data->m_canceler
+            << "\n    指令执行信息：" << data->m_strMsg
+            << endl;
+    }
+
+    void Callback::onRtnOrderDetail(const COrderDetail* data)
+    {
+        string entrust_status;
+        switch (data->m_eOrderStatus)
+        {
+        case ENTRUST_STATUS_UNREPORTED:  entrust_status = "未报";  break;
+        case ENTRUST_STATUS_WAIT_REPORTING:  entrust_status = "待报"; break;
+        case ENTRUST_STATUS_REPORTED:        entrust_status = "已报"; break;
+        case ENTRUST_STATUS_REPORTED_CANCEL: entrust_status = "已报待撤";  break;
+        case ENTRUST_STATUS_PARTSUCC_CANCEL: entrust_status = "部成待撤";  break;
+        case ENTRUST_STATUS_PART_CANCEL:     entrust_status = "部撤";  break;
+        case ENTRUST_STATUS_CANCELED:        entrust_status = "已撤";  break;
+        case ENTRUST_STATUS_PART_SUCC:       entrust_status = "部成";  break;
+        case ENTRUST_STATUS_SUCCEEDED:       entrust_status = "已成";  break;
+        case ENTRUST_STATUS_JUNK:            entrust_status = "废单";  break;
+        }
+        if (data == NULL)
+        {
+            return;
+        }
+        cout << "[onRtnOrderDetail]"
+            << "\n    委托号：" << data->m_strOrderSysID
+            << "\n    委托状态：" << entrust_status
+            << "\n    已成交量：" << data->m_nTradedVolume
+            << "\n    成交均价：" << data->m_dAveragePrice
+            << "\n    成交额: " << data->m_dTradeAmount
+            << "\n    市场ID：" << data->m_strExchangeID
+            << "\n    产品ID：" << data->m_strProductID
+            << "\n    股票/期货代码：" << data->m_strInstrumentID
+            << "\n    冻结保证金：" << data->m_dFrozenMargin
+            << "\n    冻结手续费：" << data->m_dFrozenCommission
+            << "\n    ErrorID：" << data->m_nErrorID
+            << "\n    ErrorMsg: " << data->m_strErrorMsg
+            << endl;
+
+    }
+
+
+    void Callback::onRtnDealDetail(const CDealDetail* data)
+    {
+        if (data == NULL)
+        {
+            return;
+        }
+        cout << "[onRtnDealDetail]"
+            << "\n    orderId: " << data->m_nOrderID
+            << "\n    成交量： " << data->m_nVolume
+            << "\n    成交额: " << data->m_dAmount
+            << "\n    成交均价： " << data->m_dAveragePrice
+            << endl;
+    }
+
+    void Callback::onRtnOrderError(const COrderError* data)
+    {
+        if (data == NULL)
+        {
+            return;
+        }
+        cout << "[onRtnOrderError] orderId: " << data->m_nOrderID
+            << "\n    error id: " << data->m_nErrorID
+            << "\n    errormsg: " << data->m_strErrorMsg
+            << "\n    m_nRequestID: " << data->m_nRequestID
+            << "\n    m_nOrderID: " << data->m_nOrderID
+            << endl;
+    }
+}

@@ -1,0 +1,46 @@
+2025-07-01 17:04:04,752 [INFO] [0x000078b4] async_log false
+2025-07-01 17:04:04,752 [INFO] [0x000078b4] compress reuse false
+2025-07-01 17:04:05,865 [INFO] [0x000078b4] XtTraderApiImplement::init, address: 183.36.35.2:65300.
+2025-07-01 17:04:05,865 [INFO] [0x000078b4] Compile: Jun 26 2025 15:36:35
+2025-07-01 17:04:05,870 [INFO] [0x000078b4] getAllMacAddr Target:183.36.35.2:65300  Result:6C-0B-5E-46-B1-16
+2025-07-01 17:04:05,871 [INFO] [0x000078b4] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.36.35.2:65300  Result:6C-0B-5E-46-B1-16 D4-1B-81-5E-DE-73 D4-1B-81-5E-DE-74
+2025-07-01 17:04:05,871 [INFO] [0x000078b4] m_strMacAddr: 6C-0B-5E-46-B1-16,  client: 000001A7902041D0
+2025-07-01 17:04:05,877 [INFO] [0x000095a8] [net] onConnectionMade, local addr: 192.168.11.83:53090 peer addr: 183.36.35.2:65300
+2025-07-01 17:04:05,877 [INFO] [0x000082c0] connect success
+2025-07-01 17:04:07,017 [INFO] [0x000078b4] get client login time, userName: tbtest, md5Str: , computer: { function: "login", client_id: 6, process_id: 36284, user: "tbtest", version: "1.0.1.000", mac: "6C-0B-5E-46-B1-16", md5_checking: "123", param: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, mac: "6C-0B-5E-46-B1-16", cpuid: "BFEBFBFF000B0671", diskid: "0000_0000_0000_0000_0000_0050_3090_3136.", guid: "{B2DCBD6F-B72E-4CEC-8849-DA8D8C324B12}", cpuidex: "GenuineIntel__13th Gen Intel(R) Core(TM) i7-13700__BFEBFBFF000B0671", biosId: "4CE449C1N6__", diskname: "", hostName: "DESKTOP-CRT2ICV", diskInfo: "C,NTFS,475,b03f68e0", localip: "192.168.11.83", sysinfo_ctp: "U+jbGbSolavMVuiOpPzF1dbcFoeXJxx8DYO+EXKqiNVnFIs7KX/cXooOHBxiaUL8GsEGQZdM3Ubh80fOqZA8xRTDF23LAJ5V6zThT0oxMXVoz+BTpAJ4TL05npfLaRVSKUcoKOTchSIFrh44wLSOlB...", sysinfo_hs: "aHVuZHN1bkAxQFVlaWhyVGRqL01jS3N2LzllT2N4eEJpa3JYNDhyMEN1WDBLL0FOeTVVQVZmRFhuRWtBZXVzZWkycndrcmE4dncrOFlXTDROcXp6aHZTeEtYK2RVN3VTZlBiMVZvZkVYb0pxK2VEem...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "U+jbGbSolavMVuiOpPzF1dbcFoeXJxx8DYO+EXKqiNVnFIs7KX/cXooOHBxiaUL8GsEGQZdM3Ubh80fOqZA8xRTDF23LAJ5V6zThT0oxMXVoz+BTpAJ4TL05npfLaRVSKUcoKOTchSIFrh44wLSOlB...", sysinfo_hs: "aHVuZHN1bkAxQFVlaWhyVGRqL01jS3N2LzllT2N4eEJpa3JYNDhyMEN1WDBLL0FOeTVVQVZmRFhuRWtBZXVzZWkycndrcmE4dncrOFlXTDROcXp6aHZTeEtYK2RVN3VTZlBiMVZvZkVYb0pxK2VEem...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 000001A7902041D0
+2025-07-01 17:04:07,035 [INFO] [0x000095a8] [net] connection 183.36.35.2:65300 set compress type 2025-07-01 17:04:07,035 [INFO] [0x000082c0] m_nDiffTime: -1
+2025-07-01 17:04:07,037 [INFO] [0x000082c0] [REQ] seq: 3 queryServerConfig
+2025-07-01 17:04:07,041 [INFO] [0x000082c0] onQueryServerConfig maxNum: 100000, stockDurationMilliSec: 30000000
+2025-07-01 17:04:07,043 [INFO] [0x000082c0] onGetMarketAndTradeDay, tradeDay: 20250701
+2025-07-01 17:04:07,045 [INFO] [0x000082c0] [onQueryCommands] size: 0
+2025-07-01 17:04:07,053 [INFO] [0x000082c0] [initAccountInfo] accountID: 1014609 accountKey 1____21004____21004_237____-1____1014609____, client: 000001A7902041D0
+2025-07-01 17:04:07,053 [INFO] [0x000082c0] [initAccountInfo] accountID: 6005775 accountKey 6____61073____61073____49____6005775____, client: 000001A7902041D0
+2025-07-01 17:04:07,053 [INFO] [0x000082c0] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005775____, userName 测试?
+2025-07-01 17:04:07,053 [INFO] [0x000082c0] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1014609____, userName 测试?
+2025-07-01 17:04:07,068 [INFO] [0x000034c8] onRtnLoginStatus, accountID: 1014609, accountKey: 1____21004____21004_237____-1____1014609____, status: 0, errorMsg: 登录成功成功?
+2025-07-01 17:04:07,068 [INFO] [0x000082c0] set portfolios [0]
+2025-07-01 17:04:07,068 [INFO] [0x000082c0] onUserLogin userName: tbtest, [0|]
+2025-07-01 17:04:07,068 [INFO] [0x00008f60] onRtnLoginStatus, accountID: 6005775, accountKey: 6____61073____61073____49____6005775____, status: 6, errorMsg: ?
+2025-07-01 17:11:00,033 [INFO] [0x00009748] async_log false
+2025-07-01 17:11:00,033 [INFO] [0x00009748] compress reuse false
+2025-07-01 17:11:01,118 [INFO] [0x00009748] XtTraderApiImplement::init, address: 183.36.35.2:65300.
+2025-07-01 17:11:01,118 [INFO] [0x00009748] Compile: Jun 26 2025 15:36:35
+2025-07-01 17:11:01,122 [INFO] [0x00009748] getAllMacAddr Target:183.36.35.2:65300  Result:6C-0B-5E-46-B1-16
+2025-07-01 17:11:01,123 [INFO] [0x00009748] getRealLacalMacAddr AdapterPrioritResult  Priority:CPA,PCI 6,PCI 71,PCI,USB,ROOT,BTH  Target:183.36.35.2:65300  Result:6C-0B-5E-46-B1-16 D4-1B-81-5E-DE-73 D4-1B-81-5E-DE-74
+2025-07-01 17:11:01,123 [INFO] [0x00009748] m_strMacAddr: 6C-0B-5E-46-B1-16,  client: 0000028C5F636FC0
+2025-07-01 17:11:01,129 [INFO] [0x00009930] [net] onConnectionMade, local addr: 192.168.11.83:54160 peer addr: 183.36.35.2:65300
+2025-07-01 17:11:01,129 [INFO] [0x000006e8] connect success
+2025-07-01 17:11:02,784 [INFO] [0x00009748] get client login time, userName: tbtest, md5Str: , computer: { function: "login", client_id: 6, process_id: 8628, user: "tbtest", version: "1.0.1.000", mac: "6C-0B-5E-46-B1-16", md5_checking: "123", param: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, mac: "6C-0B-5E-46-B1-16", cpuid: "BFEBFBFF000B0671", diskid: "0000_0000_0000_0000_0000_0050_3090_3136.", guid: "{15C68F81-94A2-42B1-B835-39F6027939E3}", cpuidex: "GenuineIntel__13th Gen Intel(R) Core(TM) i7-13700__BFEBFBFF000B0671", biosId: "4CE449C1N6__", diskname: "", hostName: "DESKTOP-CRT2ICV", diskInfo: "C,NTFS,475,b03f68e0", localip: "192.168.11.83", sysinfo_ctp: "02obivhIbGHuKnDtflmjAZkTYoXgBULsx3CcSK0IkQV7xGkhACPoWZazHt4p3UIT/4dLbzHDDql/y0gnW4a7bzndS2zoja0yVGJlK7vzRzws7jJOM7ltJNoonHpHgIwmTBf4vRjTStvl6pvD88z2OO...", sysinfo_hs: "aHVuZHN1bkAxQFhYbEVRY3NTWWJkNHZaSFdoVjByaDVEZEZWdGdhSWhwMDZTQm9XeVk4eHZoYWxDQi93ck9rcmlEVC9UZG56dFljTXNDZllZWSsvQzQ1eit0TUpNRzlNTTlIWkxINUZpLzhNbWwrRk...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" }, param1: { user: "tbtest", pass: "c129b324aee662b04eccf68babba85851346dff9", cmd: 0, client_id: 6, localip: "", sysinfo_ctp: "02obivhIbGHuKnDtflmjAZkTYoXgBULsx3CcSK0IkQV7xGkhACPoWZazHt4p3UIT/4dLbzHDDql/y0gnW4a7bzndS2zoja0yVGJlK7vzRzws7jJOM7ltJNoonHpHgIwmTBf4vRjTStvl6pvD88z2OO...", sysinfo_hs: "aHVuZHN1bkAxQFhYbEVRY3NTWWJkNHZaSFdoVjByaDVEZEZWdGdhSWhwMDZTQm9XeVk4eHZoYWxDQi93ck9rcmlEVC9UZG56dFljTXNDZllZWSsvQzQ1eit0TUpNRzlNTTlIWkxINUZpLzhNbWwrRk...", clientappid: "xt_api_1.0", clientauthcode: "7f3c92e678f9ec77" } }, client: 0000028C5F636FC0
+2025-07-01 17:11:02,799 [INFO] [0x00009930] [net] connection 183.36.35.2:65300 set compress type 2025-07-01 17:11:02,799 [INFO] [0x000006e8] m_nDiffTime: -2
+2025-07-01 17:11:02,801 [INFO] [0x000006e8] [REQ] seq: 3 queryServerConfig
+2025-07-01 17:11:02,807 [INFO] [0x000006e8] onQueryServerConfig maxNum: 100000, stockDurationMilliSec: 30000000
+2025-07-01 17:11:02,809 [INFO] [0x000006e8] onGetMarketAndTradeDay, tradeDay: 20250701
+2025-07-01 17:11:02,809 [INFO] [0x000006e8] [onQueryCommands] size: 0
+2025-07-01 17:11:02,817 [INFO] [0x000006e8] [initAccountInfo] accountID: 1014609 accountKey 1____21004____21004_237____-1____1014609____, client: 0000028C5F636FC0
+2025-07-01 17:11:02,818 [INFO] [0x000006e8] [initAccountInfo] accountID: 6005775 accountKey 6____61073____61073____49____6005775____, client: 0000028C5F636FC0
+2025-07-01 17:11:02,818 [INFO] [0x000006e8] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 6____61073____61073____49____6005775____, userName 测试?
+2025-07-01 17:11:02,818 [INFO] [0x000006e8] [initWorkFlow] m_nProductID: 519, m_nWorkFlowID: 867, accountKey: 1____21004____21004_237____-1____1014609____, userName 测试?
+2025-07-01 17:11:02,832 [INFO] [0x0000137c] onRtnLoginStatus, accountID: 1014609, accountKey: 1____21004____21004_237____-1____1014609____, status: 0, errorMsg: 登录成功成功?
+2025-07-01 17:11:02,832 [INFO] [0x000006e8] set portfolios [0]
+2025-07-01 17:11:02,833 [INFO] [0x000006e8] onUserLogin userName: tbtest, [0|]
+2025-07-01 17:11:02,834 [INFO] [0x00009870] onRtnLoginStatus, accountID: 6005775, accountKey: 6____61073____61073____49____6005775____, status: 6, errorMsg: ?

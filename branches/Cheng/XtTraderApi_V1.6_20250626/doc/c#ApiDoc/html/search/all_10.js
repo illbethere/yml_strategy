@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['secufundtrans_5ftransfer_5ffast_5fto_5fnormal_0',['SECUFUNDTRANS_TRANSFER_FAST_TO_NORMAL',['../namespace_net_api.html#a755cf288d00b275aa3e6d9d3296b9ba1a08360298b489ee6b64adf5858375ed07',1,'NetApi']]],
+  ['secufundtrans_5ftransfer_5fnormal_5fto_5ffast_1',['SECUFUNDTRANS_TRANSFER_NORMAL_TO_FAST',['../namespace_net_api.html#a755cf288d00b275aa3e6d9d3296b9ba1ac4d111637c0e838e14cc61f2fe9f3c73',1,'NetApi']]],
+  ['secufundtrans_5ftransfer_5fsh_5fto_5fsz_2',['SECUFUNDTRANS_TRANSFER_SH_TO_SZ',['../namespace_net_api.html#a755cf288d00b275aa3e6d9d3296b9ba1a39e384cfac738d6da31081b1a6e8f2cc',1,'NetApi']]],
+  ['secufundtrans_5ftransfer_5fsz_5fto_5fsh_3',['SECUFUNDTRANS_TRANSFER_SZ_TO_SH',['../namespace_net_api.html#a755cf288d00b275aa3e6d9d3296b9ba1ada0a40b627ec9d63acce6453edd0e8ab',1,'NetApi']]],
+  ['secutransfer_4',['secuTransfer',['../class_net_api_1_1_xt_trader_api.html#add3ff37ac03e13c7e180fdd2378bca44',1,'NetApi::XtTraderApi']]],
+  ['setcallback_5',['setCallBack',['../class_net_api_1_1_callback.html#a6657877e6d70ccade623751fda2f5ac2',1,'NetApi::Callback']]],
+  ['setcallback_6',['setCallback',['../class_net_api_1_1_xt_trader_api.html#ad76db8b3ce1fbe2e9c65de9209d02a92',1,'NetApi::XtTraderApi']]],
+  ['setcmdfrzcheckoption_7',['setCmdFrzCheckOption',['../class_net_api_1_1_xt_trader_api.html#a4cb1ecefd565c6bab1f04bf8eaf4cebc',1,'NetApi::XtTraderApi']]],
+  ['seterrorid_8',['setErrorId',['../class_net_api_1_1_xt_error.html#a5e9f813f3855ec335251f8a20d0fda59',1,'NetApi::XtError']]],
+  ['seterrormsg_9',['setErrorMsg',['../class_net_api_1_1_xt_error.html#a075603912d41bc672be23cad06c2c583',1,'NetApi::XtError']]],
+  ['side_5fflag_5fcovered_10',['SIDE_FLAG_COVERED',['../namespace_net_api.html#a6d101cf7bf6897fc76b1cef3fa5b7984a9354a242eaca54aba43836931c978449',1,'NetApi']]],
+  ['side_5fflag_5fduty_11',['SIDE_FLAG_DUTY',['../namespace_net_api.html#a6d101cf7bf6897fc76b1cef3fa5b7984ac9280b42a7bcdacce6417c55a94e2183',1,'NetApi']]],
+  ['side_5fflag_5fright_12',['SIDE_FLAG_RIGHT',['../namespace_net_api.html#a6d101cf7bf6897fc76b1cef3fa5b7984a6e25cffd0f6b67ba95fe218047bed81d',1,'NetApi']]],
+  ['starttimer_13',['startTimer',['../class_net_api_1_1_xt_trader_api.html#a75c44647e3bc57688ea58e46ade61fd3',1,'NetApi::XtTraderApi']]],
+  ['stoptimer_14',['stopTimer',['../class_net_api_1_1_xt_trader_api.html#a2f5839a930c99a0174b54d9bc67c6f7d',1,'NetApi::XtTraderApi']]],
+  ['stoptrade_5fno_5fbuy_5fsell_15',['STOPTRADE_NO_BUY_SELL',['../namespace_net_api.html#a12db64bb5fa1a04de9e697b65f2ce620a3242b962f59a9692c66025cd2803acfc',1,'NetApi']]],
+  ['stoptrade_5fnone_16',['STOPTRADE_NONE',['../namespace_net_api.html#a12db64bb5fa1a04de9e697b65f2ce620a85e8eb6a1cd2b61f2b5a1bbe2fe46de6',1,'NetApi']]],
+  ['subjects_5fstatus_5fnormal_17',['SUBJECTS_STATUS_NORMAL',['../namespace_net_api.html#a65169e2161e1c62ff75ec2c9906b9791ab8f8255db0983f014a1560790d9481b9',1,'NetApi']]],
+  ['subjects_5fstatus_5fnot_18',['SUBJECTS_STATUS_NOT',['../namespace_net_api.html#a65169e2161e1c62ff75ec2c9906b9791a49a633a100b66b9d3a9c876e87ab4df5',1,'NetApi']]],
+  ['subjects_5fstatus_5fpause_19',['SUBJECTS_STATUS_PAUSE',['../namespace_net_api.html#a65169e2161e1c62ff75ec2c9906b9791a4b106209e1b0e941ff8fa0554c8144fd',1,'NetApi']]],
+  ['subscribquote_20',['subscribQuote',['../class_net_api_1_1_xt_trader_api.html#af6458d3dc6e134b7714a7ddd1ef6a4ba',1,'NetApi::XtTraderApi']]]
+];

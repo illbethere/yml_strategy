@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['compact_5fbrush_5fsource_5fall_0',['COMPACT_BRUSH_SOURCE_ALL',['../_xt_data_type_8h.html#a58fbfbba6944d66bbcd9469ae545aacd',1,'XtDataType.h']]],
+  ['compact_5fbrush_5fsource_5fnormal_1',['COMPACT_BRUSH_SOURCE_NORMAL',['../_xt_data_type_8h.html#adbae7e35fe1f0c46f9e713eb583be3dc',1,'XtDataType.h']]],
+  ['compact_5fbrush_5fsource_5fspecial_2',['COMPACT_BRUSH_SOURCE_SPECIAL',['../_xt_data_type_8h.html#a025972e93d1904ecd69b35a24090b373',1,'XtDataType.h']]],
+  ['compact_5fstatus_5fall_3',['COMPACT_STATUS_ALL',['../_xt_data_type_8h.html#a6464a6a42296be0382b1651363b8cc03',1,'XtDataType.h']]],
+  ['compact_5fstatus_5fdone_4',['COMPACT_STATUS_DONE',['../_xt_data_type_8h.html#aa079d8d1ea9c4eedf6104e7637ac144a',1,'XtDataType.h']]],
+  ['compact_5fstatus_5fdone_5fby_5fhand_5',['COMPACT_STATUS_DONE_BY_HAND',['../_xt_data_type_8h.html#a89a8f00e352fb597ddfa1d7d56af670e',1,'XtDataType.h']]],
+  ['compact_5fstatus_5fdone_5fby_5fself_6',['COMPACT_STATUS_DONE_BY_SELF',['../_xt_data_type_8h.html#abb7a2bab3341bfa090e23b0274844031',1,'XtDataType.h']]],
+  ['compact_5fstatus_5fexpiry_5fnot_5fclose_7',['COMPACT_STATUS_EXPIRY_NOT_CLOSE',['../_xt_data_type_8h.html#ad04ff317efa6e96a383b8222e816abcd',1,'XtDataType.h']]],
+  ['compact_5fstatus_5fnot_5fdebt_8',['COMPACT_STATUS_NOT_DEBT',['../_xt_data_type_8h.html#a96c59b32e327207664cefc0bd82431a0',1,'XtDataType.h']]],
+  ['compact_5fstatus_5fpart_5fdone_9',['COMPACT_STATUS_PART_DONE',['../_xt_data_type_8h.html#afbf325d99ef59166a4b5ae2c522c268d',1,'XtDataType.h']]],
+  ['compact_5fstatus_5fundone_10',['COMPACT_STATUS_UNDONE',['../_xt_data_type_8h.html#ab176acdcee02e2f1be8b034537381692',1,'XtDataType.h']]],
+  ['compact_5ftype_5fall_11',['COMPACT_TYPE_ALL',['../_xt_data_type_8h.html#a01eddfaa27fb3a0505841ff4299532c3',1,'XtDataType.h']]],
+  ['compact_5ftype_5ffin_12',['COMPACT_TYPE_FIN',['../_xt_data_type_8h.html#ac2403cce0f89d79f15adc6253162eec7',1,'XtDataType.h']]],
+  ['compact_5ftype_5fslo_13',['COMPACT_TYPE_SLO',['../_xt_data_type_8h.html#ac5f47973808fa0db9dd876d8a3d9cb28',1,'XtDataType.h']]],
+  ['covered_5fflag_5ffalse_14',['COVERED_FLAG_FALSE',['../_xt_data_type_8h.html#a8b7ffba3a65d5260734bfc0859a9214a',1,'XtDataType.h']]],
+  ['covered_5fflag_5ftrue_15',['COVERED_FLAG_TRUE',['../_xt_data_type_8h.html#a3e0a3a6975049da04def565d26612561',1,'XtDataType.h']]]
+];
